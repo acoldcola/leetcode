@@ -1,35 +1,29 @@
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
 public class test {
-    public static void main(String[] args) {
-        StringBuffer str = new StringBuffer();
-        str.append("hello world");
-        System.out.print(replaceSpace(str));
-    }
-    public static String replaceSpace(StringBuffer str) {
-        char a[] = str.toString().toCharArray();
-        int j = 0;
-        for(int i=0;i<a.length;i++)
-        {
-            if(a[i]==' ')
-            {
-                j = j + 2;
+        public static void main(String[] args) {
+            Scanner in = new Scanner(System.in);
+            String str = in.nextLine();
+            char[] a = str.toCharArray();
+            char x = 'a';
+            char y = (char) (x - 31);
+            char[] b = new char[a.length];
+            int i = a.length - 1;
+            int j = 0;
+            while(i >= 0){
+                b[j++] = a[i--];
             }
+            System.out.println(b);
+            ArrayList list = new ArrayList<>();
+            list.add(1);
+            System.out.println(add());
         }
-        int m = 0;
-        char[] b = new char[a.length+j];
-        for (int i = 0;i < b.length; i++){
-            if (a[m] == ' '){
-                b[i] = '%';
-                b[i+1] = '2';
-                b[i+2] = '0';
-                i = i+2;
-                m++;
-            }
-            else {
-                b[i] = a[m];
-                m++;
-            }
+        public static ArrayList add(){
+            ArrayList list = new ArrayList<>();
+            list.add(new Object());
+            list.add(new Integer(2));
+            return list;
         }
-        String s = new String(b);
-        return s;
-    }
 }
