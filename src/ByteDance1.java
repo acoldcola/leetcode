@@ -22,7 +22,7 @@ public class ByteDance1 {
             x = x + (b / 4);
             b = b % 4;
         }
-        if(b > 1) {
+        if (b > 1) {
             x = x + b;
         }
         System.out.println(x);

@@ -4,8 +4,9 @@
  */
 public class leetcode476 {
     public static void main(String[] args) {
-        System.out.println(5^0);
+        System.out.println(5 ^ 0);
     }
+
     public int findComplement(int num) {
         return 0;
     }

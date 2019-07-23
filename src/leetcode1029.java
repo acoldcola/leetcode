@@ -8,19 +8,20 @@ import java.util.List;
  */
 public class leetcode1029 {
     public static void main(String[] args) {
-        int[] a = {1,0,1,1,1,1,0,0,0,0,1,0,0,0,0,0,1,0,0,1,1,1,1,1,0,0,0,0,1,1,1,0,0,0,0,0,1,0,0,0,1,0,0,1,1,1,1,1,1,0,1,1,0,1,0,0,0,0,0,0,1,0,1,1,1,0,0,1,0};
+        int[] a = {1, 0, 1, 1, 1, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 1, 1, 1, 1, 1, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 1, 0, 0, 1, 0};
         prefixesDivBy5(a);
     }
+
     public static List<Boolean> prefixesDivBy5(int[] A) {
-       String a = "";
+        String a = "";
         ArrayList<Boolean> list = new ArrayList<>();
-        for(int i = 0; i < A.length; i++){
+        for (int i = 0; i < A.length; i++) {
             a = a + A[i];
-            long x = Long.parseLong(a,2);
+            long x = Long.parseLong(a, 2);
             System.out.println(x);
-            if(x / 5 == 0){
+            if (x / 5 == 0) {
                 list.add(true);
-            }else {
+            } else {
                 list.add(false);
             }
         }

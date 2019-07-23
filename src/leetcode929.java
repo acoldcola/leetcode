@@ -7,21 +7,22 @@ import java.util.Set;
  */
 public class leetcode929 {
     public static void main(String[] args) {
-        String str[] = {"test.email+alex@leetcode.com","test.e.mail+bob.cathy@leetcode.com","testemail+david@lee.tcode.com"};
+        String str[] = {"test.email+alex@leetcode.com", "test.e.mail+bob.cathy@leetcode.com", "testemail+david@lee.tcode.com"};
         System.out.println(numUniqueEmails(str));
     }
+
     public static int numUniqueEmails(String[] emails) {
         Set<String> set = new HashSet<>();
         for (String email : emails) {
             String start = email.substring(0, email.indexOf("@"));
             String end = email.substring(email.indexOf("@"));
-            String a = start.replace(".","");
-            for (int i = 0; i < a.length(); i++){
-                if(a.charAt(i) == '+')
-                    a = a.substring(0,a.indexOf('+'));
+            String a = start.replace(".", "");
+            for (int i = 0; i < a.length(); i++) {
+                if (a.charAt(i) == '+')
+                    a = a.substring(0, a.indexOf('+'));
             }
-            System.out.println(a+end);
-            set.add(a+end);
+            System.out.println(a + end);
+            set.add(a + end);
         }
         return set.size();
     }

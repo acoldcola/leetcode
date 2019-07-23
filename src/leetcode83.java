@@ -7,7 +7,7 @@ import java.util.HashSet;
 public class leetcode83 {
     public ListNode deleteDuplicates(ListNode head) {
         HashSet<ListNode> set = new HashSet<>();
-        while (head.next != null){
+        while (head.next != null) {
             set.add(head);
             head = head.next;
         }

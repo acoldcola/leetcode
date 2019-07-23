@@ -5,8 +5,8 @@
 public class leetcode82 {
     public ListNode deleteDuplicates(ListNode head) {
         ListNode h = head;
-        while (h.next != null){
-            if(h.val == h.next.val) {
+        while (h.next != null) {
+            if (h.val == h.next.val) {
                 h = h.next.next;
             }
             h = h.next;

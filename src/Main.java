@@ -1,7 +1,6 @@
 import java.util.Scanner;
 
-public class Main
-{
+public class Main {
     public static void main(String[] args) throws InterruptedException {
         Scanner in = new Scanner(System.in);
         String a1 = in.next();
@@ -17,8 +16,9 @@ public class Main
         thread3.join();
 
         System.out.println(Thread.currentThread().getName() + a.string);
-   }
+    }
 }
+
 class Thread1 extends Thread {
 
     private A str;
@@ -26,12 +26,14 @@ class Thread1 extends Thread {
     public Thread1(A str) {
         this.str = str;
     }
+
     @Override
     public void run() {
-        str.string = str.string +"_A";
-        System.out.println(Thread.currentThread().getName()+str.string);
+        str.string = str.string + "_A";
+        System.out.println(Thread.currentThread().getName() + str.string);
     }
 }
+
 class Thread2 extends Thread {
 
     private A str;
@@ -39,12 +41,14 @@ class Thread2 extends Thread {
     public Thread2(A str) {
         this.str = str;
     }
+
     @Override
     public void run() {
-       str.string = str.string +"_B";
-        System.out.println(Thread.currentThread().getName()+str.string);
+        str.string = str.string + "_B";
+        System.out.println(Thread.currentThread().getName() + str.string);
     }
 }
+
 class Thread3 extends Thread {
 
     private A str;
@@ -52,14 +56,16 @@ class Thread3 extends Thread {
     public Thread3(A str) {
         this.str = str;
     }
+
     @Override
     public void run() {
-        str.string = str.string+"_C";
-        System.out.println(Thread.currentThread().getName()+str.string);
+        str.string = str.string + "_C";
+        System.out.println(Thread.currentThread().getName() + str.string);
     }
 }
+
 class A {
-    public  String string;
+    public String string;
 
     public A(String string) {
         this.string = string;

@@ -9,7 +9,7 @@ public class leetcode997 {
         int a = A.length;
         int temp = 0;
         int[] b = new int[a];
-        for(int i = 0; i < a; i++) {
+        for (int i = 0; i < a; i++) {
             b[i] = A[i] * A[i];
         }
         Arrays.sort(b);

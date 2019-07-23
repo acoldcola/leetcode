@@ -4,7 +4,7 @@
  */
 public class leetcode226 {
     public TreeNode invertTree(TreeNode root) {
-        if(root == null) {
+        if (root == null) {
             return null;
         }
         TreeNode node = null;

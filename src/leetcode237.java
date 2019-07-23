@@ -8,8 +8,12 @@ public class leetcode237 {
         node.next = node.next.next;
     }
 }
+
 class ListNode {
-      int val;
-     ListNode next;
-     ListNode(int x) { val = x; }
-  }
+    int val;
+    ListNode next;
+
+    ListNode(int x) {
+        val = x;
+    }
+}

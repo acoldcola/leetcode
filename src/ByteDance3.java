@@ -13,13 +13,14 @@ public class ByteDance3 {
         int[] a = new int[n];
         int x = 1;
         List<Integer> list = new LinkedList<>();
-        for(int i = 0; i < n; i++){
-           list.add(sc.nextInt());
+        for (int i = 0; i < n; i++) {
+            list.add(sc.nextInt());
         }
         System.out.println(list);
     }
+
     public static int add(List a) {
-        if(a.size() == 1) {
+        if (a.size() == 1) {
             return 1;
         }
         return 1;

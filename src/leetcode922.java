@@ -1,11 +1,12 @@
-public class leetcode922{
+public class leetcode922 {
     public static void main(String[] args) {
-        int a[] = {4,2,5,7};
+        int a[] = {4, 2, 5, 7};
         sortArrayByParityII(a);
         for (int a1 : a) {
             System.out.print(a1);
         }
     }
+
     public static int[] sortArrayByParityII(int[] A) {
         int a = A.length;
         // 存偶数的
@@ -17,18 +18,16 @@ public class leetcode922{
         for (int i = 0; i < a; i++) {
             if (A[i] % 2 == 0) {
                 b[m++] = A[i];
-            }
-            else {
+            } else {
                 c[n++] = A[i];
             }
         }
-         m = 0;
-         n = 0;
+        m = 0;
+        n = 0;
         for (int i = 0; i < a; i++) {
-            if(i % 2 == 0) {
+            if (i % 2 == 0) {
                 A[i] = b[m++];
-            }
-            else {
+            } else {
                 A[i] = c[n++];
             }
         }
