@@ -1,3 +1,5 @@
+package leetcode;
+
 public class leetcode922 {
     public static void main(String[] args) {
         int a[] = {4, 2, 5, 7};

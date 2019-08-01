@@ -1,3 +1,5 @@
+package leetcode;
+
 public class leetcode832 {
 
     public int[][] flipAndInvertImage(int[][] A) {

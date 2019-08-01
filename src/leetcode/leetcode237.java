@@ -1,3 +1,5 @@
+package leetcode;
+
 /**
  * @auther ZhangKe
  * @date 2019/2/10 20:43

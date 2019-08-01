@@ -1,3 +1,5 @@
+package leetcode;
+
 import javafx.beans.binding.When;
 
 import java.util.LinkedList;
