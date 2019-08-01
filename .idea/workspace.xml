@@ -4,9 +4,8 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25d36261-468b-4559-92f2-8b740aa9f875" name="Default" comment="Nim游戏">
-      <change afterPath="$PROJECT_DIR$/src/leetcode206.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode46.java" afterDir="false" />
+    <list default="true" id="25d36261-468b-4559-92f2-8b740aa9f875" name="Default" comment="反转一个单链表">
+      <change afterPath="$PROJECT_DIR$/src/leetcode557.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -35,18 +34,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode84.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="8" column="23" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcode232.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -83,15 +70,24 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcode206.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="457">
-              <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+            <state relative-caret-position="169">
+              <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
               <folding>
                 <element signature="e#309#310#0" expanded="true" />
                 <element signature="e#350#351#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/leetcode557.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="443">
+              <caret line="18" column="67" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="67" />
             </state>
           </provider>
         </entry>
@@ -214,6 +210,7 @@
         <option value="$PROJECT_DIR$/src/leetcode292.java" />
         <option value="$PROJECT_DIR$/src/leetcode46.java" />
         <option value="$PROJECT_DIR$/src/leetcode206.java" />
+        <option value="$PROJECT_DIR$/src/leetcode557.java" />
       </list>
     </option>
   </component>
@@ -264,7 +261,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564651360298" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564652103594" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -414,7 +411,7 @@
       <workItem from="1564043096635" duration="7091000" />
       <workItem from="1564127449201" duration="7574000" />
       <workItem from="1564363305214" duration="619000" />
-      <workItem from="1564649408639" duration="1861000" />
+      <workItem from="1564649408639" duration="2668000" />
     </task>
     <task id="LOCAL-00001" summary="顺序打印矩阵">
       <created>1553941584983</created>
@@ -493,11 +490,18 @@
       <option name="project" value="LOCAL" />
       <updated>1564135076920</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="反转一个单链表">
+      <created>1564651377122</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1564651377122</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="137834000" />
+    <option name="totallyTimeSpent" value="138641000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -566,7 +570,8 @@
     <MESSAGE value="多添加一个为0的数" />
     <MESSAGE value="用栈实现队列" />
     <MESSAGE value="Nim游戏" />
-    <option name="LAST_COMMIT_MESSAGE" value="Nim游戏" />
+    <MESSAGE value="反转一个单链表" />
+    <option name="LAST_COMMIT_MESSAGE" value="反转一个单链表" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -711,16 +716,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/leetcode54.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode657.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
@@ -1126,12 +1121,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode206.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
-          <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+        <state relative-caret-position="169">
+          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
           <folding>
             <element signature="e#309#310#0" expanded="true" />
             <element signature="e#350#351#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode557.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="18" column="67" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="67" />
         </state>
       </provider>
     </entry>
