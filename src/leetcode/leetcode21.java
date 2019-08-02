@@ -1,7 +1,5 @@
 package leetcode;
 
-import javax.xml.soap.Node;
-import java.util.prefs.NodeChangeEvent;
 
 /**
  * @auther ZhangKe
