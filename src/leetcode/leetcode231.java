@@ -15,9 +15,6 @@ public class leetcode231 {
                 return true;
             }
         }
-        else if (n == 1) {
-            return true;
-        }
         return false;
     }
 }
