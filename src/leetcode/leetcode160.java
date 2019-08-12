@@ -13,8 +13,8 @@ public class leetcode160 {
         ListNode x = headA;
         ListNode y = headB;
         while (x != y) {
-            x = x == null ? headB : headA.next;
-            y = y == null ? headA : headB.next;
+            x = x == null ? headB : x.next;
+            y = y == null ? headA : y.next;
         }
         return x;
     }
