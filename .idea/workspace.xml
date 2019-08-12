@@ -4,30 +4,9 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25d36261-468b-4559-92f2-8b740aa9f875" name="Default" comment="最长公共前缀">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode231.java" afterDir="false" />
+    <list default="true" id="25d36261-468b-4559-92f2-8b740aa9f875" name="Default" comment="修改">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/ListNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/TreeNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/leetcode104$TreeNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/leetcode104.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/leetcode226.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/leetcode237.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/leetcode476.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/leetcode509.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/leetcode54.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/leetcode617.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/leetcode657.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/leetcode704.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/leetcode82.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/leetcode83.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/leetcode832.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/leetcode852.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/leetcode922.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/leetcode929.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/leetcode94.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/leetcode961.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/leetcode997.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/leetcode231.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/leetcode231.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -115,8 +94,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/leetcode/leetcode231.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="22" selection-end-column="1" />
+            <state relative-caret-position="240">
+              <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -296,7 +275,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565603147963" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565603196703" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -456,7 +435,7 @@
       <workItem from="1564711953971" duration="17000" />
       <workItem from="1564725012761" duration="7786000" />
       <workItem from="1565344676962" duration="1808000" />
-      <workItem from="1565592020832" duration="8601000" />
+      <workItem from="1565592020832" duration="8872000" />
     </task>
     <task id="LOCAL-00001" summary="顺序打印矩阵">
       <created>1553941584983</created>
@@ -633,11 +612,25 @@
       <option name="project" value="LOCAL" />
       <updated>1565598459353</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="用&amp;方法解决2的幂">
+      <created>1565603101926</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1565603101926</updated>
+    </task>
+    <task id="LOCAL-00027" summary="修改">
+      <created>1565603168098</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1565603168098</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="160896000" />
+    <option name="totallyTimeSpent" value="161167000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -715,10 +708,11 @@
     <MESSAGE value="合并两个有序链表" />
     <MESSAGE value="合并两个有序的数组" />
     <MESSAGE value="相交链表" />
-    <MESSAGE value="修改" />
     <MESSAGE value="快慢指针解决环形链表" />
     <MESSAGE value="最长公共前缀" />
-    <option name="LAST_COMMIT_MESSAGE" value="最长公共前缀" />
+    <MESSAGE value="用&amp;方法解决2的幂" />
+    <MESSAGE value="修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1274,8 +1268,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/leetcode231.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="22" selection-end-column="1" />
+        <state relative-caret-position="240">
+          <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
         </state>
       </provider>
     </entry>

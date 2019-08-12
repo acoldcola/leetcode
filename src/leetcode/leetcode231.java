@@ -10,7 +10,7 @@ public class leetcode231 {
         if (n < 1) {
             return false;
         }
-        else if (n > 1) {
+        else if (n >= 1) {
             if ((n&(n-1)) == 0) {
                 return true;
             }
