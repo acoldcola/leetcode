@@ -4,10 +4,9 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25d36261-468b-4559-92f2-8b740aa9f875" name="Default" comment="汉明距离">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode198.java" afterDir="false" />
+    <list default="true" id="25d36261-468b-4559-92f2-8b740aa9f875" name="Default" comment="动态规划解决打家劫舍">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode53.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/leetcode15.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/leetcode15.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,15 +34,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/leetcode/leetcode4.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcode/leetcode15.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -113,11 +103,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcode/leetcode198.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+            <state relative-caret-position="441">
+              <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/leetcode53.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -180,7 +179,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/leetcode104.java" />
         <option value="$PROJECT_DIR$/src/ByteDance3.java" />
         <option value="$PROJECT_DIR$/src/leetcode226.java" />
         <option value="$PROJECT_DIR$/src/leetcode476.java" />
@@ -231,6 +229,7 @@
         <option value="$PROJECT_DIR$/src/leetcode/leetcode461.java" />
         <option value="$PROJECT_DIR$/src/leetcode/leetcode15.java" />
         <option value="$PROJECT_DIR$/src/leetcode/leetcode198.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/leetcode53.java" />
       </list>
     </option>
   </component>
@@ -288,7 +287,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565857901279" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565859057110" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -470,7 +469,7 @@
       <workItem from="1565762841337" duration="5517000" />
       <workItem from="1565784444811" duration="80000" />
       <workItem from="1565784549400" duration="231000" />
-      <workItem from="1565847475073" duration="3298000" />
+      <workItem from="1565847475073" duration="4663000" />
     </task>
     <task id="LOCAL-00001" summary="顺序打印矩阵">
       <created>1553941584983</created>
@@ -696,11 +695,18 @@
       <option name="project" value="LOCAL" />
       <updated>1565850291391</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="动态规划解决打家劫舍">
+      <created>1565857947269</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1565857947269</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="178034000" />
+    <option name="totallyTimeSpent" value="179399000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -715,8 +721,8 @@
       <window_info id="Favorites" order="6" sideWeight="0.50293255" side_tool="true" weight="0.16353887" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32991204" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.28005865" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49899396" visible="true" weight="0.33577713" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31524926" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49899396" weight="0.33577713" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -761,7 +767,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="跳跃游戏，贪心算法" />
     <MESSAGE value="搜索二维矩阵，二分查找法" />
     <MESSAGE value="二叉树层次遍历，使用队列先进先出的方式" />
     <MESSAGE value="单调栈解决柱状图中最大的矩形" />
@@ -786,7 +791,8 @@
     <MESSAGE value="找到所有数组中消失的数字" />
     <MESSAGE value="寻找重复数" />
     <MESSAGE value="汉明距离" />
-    <option name="LAST_COMMIT_MESSAGE" value="汉明距离" />
+    <MESSAGE value="动态规划解决打家劫舍" />
+    <option name="LAST_COMMIT_MESSAGE" value="动态规划解决打家劫舍" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -943,21 +949,9 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/leetcode/leetcode198.java</url>
-          <line>17</line>
-          <properties />
-          <option name="timeStamp" value="90" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetcode/leetcode198.java</url>
           <line>19</line>
           <properties />
-          <option name="timeStamp" value="92" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetcode/leetcode198.java</url>
-          <line>21</line>
-          <properties />
-          <option name="timeStamp" value="93" />
+          <option name="timeStamp" value="90" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Main.java</url>
@@ -991,13 +985,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/leetcode/leetcode55.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/leetcode74.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="143">
@@ -1394,8 +1381,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/leetcode198.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+        <state relative-caret-position="441">
+          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/leetcode53.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
         </state>
       </provider>
     </entry>
