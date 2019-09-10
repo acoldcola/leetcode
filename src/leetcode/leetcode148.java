@@ -8,6 +8,6 @@ package leetcode;
  */
 public class leetcode148 {
     public ListNode sortList(ListNode head) {
-        return head;
+        return null;
     }
 }
