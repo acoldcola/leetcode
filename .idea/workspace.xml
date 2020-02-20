@@ -4,8 +4,8 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25d36261-468b-4559-92f2-8b740aa9f875" name="Default" comment="双指针解决移除元素">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode1313.java" afterDir="false" />
+    <list default="true" id="25d36261-468b-4559-92f2-8b740aa9f875" name="Default" comment="解压缩编码列表">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode1281.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -309,7 +309,7 @@
       <workItem from="1568963205895" duration="57000" />
       <workItem from="1573463974070" duration="985000" />
       <workItem from="1573523391077" duration="22000" />
-      <workItem from="1582168418093" duration="3939000" />
+      <workItem from="1582168418093" duration="5608000" />
     </task>
     <task id="LOCAL-00001" summary="顺序打印矩阵">
       <created>1553941584983</created>
@@ -598,7 +598,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582170093023</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="解压缩编码列表">
+      <created>1582172718280</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1582172718280</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -618,7 +625,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="调整结构" />
     <MESSAGE value="二叉搜索树的最近公共祖先" />
     <MESSAGE value="求众数" />
     <MESSAGE value="回文数" />
@@ -643,21 +649,22 @@
     <MESSAGE value="双指针解决移除元素" />
     <MESSAGE value="将数字变成 0 的操作次数" />
     <MESSAGE value="左旋转字符串" />
-    <option name="LAST_COMMIT_MESSAGE" value="左旋转字符串" />
+    <MESSAGE value="解压缩编码列表" />
+    <option name="LAST_COMMIT_MESSAGE" value="解压缩编码列表" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="594" y="107" key="CommitChangelistDialog2" timestamp="1582170092060">
+    <state x="594" y="107" key="CommitChangelistDialog2" timestamp="1582172717096">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="594" y="107" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1582170092060" />
+    <state x="594" y="107" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1582172717096" />
     <state x="184" y="92" key="DiffContextDialog" timestamp="1582170051088">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="184" y="92" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582170051088" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1582170094412">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1582172719577">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1582170094412" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1582172719577" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
