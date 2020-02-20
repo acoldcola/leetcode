@@ -5,7 +5,7 @@ package leetcode;
  * @date 2019/9/10 17:50
  * 移除元素
  */
-public class leetcode27 {
+public class leetcode27 implements Cloneable{
     public static void main(String[] args){
         int[] a = {3,3};
         removeElement(a,5);
