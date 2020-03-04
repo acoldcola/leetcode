@@ -10,6 +10,6 @@ import java.util.List;
  */
 public class leetcode120 {
     public int minimumTotal(List<List<Integer>> triangle) {
-
+        return 0;
     }
 }
