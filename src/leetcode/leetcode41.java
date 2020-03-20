@@ -6,7 +6,11 @@ package leetcode;
  * 缺失的第一个正数
  */
 public class leetcode41 {
-    public int firstMissingPositive(int[] nums) {
+    public static void main(String[] args) {
+        firstMissingPositive(null);
+    }
+    public static  int firstMissingPositive(int[] nums) {
+
         return 0;
     }
 }
