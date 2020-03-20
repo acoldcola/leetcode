@@ -14,7 +14,7 @@ public class leetcode881 {
             sum += people[i];
         }
         if ( sum <= limit) {
-            return 1
+            return 1;
         }else {
             return sum % limit ==0 ? sum/limit : sum/limit + 1;
         }
