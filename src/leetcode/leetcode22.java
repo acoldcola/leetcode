@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @auther ZhangKe
+ * @author ZhangKe
  * @date 2019/9/2 16:50
  * 括号生成
  */
