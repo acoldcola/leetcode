@@ -23,9 +23,9 @@ public class interview04 {
         boolean x = false;
         while (i >=0 && j < m) {
             if (matrix[i][j] > target) {
-                j++;
-            }else if (matrix[i][j] < target) {
                 i--;
+            }else if (matrix[i][j] < target) {
+                j++;
             }else {
                 x = true;
                 break;
