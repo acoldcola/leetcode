@@ -1,5 +1,9 @@
 package leetcode;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 /**
  * @Author ZhangKe
  * @Date 2020/4/14 11:46
@@ -8,6 +12,16 @@ package leetcode;
  */
 public class interview62 {
     public int lastRemaining(int n, int m) {
-        return 0;
+        List<Integer> list = new ArrayList<>();
+        for (int i = 0; i < n; i++) {
+            list.add(i);
+        }
+        int x = 0;
+        while (n > 0) {
+            x = (x + m - 1) % n;
+            list.remove(x);
+            n--;
+        }
+        return list.get(0);
     }
 }
