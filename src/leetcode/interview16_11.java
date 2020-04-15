@@ -14,14 +14,9 @@ public class interview16_11 {
         if(k == 0) {
             return new int[0];
         }
-        HashSet<Integer> hashSet = new HashSet<>();
+        int[] a = new int[k + 1];
         for (int i = 0; i <= k;i++) {
-            hashSet.add(i * shorter + (k-i) * longer);
-        }
-        int[] a = new int[hashSet.size()];
-        int i = 0;
-        for (int x:hashSet) {
-            a[i++] = x;
+            a[i] = i * shorter + (k-i) * longer;
         }
         Arrays.sort(a);
         return a;
