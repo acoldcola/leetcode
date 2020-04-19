@@ -1,5 +1,10 @@
 package leetcode;
 
+import java.lang.reflect.Array;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 /**
  * @Author ZhangKe
  * @Date 2020/4/16 18:14
@@ -15,24 +20,12 @@ public class leetcode1389 {
     }
     public int[] createTargetArray(int[] nums, int[] index) {
         int[] target = new int[nums.length];
-        for (int i = 0; i < target.length; i++) {
-            target[i] = -1;
-        }
+        List<Integer> list = new ArrayList<>();
         for (int i = 0; i < index.length; i++) {
-            int temp = target[i];
-            if (temp == -1) {
-                target[i] = nums[index[i]];
-            }else {
-                int cur = i + 1 == index.length ? 0 : i+1 ;
-                while (target[cur] != -1) {
-                    int x = target[cur];
-                    target[cur] = temp;
-                    temp = x;
-                    cur = cur + 1 == index.length ? 0 : cur+1;
-                }if (target[cur] == -1) {
-                    target[cur] = temp;
-                }
-            }
+            list.add(index[i],nums[i]);
+        }
+        for (int i = 0; i < list.size(); i++) {
+            target[i] = list.get(i);
         }
         return target;
     }
