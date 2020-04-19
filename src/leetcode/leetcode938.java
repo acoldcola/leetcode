@@ -13,7 +13,7 @@ public class leetcode938 {
         }
         int sum = 0;
         if (root.val == L) {
-            sum +=1
+            sum +=1;
         }
         return 0;
     }
