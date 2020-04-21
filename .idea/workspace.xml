@@ -4,12 +4,8 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25d36261-468b-4559-92f2-8b740aa9f875" name="Default" comment="返回链表的倒数第k数">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/interview06.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode1248.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/interview02_02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/interview02_02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/leetcode200.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/leetcode200.java" afterDir="false" />
+    <list default="true" id="25d36261-468b-4559-92f2-8b740aa9f875" name="Default" comment="滑动窗口做统计「优美子数组」">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode561.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -329,14 +325,7 @@
       <workItem from="1587190218144" duration="14411000" />
       <workItem from="1587263505883" duration="12564000" />
       <workItem from="1587347833940" duration="3214000" />
-      <workItem from="1587433326259" duration="9185000" />
-    </task>
-    <task id="LOCAL-00030" summary="找到所有数组中消失的数字">
-      <created>1565773882980</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1565773882980</updated>
+      <workItem from="1587433326259" duration="9863000" />
     </task>
     <task id="LOCAL-00031" summary="寻找重复数">
       <created>1565777786880</created>
@@ -674,7 +663,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587348262411</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="滑动窗口做统计「优美子数组」">
+      <created>1587446351067</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1587446351068</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -694,7 +690,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="存在重复元素 II" />
     <MESSAGE value="机器人的运动范围" />
     <MESSAGE value="玩筹码" />
     <MESSAGE value="使用dfs完成括号生成" />
@@ -719,7 +714,8 @@
     <MESSAGE value="荷兰国旗问题" />
     <MESSAGE value=" IP 地址无效化" />
     <MESSAGE value="返回链表的倒数第k数" />
-    <option name="LAST_COMMIT_MESSAGE" value="返回链表的倒数第k数" />
+    <MESSAGE value="滑动窗口做统计「优美子数组」" />
+    <option name="LAST_COMMIT_MESSAGE" value="滑动窗口做统计「优美子数组」" />
   </component>
   <component name="WindowStateProjectService">
     <state x="482" y="144" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog" timestamp="1587440956263">
@@ -834,11 +830,11 @@
     <state width="1493" height="304" key="GridCell.Tab.2.right/0.0.1536.864@0.0.1536.864" timestamp="1587443863873" />
     <state width="1876" height="138" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582200507518" />
     <state width="1860" height="247" key="GridCell.Tab.2.right/1920.6.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1587311629940" />
-    <state x="442" y="210" key="Vcs.Push.Dialog.v2" timestamp="1587348264986">
+    <state x="442" y="210" key="Vcs.Push.Dialog.v2" timestamp="1587446371852">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="442" y="200" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1583375264571" />
-    <state x="442" y="210" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1587348264986" />
+    <state x="442" y="210" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1587446371852" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1582175641961" />
     <state x="553" y="263" key="Vcs.Push.Dialog.v2/1920.6.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1587310633585" />
     <state x="562" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584689376972">
