@@ -14,27 +14,11 @@ public class leetcode1351 {
     public static int countNegatives(int[][] grid) {
         int m = grid.length;
         int n = grid[0].length;
-        int i = m - 1;
-        int j = n - 1;
-        int x = 0;
-        while (grid[i][j] < 0) {
-            i --;
-            j --;
+        int i = grid.length;
+        int j = 0;
+        while (i <1) {
+
         }
-        for (int o = i; o < n; o++) {
-            for(int p = 0; p < j;p++) {
-                if (grid[o][p] < 0) {
-                    x++;
-                }
-            }
-        }
-        for (int u = 0;u < i;u++) {
-            for (int v = j; v < m; v++) {
-                if (grid[u][v] < 0) {
-                    x++;
-                }
-            }
-        }
-        return x + (m-i)*(m-i);
+        return  (m-i)*(m-i);
     }
 }

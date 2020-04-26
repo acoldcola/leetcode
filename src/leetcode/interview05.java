@@ -6,7 +6,8 @@ package leetcode;
  * @Version 1.0
  * 替换空格
  */
-public class interview05 {
+public class
+interview05 {
     public String replaceSpace(String s) {
         if ("".equals(s) || s.length() == 0) {
             return null;

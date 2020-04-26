@@ -3,6 +3,7 @@ package leetcode;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.ResourceBundle;
 
 /**
  * @auther ZhangKe
@@ -11,31 +12,34 @@ import java.util.List;
  */
 public class leetcode46 {
     public static void main(String[] args) {
-        int[] arr = { 1, 2, 3, 4 };
-        fullSort(arr, 0, arr.length - 1,new ArrayList<>());
+        int[] arr = { 1, 2, 3 };
+        permute(arr);
     }
 
-    public static void fullSort(int[] arr, int start, int end, List<List<Integer>> list) {
-        // 递归终止条件
-        if (start == end) {
-            for (int i : arr) {
-                System.out.print(i);
-            }
-            System.out.println();
+    public static List<List<Integer>> permute(int[] nums) {
+        if (nums.length == 0) {
+            return new ArrayList<>();
+        }
+        List<List<Integer>> list = new ArrayList<>();
+        List<Integer> path = new ArrayList<>();
+        boolean[] used = new boolean[nums.length];
+        back(list,path,nums.length,0,used,nums);
+        return list;
+    }
+
+    public static void back(List<List<Integer>> list, List<Integer> path,int len,int depth,boolean[] used,int[] nums) {
+        if (depth == len) {
+            list.add(new ArrayList<>(path));
             return;
         }
-        for (int i = start; i <= end; i++) {
-            swap(arr, i, start);
-            list.add(Arrays.asList());
-            fullSort(arr, start + 1, end, list);
-            swap(arr, i, start);
+        for (int i = 0; i < len; i++) {
+            if (!used[i]) {
+                path.add(nums[i]);
+                used[i] = true;
+                back(list,path,len,depth + 1,used,nums);
+                path.remove(path.size() - 1);
+                used[i] = false;
+            }
         }
     }
-
-    private static void swap(int[] arr, int i, int j) {
-        int tmp = arr[i];
-        arr[i] = arr[j];
-        arr[j] = tmp;
-    }
-
 }
