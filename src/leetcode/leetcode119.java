@@ -1,39 +1,35 @@
 package leetcode;
 
 import java.util.ArrayList;
-import java.util.LinkedList;
+import java.util.Arrays;
 import java.util.List;
-import java.util.Queue;
 
 /**
  * @Author ZhangKe
- * @Date 2020/4/22 9:34
+ * @Date 2020/4/26 17:08
  * @Version 1.0
- * 二叉树的右视图
+ * 杨辉三角 II
  */
 public class leetcode119 {
-    public List<Integer> rightSideView(TreeNode root) {
-        if (root == null) {
-            return new ArrayList<>();
-        }
-        Queue<TreeNode> queue = new LinkedList<>();
-        queue.offer(root);
-        List<Integer> list = new ArrayList<>();
-        while (!queue.isEmpty()) {
-            int size = queue.size();
-            for (int i = 0; i < size; i++) {
-                TreeNode node = queue.poll();
-                if (i == size - 1) {
-                    list.add(node.val);
-                }
-                if (node.left != null) {
-                    queue.offer(node.left);
-                }
-                if (node.right != null) {
-                    queue.offer(node.right);
+    public static void main(String[] args) {
+        getRow(3);
+    }
+    public static List<Integer> getRow(int rowIndex) {
+        List<Integer> pre = new ArrayList<>();
+        int[] a = new int[rowIndex + 1];
+        for (int i = 0; i <= rowIndex; i++) {
+            for (int j = i; j >= 0;j--) {
+                if (j == 0 || j == i) {
+                    a[j] = 1;
+                }else {
+                    a[j] = a[j] + a[j-1];
                 }
             }
         }
-        return list;
+        for (Integer m:
+             a) {
+            pre.add(m);
+        }
+        return pre;
     }
 }

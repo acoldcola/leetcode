@@ -18,22 +18,17 @@ public class leetcode118 {
     public static List<List<Integer>> generate(int numRows) {
         List<List<Integer>> lists = new ArrayList<>();
         List<Integer> pre = new ArrayList<>();
-        if (numRows == 0) {
-            return lists;
-        }
-        pre.add(1);
-        lists.add(pre);
-        for (int i = 2; i <= numRows; i++) {
+        for (int i = 0; i <= numRows; i++) {
             List<Integer> cur = new ArrayList<>();
-            for (int j = 0; j < i;j++) {
-                if (j == 0 || j == i -1) {
+            for (int j = 0; j <= i;j++) {
+                if (j == 0 || j == i) {
                     cur.add(1);
                 }else {
                     cur.add(pre.get(j) + pre.get(j-1));
                 }
             }
-            lists.add(cur);
             pre = cur;
+            lists.add(cur);
         }
         return lists;
     }
