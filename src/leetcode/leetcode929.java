@@ -9,7 +9,7 @@ import java.util.Set;
  */
 public class leetcode929 {
     public static void main(String[] args) {
-        String str[] = {"test.email+alex@leetcode.com", "test.e.mail+bob.cathy@leetcode.com", "testemail+david@lee.tcode.com"};
+        String str[] = {"笔试.test.email+alex@leetcode.com", "笔试.test.e.mail+bob.cathy@leetcode.com", "testemail+david@lee.tcode.com"};
         System.out.println(numUniqueEmails(str));
     }
 
