@@ -1,8 +1,5 @@
 package leetcode;
 
-import javax.naming.InsufficientResourcesException;
-import java.awt.*;
-
 /**
  * @Author ZhangKe
  * @Date 2020/6/5 10:09
@@ -12,7 +9,7 @@ import java.awt.*;
 public class interview29 {
     public static void main(String[] args) {
         interview29 l = new interview29();
-        l.spiralOrder(new int[][] {{1,2,3},{4,5,6},{7,8,9}});
+        l.spiralOrder(new int[][] {{1,2,3,4,5},{6,7,8,9,10},{11,12,13,14,15},{16,17,18,19,20},{21,22,23,24,25}});
     }
     public int[] spiralOrder(int[][] matrix) {
         if (matrix.length == 0 || matrix[0].length == 0) {
@@ -25,10 +22,12 @@ public class interview29 {
         int[] res = new int[(x+1)*(y+1)];
         int o = 0;
         for (int i = 0; i < (matrix.length + 1) / 2;i++) {
-            a += i;
-            b += i;
-            x -= i;
-            y -= i;
+            if (i != 0) {
+                a ++;
+                b ++;
+                x --;
+                y --;
+            }
             for (int i1 = b; i1 <= y && o < res.length; i1++) {
                 res[o++] = matrix[a][i1];
             }
