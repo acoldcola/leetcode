@@ -4,16 +4,9 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25d36261-468b-4559-92f2-8b740aa9f875" name="Default" comment="单调栈解决每日温度">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode1466.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode5420.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode5422.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode5423.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode5436.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode5437.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode5438.java" afterDir="false" />
+    <list default="true" id="25d36261-468b-4559-92f2-8b740aa9f875" name="Default" comment="贪心算法解决划分字母区间">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/leetcode763.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/leetcode763.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/leetcode1466.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/leetcode1466.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -401,14 +394,8 @@
       <workItem from="1591944656239" duration="1745000" />
       <workItem from="1592056373677" duration="6623000" />
       <workItem from="1592101696958" duration="3070000" />
-      <workItem from="1592203583075" duration="4130000" />
-    </task>
-    <task id="LOCAL-00052" summary="机器人的运动范围">
-      <created>1586336675319</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1586336675319</updated>
+      <workItem from="1592203583075" duration="4866000" />
+      <workItem from="1592270452271" duration="4344000" />
     </task>
     <task id="LOCAL-00053" summary="玩筹码">
       <created>1586339283171</created>
@@ -746,7 +733,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591861263041</updated>
     </task>
-    <option name="localTasksCounter" value="102" />
+    <task id="LOCAL-00102" summary="贪心算法解决划分字母区间">
+      <created>1592216166375</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1592216166375</updated>
+    </task>
+    <option name="localTasksCounter" value="103" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -779,7 +773,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="二叉树的层平均值" />
     <MESSAGE value="荷兰国旗问题" />
     <MESSAGE value=" IP 地址无效化" />
     <MESSAGE value="返回链表的倒数第k数" />
@@ -804,7 +797,8 @@
     <MESSAGE value="修改顺时针打印矩阵" />
     <MESSAGE value="并查集" />
     <MESSAGE value="单调栈解决每日温度" />
-    <option name="LAST_COMMIT_MESSAGE" value="单调栈解决每日温度" />
+    <MESSAGE value="贪心算法解决划分字母区间" />
+    <option name="LAST_COMMIT_MESSAGE" value="贪心算法解决划分字母区间" />
   </component>
   <component name="WindowStateProjectService">
     <state x="574" y="142" key="#com.intellij.ide.util.MemberChooser" timestamp="1587872384465">
@@ -819,10 +813,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="522" y="269" key="#xdebugger.evaluate/0.0.1536.864@0.0.1536.864" timestamp="1588919510805" />
-    <state x="518" y="0" key="CommitChangelistDialog2" timestamp="1592216162510">
+    <state x="664" y="18" key="CommitChangelistDialog2" timestamp="1592297930511">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="518" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1592216162510" />
+    <state x="664" y="18" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1592297930511" />
     <state x="884" y="78" width="905" height="970" key="CommitChangelistDialog2/1920.6.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1590931896814" />
     <state width="431" height="373" key="DebuggerActiveHint" timestamp="1591332899737">
       <screen x="0" y="0" width="1536" height="864" />
@@ -950,10 +944,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="270" y="75" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1588918819375" />
-    <state x="361" y="166" key="Vcs.Push.Dialog.v2" timestamp="1591861264711">
+    <state x="361" y="166" key="Vcs.Push.Dialog.v2" timestamp="1592216168443">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="166" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1591861264711" />
+    <state x="361" y="166" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1592216168443" />
     <state x="553" y="263" key="Vcs.Push.Dialog.v2/1920.6.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1590931901760" />
     <state x="562" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584689376972">
       <screen x="0" y="0" width="1536" height="864" />
