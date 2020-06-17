@@ -4,10 +4,7 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25d36261-468b-4559-92f2-8b740aa9f875" name="Default" comment="反转每对括号间的子串">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode1014.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode1249.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode494.java" afterDir="false" />
+    <list default="true" id="25d36261-468b-4559-92f2-8b740aa9f875" name="Default" comment="移除无效的括号">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -398,14 +395,7 @@
       <workItem from="1592101696958" duration="3070000" />
       <workItem from="1592203583075" duration="4866000" />
       <workItem from="1592270452271" duration="7843000" />
-      <workItem from="1592357366277" duration="4037000" />
-    </task>
-    <task id="LOCAL-00055" summary="旋转矩阵">
-      <created>1586510914397</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1586510914397</updated>
+      <workItem from="1592357366277" duration="4306000" />
     </task>
     <task id="LOCAL-00056" summary="整数转换">
       <created>1586671406184</created>
@@ -743,7 +733,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592302053406</updated>
     </task>
-    <option name="localTasksCounter" value="105" />
+    <task id="LOCAL-00105" summary="移除无效的括号">
+      <created>1592364083701</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1592364083702</updated>
+    </task>
+    <option name="localTasksCounter" value="106" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -776,7 +773,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="返回链表的倒数第k数" />
     <MESSAGE value="滑动窗口做统计「优美子数组」" />
     <MESSAGE value="数组拆分 I" />
     <MESSAGE value="寻找比目标字母大的最小字母" />
@@ -801,7 +797,8 @@
     <MESSAGE value="贪心算法解决划分字母区间" />
     <MESSAGE value="set实现重新规划路线" />
     <MESSAGE value="反转每对括号间的子串" />
-    <option name="LAST_COMMIT_MESSAGE" value="反转每对括号间的子串" />
+    <MESSAGE value="移除无效的括号" />
+    <option name="LAST_COMMIT_MESSAGE" value="移除无效的括号" />
   </component>
   <component name="WindowStateProjectService">
     <state x="574" y="142" key="#com.intellij.ide.util.MemberChooser" timestamp="1587872384465">
@@ -947,10 +944,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="270" y="75" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1588918819375" />
-    <state x="361" y="166" key="Vcs.Push.Dialog.v2" timestamp="1592302085119">
+    <state x="361" y="166" key="Vcs.Push.Dialog.v2" timestamp="1592364087305">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="166" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1592302085119" />
+    <state x="361" y="166" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1592364087305" />
     <state x="553" y="263" key="Vcs.Push.Dialog.v2/1920.6.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1590931901760" />
     <state x="562" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584689376972">
       <screen x="0" y="0" width="1536" height="864" />

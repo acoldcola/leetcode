@@ -1,8 +1,6 @@
 package leetcode;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Stack;
+import java.util.*;
 
 /**
  * @Author ZhangKe
@@ -17,7 +15,7 @@ public class leetcode1249 {
         }
         char[] chars = s.toCharArray();
         Stack<Integer> stack = new Stack<>();
-        List<Integer> list = new ArrayList<>();
+        Set<Integer> set = new HashSet<>();
         for (int i = 0; i < chars.length; i++) {
             if (chars[i] == '(') {
                 stack.add(i);
@@ -26,16 +24,16 @@ public class leetcode1249 {
                 if (!stack.isEmpty()) {
                     stack.pop();
                 }else {
-                    list.add(i);
+                    set.add(i);
                 }
             }
         }
         while (!stack.isEmpty()) {
-            list.add(stack.pop());
+            set.add(stack.pop());
         }
         StringBuilder sb = new StringBuilder();
         for (int i = 0; i < chars.length; i++) {
-            if (!list.contains(i)) {
+            if (!set.contains(i)) {
                 sb.append(chars[i]);
             }
         }
