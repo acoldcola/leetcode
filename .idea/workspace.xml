@@ -4,7 +4,9 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25d36261-468b-4559-92f2-8b740aa9f875" name="Default" comment="移除无效的括号">
+    <list default="true" id="25d36261-468b-4559-92f2-8b740aa9f875" name="Default" comment="移除无效的括号(list改成hashset)">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode191.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode946.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -395,14 +397,7 @@
       <workItem from="1592101696958" duration="3070000" />
       <workItem from="1592203583075" duration="4866000" />
       <workItem from="1592270452271" duration="7843000" />
-      <workItem from="1592357366277" duration="4306000" />
-    </task>
-    <task id="LOCAL-00056" summary="整数转换">
-      <created>1586671406184</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1586671406185</updated>
+      <workItem from="1592357366277" duration="7503000" />
     </task>
     <task id="LOCAL-00057" summary="大根堆和小根堆取中位数">
       <created>1586692194855</created>
@@ -740,7 +735,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592364083702</updated>
     </task>
-    <option name="localTasksCounter" value="106" />
+    <task id="LOCAL-00106" summary="移除无效的括号(list改成hashset)">
+      <created>1592364412153</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1592364412153</updated>
+    </task>
+    <option name="localTasksCounter" value="107" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -773,7 +775,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="滑动窗口做统计「优美子数组」" />
     <MESSAGE value="数组拆分 I" />
     <MESSAGE value="寻找比目标字母大的最小字母" />
     <MESSAGE value="多次搜索" />
@@ -798,7 +799,8 @@
     <MESSAGE value="set实现重新规划路线" />
     <MESSAGE value="反转每对括号间的子串" />
     <MESSAGE value="移除无效的括号" />
-    <option name="LAST_COMMIT_MESSAGE" value="移除无效的括号" />
+    <MESSAGE value="移除无效的括号(list改成hashset)" />
+    <option name="LAST_COMMIT_MESSAGE" value="移除无效的括号(list改成hashset)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="574" y="142" key="#com.intellij.ide.util.MemberChooser" timestamp="1587872384465">
@@ -813,10 +815,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="522" y="269" key="#xdebugger.evaluate/0.0.1536.864@0.0.1536.864" timestamp="1588919510805" />
-    <state x="664" y="18" key="CommitChangelistDialog2" timestamp="1592364079582">
+    <state x="664" y="18" key="CommitChangelistDialog2" timestamp="1592364410953">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="664" y="18" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1592364079582" />
+    <state x="664" y="18" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1592364410953" />
     <state x="884" y="78" width="905" height="970" key="CommitChangelistDialog2/1920.6.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1590931896814" />
     <state width="431" height="373" key="DebuggerActiveHint" timestamp="1591332899737">
       <screen x="0" y="0" width="1536" height="864" />
@@ -944,10 +946,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="270" y="75" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1588918819375" />
-    <state x="361" y="166" key="Vcs.Push.Dialog.v2" timestamp="1592364087305">
+    <state x="361" y="166" key="Vcs.Push.Dialog.v2" timestamp="1592364414589">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="166" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1592364087305" />
+    <state x="361" y="166" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1592364414589" />
     <state x="553" y="263" key="Vcs.Push.Dialog.v2/1920.6.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1590931901760" />
     <state x="562" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584689376972">
       <screen x="0" y="0" width="1536" height="864" />
