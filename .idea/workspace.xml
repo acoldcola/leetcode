@@ -4,10 +4,9 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25d36261-468b-4559-92f2-8b740aa9f875" name="Default" comment="动态规划解决最长定差子序列">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode1329.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode228.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/offer06.java" afterDir="false" />
+    <list default="true" id="25d36261-468b-4559-92f2-8b740aa9f875" name="Default" comment="双指针解决汇总区间">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode1146.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode718.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +60,7 @@
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573464832906" />
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/ImageCacheServer_x64" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -412,14 +411,10 @@
       <workItem from="1593327125432" duration="4000" />
       <workItem from="1593327155669" duration="3000" />
       <workItem from="1593327183895" duration="7271000" />
-      <workItem from="1593484389004" duration="6298000" />
-    </task>
-    <task id="LOCAL-00066" summary="0～n-1中缺失的数字">
-      <created>1586846978702</created>
-      <option name="number" value="00066" />
-      <option name="presentableId" value="LOCAL-00066" />
-      <option name="project" value="LOCAL" />
-      <updated>1586846978702</updated>
+      <workItem from="1593484389004" duration="7218000" />
+      <workItem from="1593521644093" duration="2247000" />
+      <workItem from="1593566140234" duration="721000" />
+      <workItem from="1593607755589" duration="305000" />
     </task>
     <task id="LOCAL-00067" summary="递归超时，使用动态规划">
       <created>1586851988000</created>
@@ -757,7 +752,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593339582909</updated>
     </task>
-    <option name="localTasksCounter" value="116" />
+    <task id="LOCAL-00116" summary="双指针解决汇总区间">
+      <created>1593512376415</created>
+      <option name="number" value="00116" />
+      <option name="presentableId" value="LOCAL-00116" />
+      <option name="project" value="LOCAL" />
+      <updated>1593512376416</updated>
+    </task>
+    <option name="localTasksCounter" value="117" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -790,7 +792,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="前缀和解决和为K的子数组" />
     <MESSAGE value="数字的补书" />
     <MESSAGE value="动态规划解决最长上升子序列" />
     <MESSAGE value="哈希加双向链表解决LRU缓存机制" />
@@ -815,7 +816,8 @@
     <MESSAGE value="二分查找加枚举解决转变数组后最接近目标数字" />
     <MESSAGE value="最近的请求次数" />
     <MESSAGE value="动态规划解决最长定差子序列" />
-    <option name="LAST_COMMIT_MESSAGE" value="动态规划解决最长定差子序列" />
+    <MESSAGE value="双指针解决汇总区间" />
+    <option name="LAST_COMMIT_MESSAGE" value="双指针解决汇总区间" />
   </component>
   <component name="WindowStateProjectService">
     <state x="574" y="142" key="#com.intellij.ide.util.MemberChooser" timestamp="1587872384465">
@@ -830,10 +832,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="522" y="269" key="#xdebugger.evaluate/0.0.1536.864@0.0.1536.864" timestamp="1588919510805" />
-    <state x="664" y="18" key="CommitChangelistDialog2" timestamp="1593512372064">
+    <state x="664" y="18" key="CommitChangelistDialog2" timestamp="1593608289902">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="664" y="18" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1593512372064" />
+    <state x="664" y="18" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1593608289902" />
     <state x="884" y="78" width="905" height="970" key="CommitChangelistDialog2/1920.6.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1590931896814" />
     <state width="431" height="373" key="DebuggerActiveHint" timestamp="1592476318874">
       <screen x="0" y="0" width="1536" height="864" />
@@ -844,10 +846,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="147" y="77" key="DiffContextDialog/0.0.1536.864@0.0.1536.864" timestamp="1587087474257" />
-    <state x="549" y="176" key="FileChooserDialogImpl" timestamp="1593498515270">
+    <state x="549" y="176" key="FileChooserDialogImpl" timestamp="1593566825360">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="549" y="176" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1593498515270" />
+    <state x="549" y="176" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1593566825360" />
     <state x="686" y="220" key="FileChooserDialogImpl/1920.6.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1591375122558" />
     <state width="1493" height="246" key="GridCell.Tab.0.bottom" timestamp="1593340407858">
       <screen x="0" y="0" width="1536" height="864" />
@@ -961,19 +963,19 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="270" y="75" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1592551926079" />
-    <state x="361" y="166" key="Vcs.Push.Dialog.v2" timestamp="1593339612363">
+    <state x="361" y="166" key="Vcs.Push.Dialog.v2" timestamp="1593512378111">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="166" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1593339612363" />
+    <state x="361" y="166" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1593512378111" />
     <state x="553" y="263" key="Vcs.Push.Dialog.v2/1920.6.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1590931901760" />
     <state x="377" y="132" width="782" height="600" key="find.popup" timestamp="1591350802644">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="377" y="132" width="782" height="600" key="find.popup/0.0.1536.864@0.0.1536.864" timestamp="1591350802644" />
-    <state x="223" y="128" key="new project wizard" timestamp="1591371231590">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="226" y="0" key="new project wizard" timestamp="1593566856326">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="178" y="0" key="new project wizard/0.0.1536.864@0.0.1536.864" timestamp="1590717312850" />
+    <state x="226" y="0" key="new project wizard/0.0.1536.864@0.0.1536.864" timestamp="1593566856326" />
     <state x="223" y="128" key="new project wizard/1920.6.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1591371231590" />
     <state x="425" y="241" key="run.anything.popup" timestamp="1592358041800">
       <screen x="0" y="0" width="1536" height="864" />
