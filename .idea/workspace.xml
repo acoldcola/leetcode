@@ -4,9 +4,8 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25d36261-468b-4559-92f2-8b740aa9f875" name="Default" comment="双指针解决汇总区间">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode1146.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode718.java" afterDir="false" />
+    <list default="true" id="25d36261-468b-4559-92f2-8b740aa9f875" name="Default" comment="动态规划解决最长重复子数组">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/interview16_07.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -414,14 +413,7 @@
       <workItem from="1593484389004" duration="7218000" />
       <workItem from="1593521644093" duration="2247000" />
       <workItem from="1593566140234" duration="721000" />
-      <workItem from="1593607755589" duration="305000" />
-    </task>
-    <task id="LOCAL-00067" summary="递归超时，使用动态规划">
-      <created>1586851988000</created>
-      <option name="number" value="00067" />
-      <option name="presentableId" value="LOCAL-00067" />
-      <option name="project" value="LOCAL" />
-      <updated>1586851988000</updated>
+      <workItem from="1593607755589" duration="1421000" />
     </task>
     <task id="LOCAL-00068" summary="青蛙跳水">
       <created>1586852889943</created>
@@ -759,7 +751,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593512376416</updated>
     </task>
-    <option name="localTasksCounter" value="117" />
+    <task id="LOCAL-00117" summary="动态规划解决最长重复子数组">
+      <created>1593608294169</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1593608294169</updated>
+    </task>
+    <option name="localTasksCounter" value="118" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -792,7 +791,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="数字的补书" />
     <MESSAGE value="动态规划解决最长上升子序列" />
     <MESSAGE value="哈希加双向链表解决LRU缓存机制" />
     <MESSAGE value="bfs" />
@@ -817,7 +815,8 @@
     <MESSAGE value="最近的请求次数" />
     <MESSAGE value="动态规划解决最长定差子序列" />
     <MESSAGE value="双指针解决汇总区间" />
-    <option name="LAST_COMMIT_MESSAGE" value="双指针解决汇总区间" />
+    <MESSAGE value="动态规划解决最长重复子数组" />
+    <option name="LAST_COMMIT_MESSAGE" value="动态规划解决最长重复子数组" />
   </component>
   <component name="WindowStateProjectService">
     <state x="574" y="142" key="#com.intellij.ide.util.MemberChooser" timestamp="1587872384465">
@@ -963,10 +962,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="270" y="75" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1592551926079" />
-    <state x="361" y="166" key="Vcs.Push.Dialog.v2" timestamp="1593512378111">
+    <state x="361" y="166" key="Vcs.Push.Dialog.v2" timestamp="1593608313627">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="166" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1593512378111" />
+    <state x="361" y="166" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1593608313627" />
     <state x="553" y="263" key="Vcs.Push.Dialog.v2/1920.6.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1590931901760" />
     <state x="377" y="132" width="782" height="600" key="find.popup" timestamp="1591350802644">
       <screen x="0" y="0" width="1536" height="864" />
