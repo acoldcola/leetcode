@@ -5,16 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="25d36261-468b-4559-92f2-8b740aa9f875" name="Default" comment="第30场双周赛完成打卡">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/interview17_13.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode1509.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode5177.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode5211.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode5446.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode5447.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode5455.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode5460.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode5461.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode485.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode540.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -442,14 +434,7 @@
       <workItem from="1594520912743" duration="53000" />
       <workItem from="1594520989187" duration="1502000" />
       <workItem from="1594605843306" duration="1582000" />
-      <workItem from="1594626144466" duration="1488000" />
-    </task>
-    <task id="LOCAL-00070" summary="最小栈">
-      <created>1586958053603</created>
-      <option name="number" value="00070" />
-      <option name="presentableId" value="LOCAL-00070" />
-      <option name="project" value="LOCAL" />
-      <updated>1586958053604</updated>
+      <workItem from="1594626144466" duration="3297000" />
     </task>
     <task id="LOCAL-00071" summary="使用栈实现队列">
       <created>1586960523988</created>
@@ -787,7 +772,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594106166644</updated>
     </task>
-    <option name="localTasksCounter" value="120" />
+    <task id="LOCAL-00120" summary="第30场双周赛完成打卡">
+      <created>1594630098397</created>
+      <option name="number" value="00120" />
+      <option name="presentableId" value="LOCAL-00120" />
+      <option name="project" value="LOCAL" />
+      <updated>1594630098398</updated>
+    </task>
+    <option name="localTasksCounter" value="121" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -991,10 +983,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="270" y="75" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1592551926079" />
-    <state x="361" y="166" key="Vcs.Push.Dialog.v2" timestamp="1594106168437">
+    <state x="361" y="166" key="Vcs.Push.Dialog.v2" timestamp="1594630103003">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="166" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1594106168437" />
+    <state x="361" y="166" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1594630103003" />
     <state x="553" y="263" key="Vcs.Push.Dialog.v2/1920.6.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1590931901760" />
     <state x="377" y="132" width="782" height="600" key="find.popup" timestamp="1591350802644">
       <screen x="0" y="0" width="1536" height="864" />
