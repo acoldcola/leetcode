@@ -4,18 +4,9 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25d36261-468b-4559-92f2-8b740aa9f875" name="Default" comment="卡罗兰数解决不同的二叉搜索树">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode207.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode35.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode415.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode5456.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode5457.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode5458.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode5464.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode5475.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode5476.java" afterDir="false" />
+    <list default="true" id="25d36261-468b-4559-92f2-8b740aa9f875" name="Default" comment="拓扑排序解决课程表问题">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode210.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/leetcode1466.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/leetcode1466.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -454,14 +445,7 @@
       <workItem from="1595819267111" duration="2452000" />
       <workItem from="1596335294013" duration="4065000" />
       <workItem from="1596432980809" duration="1660000" />
-      <workItem from="1596530137734" duration="1705000" />
-    </task>
-    <task id="LOCAL-00073" summary="二叉树的层平均值">
-      <created>1587003914972</created>
-      <option name="number" value="00073" />
-      <option name="presentableId" value="LOCAL-00073" />
-      <option name="project" value="LOCAL" />
-      <updated>1587003914972</updated>
+      <workItem from="1596530137734" duration="3455000" />
     </task>
     <task id="LOCAL-00074" summary="荷兰国旗问题">
       <created>1587025889093</created>
@@ -799,7 +783,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594792765605</updated>
     </task>
-    <option name="localTasksCounter" value="123" />
+    <task id="LOCAL-00123" summary="拓扑排序解决课程表问题">
+      <created>1596534027923</created>
+      <option name="number" value="00123" />
+      <option name="presentableId" value="LOCAL-00123" />
+      <option name="project" value="LOCAL" />
+      <updated>1596534027924</updated>
+    </task>
+    <option name="localTasksCounter" value="124" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -832,7 +823,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="顺时针打印矩阵" />
     <MESSAGE value="修改顺时针打印矩阵" />
     <MESSAGE value="并查集" />
     <MESSAGE value="单调栈解决每日温度" />
@@ -857,13 +847,10 @@
     <MESSAGE value="第30场双周赛完成打卡" />
     <MESSAGE value="最大连续1的个数" />
     <MESSAGE value="卡罗兰数解决不同的二叉搜索树" />
-    <option name="LAST_COMMIT_MESSAGE" value="卡罗兰数解决不同的二叉搜索树" />
+    <MESSAGE value="拓扑排序解决课程表问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="拓扑排序解决课程表问题" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="574" y="142" key="#com.intellij.ide.util.MemberChooser" timestamp="1587872384465">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state x="574" y="142" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1587872384465" />
     <state x="482" y="144" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog" timestamp="1589856625757">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -872,10 +859,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="522" y="269" key="#xdebugger.evaluate/0.0.1536.864@0.0.1536.864" timestamp="1588919510805" />
-    <state x="86" y="0" width="1384" height="825" key="CommitChangelistDialog2" timestamp="1594792764241">
+    <state x="86" y="0" width="1384" height="825" key="CommitChangelistDialog2" timestamp="1596534022656">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="86" y="0" width="1384" height="825" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1594792764241" />
+    <state x="86" y="0" width="1384" height="825" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1596534022656" />
     <state x="884" y="78" width="905" height="970" key="CommitChangelistDialog2/1920.6.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1590931896814" />
     <state width="431" height="373" key="DebuggerActiveHint" timestamp="1594015736707">
       <screen x="0" y="0" width="1536" height="864" />
@@ -998,10 +985,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="270" y="75" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1592551926079" />
-    <state x="361" y="166" key="Vcs.Push.Dialog.v2" timestamp="1594792767881">
+    <state x="361" y="166" key="Vcs.Push.Dialog.v2" timestamp="1596534029978">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="166" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1594792767881" />
+    <state x="361" y="166" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1596534029978" />
     <state x="553" y="263" key="Vcs.Push.Dialog.v2/1920.6.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1590931901760" />
     <state x="377" y="132" width="782" height="600" key="find.popup" timestamp="1591350802644">
       <screen x="0" y="0" width="1536" height="864" />
