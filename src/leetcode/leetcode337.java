@@ -13,51 +13,25 @@ import java.util.Queue;
  */
 public class leetcode337 {
     public int rob(TreeNode root) {
-        if (root == null) {
-            return 0;
-        }
-        Queue<TreeNode> queue = new LinkedList<>();
-        queue.offer(root);
-        List<Integer> list = new ArrayList<>();
-        while (!queue.isEmpty()) {
-            int size = queue.size();
-            int sum = 0;
-            for (int i = 0; i < size; i++) {
-                root = queue.poll();
-                sum += root.val;
-                if (root.left != null) {
-                    queue.offer(root.left);
-                }
-                if (root.right != null) {
-                    queue.offer(root.right);
-                }
-            }
-            list.add(sum);
-        }
-        int[] dp = new int[list.size() + 1];
-        if (list.size() == 1) {
-            return list.get(0);
-        }
-        dp[0] = 0;
-        dp[1] = list.get(0);
-        for (int i = 2; i < list.size(); i++) {
-            dp[i] = Math.max(dp[i-2]+list.get(i-1),dp[i -1]);
-        }
-        return dp[dp.length];
+        int[] res = dfs(root);
+        return Math.max(res[0],res[1]);
     }
 
-    public static void main(String[] args) {
-        List<Integer> list = new ArrayList<>();
-        list.add(4);
-        list.add(1);
-        list.add(2);
-        list.add(7);
-        int[] dp = new int[list.size() + 1];
-        dp[0] = 0;
-        dp[1] = list.get(0);
-        for (int i = 2; i <= list.size(); i++) {
-            dp[i] = Math.max(dp[i-2]+list.get(i-1),dp[i -1]);
+    private int[] dfs(TreeNode root) {
+        if (root == null) {
+            return new int[]{0, 0};
         }
-        System.out.println(dp[dp.length]);
+        int[] left = null;
+        int[] right = null;
+        if (root.left != null) {
+            left = dfs(root.left);
+        }
+        if (root.right != null) {
+            right = dfs(root.right);
+        }
+        int[] dp = new int[2];
+        dp[0] = Math.max(left[0], left[1]) + Math.max(right[0], right[1]);
+        dp[1] = root.val + left[0] + right[0];
+        return dp;
     }
 }
