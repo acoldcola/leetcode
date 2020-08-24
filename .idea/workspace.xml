@@ -4,9 +4,9 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25d36261-468b-4559-92f2-8b740aa9f875" name="Default" comment="动态规划解决连续子数组的最大和">
+    <list default="true" id="25d36261-468b-4559-92f2-8b740aa9f875" name="Default" comment="树状dp解决打家劫舍 III">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode677.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/leetcode337.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/leetcode337.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,8 +34,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Unnamed" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -456,14 +456,7 @@
       <workItem from="1597626951526" duration="1476000" />
       <workItem from="1597633532141" duration="699000" />
       <workItem from="1597998719610" duration="6724000" />
-      <workItem from="1598256436784" duration="2586000" />
-    </task>
-    <task id="LOCAL-00078" summary="返回链表的倒数第k数">
-      <created>1587348262408</created>
-      <option name="number" value="00078" />
-      <option name="presentableId" value="LOCAL-00078" />
-      <option name="project" value="LOCAL" />
-      <updated>1587348262411</updated>
+      <workItem from="1598256436784" duration="3576000" />
     </task>
     <task id="LOCAL-00079" summary="滑动窗口做统计「优美子数组」">
       <created>1587446351067</created>
@@ -801,7 +794,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598257993135</updated>
     </task>
-    <option name="localTasksCounter" value="128" />
+    <task id="LOCAL-00128" summary="树状dp解决打家劫舍 III">
+      <created>1598259658661</created>
+      <option name="number" value="00128" />
+      <option name="presentableId" value="LOCAL-00128" />
+      <option name="project" value="LOCAL" />
+      <updated>1598259658661</updated>
+    </task>
+    <option name="localTasksCounter" value="129" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -834,7 +834,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="set实现重新规划路线" />
     <MESSAGE value="反转每对括号间的子串" />
     <MESSAGE value="移除无效的括号" />
     <MESSAGE value="移除无效的括号(list改成hashset)" />
@@ -859,17 +858,18 @@
     <MESSAGE value="将数组分成和相等的三个部分" />
     <MESSAGE value="第 k 个缺失的正整数" />
     <MESSAGE value="动态规划解决连续子数组的最大和" />
-    <option name="LAST_COMMIT_MESSAGE" value="动态规划解决连续子数组的最大和" />
+    <MESSAGE value="树状dp解决打家劫舍 III" />
+    <option name="LAST_COMMIT_MESSAGE" value="树状dp解决打家劫舍 III" />
   </component>
   <component name="WindowStateProjectService">
     <state x="482" y="144" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog" timestamp="1589856625757">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="482" y="144" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/0.0.1536.864@0.0.1536.864" timestamp="1589856625757" />
-    <state x="86" y="0" width="1384" height="825" key="CommitChangelistDialog2" timestamp="1598257983274">
+    <state x="86" y="0" width="1384" height="825" key="CommitChangelistDialog2" timestamp="1598259657536">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="86" y="0" width="1384" height="825" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1598257983274" />
+    <state x="86" y="0" width="1384" height="825" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1598259657536" />
     <state x="884" y="78" width="905" height="970" key="CommitChangelistDialog2/1920.6.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1590931896814" />
     <state width="431" height="373" key="DebuggerActiveHint" timestamp="1594015736707">
       <screen x="0" y="0" width="1536" height="864" />
@@ -992,10 +992,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="270" y="75" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1592551926079" />
-    <state x="361" y="166" key="Vcs.Push.Dialog.v2" timestamp="1598258039215">
+    <state x="361" y="166" key="Vcs.Push.Dialog.v2" timestamp="1598259668847">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="166" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1598258039215" />
+    <state x="361" y="166" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1598259668847" />
     <state x="553" y="263" key="Vcs.Push.Dialog.v2/1920.6.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1590931901760" />
     <state x="377" y="132" width="782" height="600" key="find.popup" timestamp="1591350802644">
       <screen x="0" y="0" width="1536" height="864" />
