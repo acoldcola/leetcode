@@ -4,9 +4,8 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25d36261-468b-4559-92f2-8b740aa9f875" name="Default" comment="回溯解决电话号码的字母组合">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/interview16_04.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode463.java" afterDir="false" />
+    <list default="true" id="25d36261-468b-4559-92f2-8b740aa9f875" name="Default" comment="岛屿的周长">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode1186.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -459,14 +458,7 @@
       <workItem from="1597998719610" duration="6724000" />
       <workItem from="1598256436784" duration="4728000" />
       <workItem from="1598318387616" duration="19862000" />
-      <workItem from="1598405448334" duration="13940000" />
-    </task>
-    <task id="LOCAL-00087" summary="递增顺序查找树">
-      <created>1589175604367</created>
-      <option name="number" value="00087" />
-      <option name="presentableId" value="LOCAL-00087" />
-      <option name="project" value="LOCAL" />
-      <updated>1589175604367</updated>
+      <workItem from="1598405448334" duration="15788000" />
     </task>
     <task id="LOCAL-00088" summary="最短完整词">
       <created>1589696473337</created>
@@ -804,7 +796,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598407303806</updated>
     </task>
-    <option name="localTasksCounter" value="136" />
+    <task id="LOCAL-00136" summary="岛屿的周长">
+      <created>1598432635852</created>
+      <option name="number" value="00136" />
+      <option name="presentableId" value="LOCAL-00136" />
+      <option name="project" value="LOCAL" />
+      <updated>1598432635852</updated>
+    </task>
+    <option name="localTasksCounter" value="137" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -837,7 +836,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="矩阵置零" />
     <MESSAGE value="验证回文串" />
     <MESSAGE value="二分查找加枚举解决转变数组后最接近目标数字" />
     <MESSAGE value="最近的请求次数" />
@@ -862,17 +860,18 @@
     <MESSAGE value="回溯解决全排列" />
     <MESSAGE value="斐波那契数列" />
     <MESSAGE value="回溯解决电话号码的字母组合" />
-    <option name="LAST_COMMIT_MESSAGE" value="回溯解决电话号码的字母组合" />
+    <MESSAGE value="岛屿的周长" />
+    <option name="LAST_COMMIT_MESSAGE" value="岛屿的周长" />
   </component>
   <component name="WindowStateProjectService">
     <state x="482" y="144" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog" timestamp="1589856625757">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="482" y="144" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/0.0.1536.864@0.0.1536.864" timestamp="1589856625757" />
-    <state x="86" y="0" width="1384" height="825" key="CommitChangelistDialog2" timestamp="1598407298759">
+    <state x="86" y="0" width="1384" height="825" key="CommitChangelistDialog2" timestamp="1598432634664">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="86" y="0" width="1384" height="825" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1598407298759" />
+    <state x="86" y="0" width="1384" height="825" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1598432634664" />
     <state x="884" y="78" width="905" height="970" key="CommitChangelistDialog2/1920.6.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1590931896814" />
     <state width="431" height="373" key="DebuggerActiveHint" timestamp="1598349063183">
       <screen x="0" y="0" width="1536" height="864" />
@@ -995,10 +994,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="270" y="75" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1592551926079" />
-    <state x="361" y="166" key="Vcs.Push.Dialog.v2" timestamp="1598407307869">
+    <state x="361" y="166" key="Vcs.Push.Dialog.v2" timestamp="1598432637709">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="166" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1598407307869" />
+    <state x="361" y="166" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1598432637709" />
     <state x="553" y="263" key="Vcs.Push.Dialog.v2/1920.6.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1590931901760" />
     <state x="377" y="132" width="782" height="600" key="find.popup" timestamp="1591350802644">
       <screen x="0" y="0" width="1536" height="864" />
@@ -2482,6 +2481,11 @@
           <url>file://$PROJECT_DIR$/src/leetcode/leetcode463.java</url>
           <line>20</line>
           <option name="timeStamp" value="534" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/leetcode463.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="543" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Main.java</url>
