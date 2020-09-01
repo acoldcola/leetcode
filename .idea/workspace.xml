@@ -4,10 +4,8 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25d36261-468b-4559-92f2-8b740aa9f875" name="Default" comment="动态规划解决删除一次得到子数组最大和">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode332.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode486.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode926.java" afterDir="false" />
+    <list default="true" id="25d36261-468b-4559-92f2-8b740aa9f875" name="Default" comment="预测赢家">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/interview04_01.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -466,14 +464,7 @@
       <workItem from="1598577254373" duration="601000" />
       <workItem from="1598578969026" duration="1230000" />
       <workItem from="1598836035154" duration="31000" />
-      <workItem from="1598953311483" duration="656000" />
-    </task>
-    <task id="LOCAL-00088" summary="最短完整词">
-      <created>1589696473337</created>
-      <option name="number" value="00088" />
-      <option name="presentableId" value="LOCAL-00088" />
-      <option name="project" value="LOCAL" />
-      <updated>1589696473338</updated>
+      <workItem from="1598953311483" duration="2614000" />
     </task>
     <task id="LOCAL-00090" summary="数字的补书">
       <created>1589796984339</created>
@@ -811,7 +802,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598434907339</updated>
     </task>
-    <option name="localTasksCounter" value="138" />
+    <task id="LOCAL-00138" summary="预测赢家">
+      <created>1598954149043</created>
+      <option name="number" value="00138" />
+      <option name="presentableId" value="LOCAL-00138" />
+      <option name="project" value="LOCAL" />
+      <updated>1598954149044</updated>
+    </task>
+    <option name="localTasksCounter" value="139" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -844,7 +842,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="二分查找加枚举解决转变数组后最接近目标数字" />
     <MESSAGE value="最近的请求次数" />
     <MESSAGE value="动态规划解决最长定差子序列" />
     <MESSAGE value="双指针解决汇总区间" />
@@ -869,13 +866,14 @@
     <MESSAGE value="回溯解决电话号码的字母组合" />
     <MESSAGE value="岛屿的周长" />
     <MESSAGE value="动态规划解决删除一次得到子数组最大和" />
-    <option name="LAST_COMMIT_MESSAGE" value="动态规划解决删除一次得到子数组最大和" />
+    <MESSAGE value="预测赢家" />
+    <option name="LAST_COMMIT_MESSAGE" value="预测赢家" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="86" y="0" width="1384" height="825" key="CommitChangelistDialog2" timestamp="1598434906263">
+    <state x="86" y="0" width="1384" height="825" key="CommitChangelistDialog2" timestamp="1598954143731">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="86" y="0" width="1384" height="825" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1598434906263" />
+    <state x="86" y="0" width="1384" height="825" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1598954143731" />
     <state x="884" y="78" width="905" height="970" key="CommitChangelistDialog2/1920.6.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1590931896814" />
     <state width="431" height="373" key="DebuggerActiveHint" timestamp="1598349063183">
       <screen x="0" y="0" width="1536" height="864" />
@@ -998,10 +996,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="270" y="75" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1592551926079" />
-    <state x="361" y="166" key="Vcs.Push.Dialog.v2" timestamp="1598434908569">
+    <state x="361" y="166" key="Vcs.Push.Dialog.v2" timestamp="1598954151398">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="166" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1598434908569" />
+    <state x="361" y="166" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1598954151398" />
     <state x="553" y="263" key="Vcs.Push.Dialog.v2/1920.6.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1590931901760" />
     <state x="377" y="132" width="782" height="600" key="find.popup" timestamp="1591350802644">
       <screen x="0" y="0" width="1536" height="864" />
