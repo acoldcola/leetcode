@@ -4,10 +4,10 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25d36261-468b-4559-92f2-8b740aa9f875" name="Default" comment="dfs解决水域大小">
+    <list default="true" id="25d36261-468b-4559-92f2-8b740aa9f875" name="Default" comment="回溯结局n皇后">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode845.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/leetcode/leetcode19.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/leetcode19.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/leetcode51.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/leetcode51.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -465,14 +465,7 @@
       <workItem from="1598953311483" duration="2867000" />
       <workItem from="1599008559509" duration="710000" />
       <workItem from="1599033277720" duration="8956000" />
-      <workItem from="1599097510572" duration="6455000" />
-    </task>
-    <task id="LOCAL-00094" summary="bfs">
-      <created>1590400191983</created>
-      <option name="number" value="00094" />
-      <option name="presentableId" value="LOCAL-00094" />
-      <option name="project" value="LOCAL" />
-      <updated>1590400191983</updated>
+      <workItem from="1599097510572" duration="11055000" />
     </task>
     <task id="LOCAL-00095" summary="dfs解决钥匙和房间">
       <created>1590744582702</created>
@@ -810,7 +803,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599040798436</updated>
     </task>
-    <option name="localTasksCounter" value="143" />
+    <task id="LOCAL-00143" summary="回溯结局n皇后">
+      <created>1599104144001</created>
+      <option name="number" value="00143" />
+      <option name="presentableId" value="LOCAL-00143" />
+      <option name="project" value="LOCAL" />
+      <updated>1599104144002</updated>
+    </task>
+    <option name="localTasksCounter" value="144" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -843,7 +843,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="最大数值" />
     <MESSAGE value="动态规划统计全 1 子矩形" />
     <MESSAGE value="第30场双周赛完成打卡" />
     <MESSAGE value="最大连续1的个数" />
@@ -868,7 +867,8 @@
     <MESSAGE value="通过treemap根据value排序完成字符出现频率排序" />
     <MESSAGE value="dfs解决二叉树中第二小的节点" />
     <MESSAGE value="dfs解决水域大小" />
-    <option name="LAST_COMMIT_MESSAGE" value="dfs解决水域大小" />
+    <MESSAGE value="回溯结局n皇后" />
+    <option name="LAST_COMMIT_MESSAGE" value="回溯结局n皇后" />
   </component>
   <component name="WindowStateProjectService">
     <state x="574" y="142" key="#com.intellij.ide.util.MemberChooser" timestamp="1599034225426">
@@ -1001,10 +1001,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="270" y="75" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1592551926079" />
-    <state x="361" y="166" key="Vcs.Push.Dialog.v2" timestamp="1599040800570">
+    <state x="361" y="166" key="Vcs.Push.Dialog.v2" timestamp="1599104148184">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="166" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1599040800570" />
+    <state x="361" y="166" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1599104148184" />
     <state x="553" y="263" key="Vcs.Push.Dialog.v2/1920.6.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1590931901760" />
     <state x="377" y="132" width="782" height="600" key="find.popup" timestamp="1591350802644">
       <screen x="0" y="0" width="1536" height="864" />

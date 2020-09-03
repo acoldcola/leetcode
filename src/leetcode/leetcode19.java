@@ -21,14 +21,17 @@ public class leetcode19 {
             return head;
         }
         ListNode oldNode = null;
-        for (int i = 1; i <= stack.size(); i++) {
+        int size = stack.size();
+        for (int i = 1; i <= size; i++) {
             if (i == n){
                 stack.pop();
-                while (stack.isEmpty()){
-                    head.next = oldNode;
+                if (stack.isEmpty()){
+                    head = oldNode;
+                    break;
                 }
                 ListNode node = stack.peek();
                 node.next = oldNode;
+                break;
             }
             oldNode = stack.pop();
         }
