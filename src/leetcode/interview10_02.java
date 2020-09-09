@@ -10,6 +10,6 @@ import java.util.List;
  */
 public class interview10_02 {
     public List<List<String>> groupAnagrams(String[] strs) {
-
+        return null;
     }
 }
