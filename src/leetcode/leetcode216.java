@@ -2,7 +2,6 @@ package leetcode;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.logging.XMLFormatter;
 
 /**
  * @Author ZhangKe
@@ -15,30 +14,26 @@ public class leetcode216 {
         leetcode216 leetcode216 = new leetcode216();
         leetcode216.combinationSum3(3,9);
     }
-    List<List<Integer>> lists = new ArrayList<List<Integer>>();
+    List<List<Integer>> lists = new ArrayList<>();
     public List<List<Integer>> combinationSum3(int k, int n) {
-        List<Integer> list = new ArrayList<Integer>();
-        for (int i = 1; i <= 9; i++){
-            dfs(k,n,list,i);
-        }
+        dfs(1,new ArrayList<>(),k,n);
         return lists;
     }
 
-    private void dfs(int k, int n, List<Integer> list, int i) {
-        if (list.size() == k && n != 0){
+    public void dfs(int cur, List<Integer> list, int k, int n){
+        if(list.size() == k){
+            if (n == 0){
+                lists.add(new ArrayList<>(list));
+            }
             return;
         }
-        if (list.size() == k && n == 0){
-            lists.add(new ArrayList<Integer>(list));
-            return;
+        for (int i = cur; i <= 9; i++){
+            if (n - i < 0){
+                break;
+            }
+            list.add(i);
+            dfs(i + 1,list,k,n - i);
+            list.remove(list.size() - 1);
         }
-        n -= i;
-        list.add(i);
-        int x = i + 1;
-        for (; x <= 9; x++){
-            dfs(k,n,list,x);
-        }
-        n += i;
-        list.remove(list.size() - 1);
     }
 }
