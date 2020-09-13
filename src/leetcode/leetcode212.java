@@ -14,7 +14,7 @@ import java.util.Set;
 public class leetcode212 {
     public static void main(String[] args) {
         leetcode212 l = new leetcode212();
-        l.findWords(new char[][]{{"a","b"},{"a","a"}},new String[]{"aba","baa","bab","aaab","aaa","aaaa","aaba"});
+        l.findWords(new char[][]{{'a','b'},{'a','a'}},new String[]{"aba","baa","bab","aaab","aaa","aaaa","aaba"});
     }
     class TreeNode{
     boolean isEnd;
@@ -22,10 +22,10 @@ public class leetcode212 {
 }
     public int[][] c = new int[][]{{1,0},{0,1},{-1,0},{0,-1}};
     public TreeNode root = new TreeNode();
-    public Set<String> set = new HashSet<>();
+    public List<String> list = new ArrayList<>();
     public List<String> findWords(char[][] board, String[] words) {
         if (board.length == 0){
-            return new ArrayList<>();
+            return list;
         }
         for (String str : words) {
             insert(str);
@@ -37,13 +37,14 @@ public class leetcode212 {
                 dfs(i,j,board,used,sb,root);
             }
         }
-        List<String> list = new ArrayList<>(set);
         return list;
     }
 
     private void dfs(int i, int j,char[][] board, boolean[][] used, StringBuilder sb, TreeNode root) {
         if (root.isEnd){
-            set.add(sb.toString());
+            list.add(sb.toString());
+            // 这一步很关键防止重复单词出现
+            root.isEnd = false;
         }
         if (i < 0 || i > board.length - 1 || j < 0 || j > board[0].length - 1){
             return;
