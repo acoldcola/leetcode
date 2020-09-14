@@ -1,6 +1,5 @@
 package leetcode;
 
-import org.omg.CORBA.INTERNAL;
 
 /**
  * @Author ZhangKe
@@ -28,7 +27,7 @@ public class leetcode79 {
     }
 
     private boolean dfs(int i, int j, char[][] board, boolean[][] used, String word, StringBuilder sb,int path) {
-        if (path == word.length()){
+         if (path == word.length()){
             return true;
         }
         if (i < 0 || i > board.length - 1 || j < 0 || j > board[0].length - 1){
