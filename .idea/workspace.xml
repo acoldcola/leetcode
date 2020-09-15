@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="25d36261-468b-4559-92f2-8b740aa9f875" name="Default" comment="回溯解决单词搜索">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode5511.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode5512.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/leetcode79.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/leetcode79.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -482,6 +479,7 @@
       <workItem from="1599809556174" duration="7019000" />
       <workItem from="1599874242652" duration="9461000" />
       <workItem from="1599953742592" duration="13924000" />
+      <workItem from="1600132804302" duration="1197000" />
     </task>
     <task id="LOCAL-00109" summary="迭代从先序遍历还原二叉树">
       <created>1592473641450</created>
@@ -895,10 +893,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="549" y="311" width="439" height="239" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.864@0.0.1536.864" timestamp="1599812202891" />
-    <state x="135" y="0" width="1384" height="825" key="CommitChangelistDialog2" timestamp="1600073794485">
+    <state x="135" y="0" width="1384" height="825" key="CommitChangelistDialog2" timestamp="1600152221570">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="135" y="0" width="1384" height="825" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1600073794485" />
+    <state x="135" y="0" width="1384" height="825" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1600152221570" />
     <state width="431" height="373" key="DebuggerActiveHint" timestamp="1599465341479">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -1020,10 +1018,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="270" y="75" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1592551926079" />
-    <state x="361" y="166" key="Vcs.Push.Dialog.v2" timestamp="1599958742964">
+    <state x="361" y="166" key="Vcs.Push.Dialog.v2" timestamp="1600073832790">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="166" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1599958742964" />
+    <state x="361" y="166" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1600073832790" />
     <state x="377" y="132" width="782" height="600" key="find.popup" timestamp="1599878447118">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
