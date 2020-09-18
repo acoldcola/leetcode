@@ -12,24 +12,28 @@ import java.util.Set;
  * 全排列||
  */
 public class leetcode47 {
-    private Set<List<Integer>> set = new HashSet<>();
+    public static void main(String[] args) {
+        leetcode47 l = new leetcode47();
+        l.permuteUnique(new int[]{1,1,2});
+    }
+    private List<List<Integer>> lists = new ArrayList<>();
     public List<List<Integer>> permuteUnique(int[] nums) {
         boolean[] used = new boolean[nums.length];
         List<Integer> list = new ArrayList<>();
-        dfs(nums,used,list);
-        List<List<Integer>> list1 = new ArrayList<>(set);
-        return list1;
+        dfs(nums,used,list,0);
+        return lists;
     }
 
-    private void dfs(int[] nums, boolean[] used, List<Integer> list) {
+    private void dfs(int[] nums, boolean[] used, List<Integer> list,int cur) {
         if (list.size() == nums.length) {
-            set.add(new ArrayList<>(list));
+            lists.add(new ArrayList<>(list));
+            return;
         }
-        for (int i = 0; i < nums.length; i++) {
+        for (int i = cur; i < nums.length; i++) {
             if (used[i] == false) {
                 used[i] = true;
                 list.add(nums[i]);
-                dfs(nums,used,list);
+                dfs(nums,used,list,i + 1);
                 list.remove(list.size() - 1);
                 used[i] = false;
             }
