@@ -1,32 +1,28 @@
 package 笔试;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Scanner;
-
 public class test {
-    public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
-        String str = in.nextLine();
-        char[] a = str.toCharArray();
-        char x = 'a';
-        char y = (char) (x - 31);
-        char[] b = new char[a.length];
-        int i = a.length - 1;
-        int j = 0;
-        while (i >= 0) {
-            b[j++] = a[i--];
+    int sum = 0;
+    public int paintingPlan(int n, int k) {
+        if (k > n*n || k < n || k % n != 0){
+            return 0;
         }
-        System.out.println(b);
-        ArrayList list = new ArrayList<>();
-        list.add(1);
-        System.out.println(add());
+        int a = k / n;
+        if (a == n) {
+            return 1;
+        }
+        dfs(a,n,0,0);
+        return sum * 2;
     }
 
-    public static ArrayList add() {
-        ArrayList list = new ArrayList<>();
-        list.add(new Object());
-        list.add(new Integer(2));
-        return list;
+    private void dfs(int a, int n,int res,int cur) {
+        if (a == res){
+            sum++;
+            return;
+        }
+        for (int i = cur; i < n; i++){
+            res ++;
+            dfs(a,n,res,i + 1);
+            res --;
+        }
     }
 }

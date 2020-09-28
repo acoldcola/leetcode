@@ -1,6 +1,8 @@
 package leetcode;
 
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Comparator;
 import java.util.List;
 
 /**
@@ -18,14 +20,8 @@ public class leetcode56 {
         if (intervals == null || intervals.length == 0) {
             return new int[0][];
         }
+        Arrays.sort(intervals, Comparator.comparingInt(o -> o[0]));
         List<int[]> list = new ArrayList<>();
-        for (int i = 0; i < intervals.length; i++) {
-            for (int j = 0; j < intervals.length - i - 1;j++) {
-                if (intervals[j][0] > intervals[j+1][0]) {
-                    swap(intervals,j,j+1);
-                }
-            }
-        }
         for (int i = 0; i < intervals.length;i++) {
             int left = intervals[i][0];
             int right = intervals[i][1];
