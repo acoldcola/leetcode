@@ -4,14 +4,11 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25d36261-468b-4559-92f2-8b740aa9f875" name="Default" comment="将矩阵按对角线排序">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode117.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode329.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode404.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode986.java" afterDir="false" />
+    <list default="true" id="25d36261-468b-4559-92f2-8b740aa9f875" name="Default" comment="bfs解决填充每个节点的下一个右侧节点指针 II">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode1546.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode572.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/leetcode56.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/leetcode56.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/笔试/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/笔试/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/leetcode2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/leetcode2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -496,14 +493,9 @@
       <workItem from="1600567334624" duration="2241000" />
       <workItem from="1600937246684" duration="6180000" />
       <workItem from="1601169239492" duration="3067000" />
-      <workItem from="1601255185359" duration="923000" />
-    </task>
-    <task id="LOCAL-00112" summary="验证回文串">
-      <created>1592531021878</created>
-      <option name="number" value="00112" />
-      <option name="presentableId" value="LOCAL-00112" />
-      <option name="project" value="LOCAL" />
-      <updated>1592531021888</updated>
+      <workItem from="1601255185359" duration="5865000" />
+      <workItem from="1601372793908" duration="1524000" />
+      <workItem from="1601802551407" duration="1257000" />
     </task>
     <task id="LOCAL-00113" summary="二分查找加枚举解决转变数组后最接近目标数字">
       <created>1592549127663</created>
@@ -841,7 +833,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600422412952</updated>
     </task>
-    <option name="localTasksCounter" value="161" />
+    <task id="LOCAL-00161" summary="bfs解决填充每个节点的下一个右侧节点指针 II">
+      <created>1601273433951</created>
+      <option name="number" value="00161" />
+      <option name="presentableId" value="LOCAL-00161" />
+      <option name="project" value="LOCAL" />
+      <updated>1601273433952</updated>
+    </task>
+    <option name="localTasksCounter" value="162" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -874,7 +873,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="岛屿的周长" />
     <MESSAGE value="动态规划解决删除一次得到子数组最大和" />
     <MESSAGE value="预测赢家" />
     <MESSAGE value="递归解决节点间通道" />
@@ -899,7 +897,8 @@
     <MESSAGE value="回溯解决数独" />
     <MESSAGE value="动态规划解决数组拆分" />
     <MESSAGE value="将矩阵按对角线排序" />
-    <option name="LAST_COMMIT_MESSAGE" value="将矩阵按对角线排序" />
+    <MESSAGE value="bfs解决填充每个节点的下一个右侧节点指针 II" />
+    <option name="LAST_COMMIT_MESSAGE" value="bfs解决填充每个节点的下一个右侧节点指针 II" />
   </component>
   <component name="WindowStateProjectService">
     <state x="574" y="142" key="#com.intellij.ide.util.MemberChooser" timestamp="1599034225426">
@@ -987,10 +986,10 @@
     </state>
     <state width="1493" height="2" key="GridCell.Tab.2.right/0.0.1536.864@0.0.1536.864" timestamp="1600943433947" />
     <state width="1877" height="223" key="GridCell.Tab.2.right/1920.6.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1599363947902" />
-    <state x="361" y="166" key="Vcs.Push.Dialog.v2" timestamp="1600422414784">
+    <state x="361" y="166" key="Vcs.Push.Dialog.v2" timestamp="1601273435670">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="166" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1600422414784" />
+    <state x="361" y="166" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1601273435670" />
     <state x="377" y="132" width="782" height="600" key="find.popup" timestamp="1599878447118">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
