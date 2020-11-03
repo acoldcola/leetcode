@@ -4,9 +4,9 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25d36261-468b-4559-92f2-8b740aa9f875" name="Default" comment="两数相加">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode18.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode344.java" afterDir="false" />
+    <list default="true" id="25d36261-468b-4559-92f2-8b740aa9f875" name="Default" comment="反转字符串">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode129.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode142.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +58,7 @@
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573464832906" />
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../shopping" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -71,10 +71,23 @@
       <select />
     </treeState>
   </component>
-  <component name="RunManager" selected="Application.leetcode18">
+  <component name="RunManager" selected="Application.leetcode129">
     <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="LeetCode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode129" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.leetcode129" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -118,19 +131,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="leetcode5511" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.leetcode5511" />
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="offer14_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.offer14_1" />
       <module name="LeetCode" />
@@ -146,19 +146,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.leetcode5511" />
       <item itemvalue="Application.offer14_1" />
       <item itemvalue="Application.leetcode47" />
       <item itemvalue="Application.leetcode329" />
       <item itemvalue="Application.leetcode18" />
+      <item itemvalue="Application.leetcode129" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.leetcode129" />
         <item itemvalue="Application.leetcode18" />
         <item itemvalue="Application.leetcode329" />
         <item itemvalue="Application.leetcode47" />
         <item itemvalue="Application.offer14_1" />
-        <item itemvalue="Application.leetcode5511" />
       </list>
     </recent_temporary>
   </component>
@@ -496,14 +496,12 @@
       <workItem from="1601372793908" duration="1524000" />
       <workItem from="1601802551407" duration="4595000" />
       <workItem from="1601955150010" duration="825000" />
-      <workItem from="1602159731678" duration="506000" />
-    </task>
-    <task id="LOCAL-00114" summary="最近的请求次数">
-      <created>1592550028058</created>
-      <option name="number" value="00114" />
-      <option name="presentableId" value="LOCAL-00114" />
-      <option name="project" value="LOCAL" />
-      <updated>1592550028058</updated>
+      <workItem from="1602159731678" duration="2217000" />
+      <workItem from="1602297776781" duration="1034000" />
+      <workItem from="1603960929071" duration="222000" />
+      <workItem from="1603961258011" duration="747000" />
+      <workItem from="1604284828397" duration="2337000" />
+      <workItem from="1604365866786" duration="1859000" />
     </task>
     <task id="LOCAL-00115" summary="动态规划解决最长定差子序列">
       <created>1593339582908</created>
@@ -841,7 +839,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601804020030</updated>
     </task>
-    <option name="localTasksCounter" value="163" />
+    <task id="LOCAL-00163" summary="反转字符串">
+      <created>1602160449168</created>
+      <option name="number" value="00163" />
+      <option name="presentableId" value="LOCAL-00163" />
+      <option name="project" value="LOCAL" />
+      <updated>1602160449169</updated>
+    </task>
+    <option name="localTasksCounter" value="164" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -874,7 +879,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="预测赢家" />
     <MESSAGE value="递归解决节点间通道" />
     <MESSAGE value="通过treemap根据value排序完成字符出现频率排序" />
     <MESSAGE value="dfs解决二叉树中第二小的节点" />
@@ -899,7 +903,8 @@
     <MESSAGE value="将矩阵按对角线排序" />
     <MESSAGE value="bfs解决填充每个节点的下一个右侧节点指针 II" />
     <MESSAGE value="两数相加" />
-    <option name="LAST_COMMIT_MESSAGE" value="两数相加" />
+    <MESSAGE value="反转字符串" />
+    <option name="LAST_COMMIT_MESSAGE" value="反转字符串" />
   </component>
   <component name="WindowStateProjectService">
     <state x="574" y="142" key="#com.intellij.ide.util.MemberChooser" timestamp="1599034225426">
@@ -914,10 +919,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="608" y="329" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1536.864@0.0.1536.864" timestamp="1600154990608" />
-    <state x="135" y="0" width="1384" height="825" key="CommitChangelistDialog2" timestamp="1602160444091">
+    <state x="135" y="0" width="1384" height="825" key="CommitChangelistDialog2" timestamp="1604368389001">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="135" y="0" width="1384" height="825" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1602160444091" />
+    <state x="135" y="0" width="1384" height="825" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1604368389001" />
     <state width="431" height="373" key="DebuggerActiveHint" timestamp="1601831276840">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -987,18 +992,14 @@
     </state>
     <state width="1493" height="2" key="GridCell.Tab.2.right/0.0.1536.864@0.0.1536.864" timestamp="1601831265257" />
     <state width="1877" height="223" key="GridCell.Tab.2.right/1920.6.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1599363947902" />
-    <state x="361" y="166" key="Vcs.Push.Dialog.v2" timestamp="1601804278682">
+    <state x="361" y="166" key="Vcs.Push.Dialog.v2" timestamp="1602161349045">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="166" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1601804278682" />
+    <state x="361" y="166" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1602161349045" />
     <state x="377" y="132" width="782" height="600" key="find.popup" timestamp="1599878447118">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="377" y="132" width="782" height="600" key="find.popup/0.0.1536.864@0.0.1536.864" timestamp="1599878447118" />
-    <state x="226" y="0" key="new project wizard" timestamp="1594783365234">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state x="226" y="0" key="new project wizard/0.0.1536.864@0.0.1536.864" timestamp="1594783365234" />
     <state x="470" y="60" key="refactoring.ChangeSignatureDialog" timestamp="1599724803761">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
