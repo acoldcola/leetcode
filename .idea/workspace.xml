@@ -4,9 +4,9 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25d36261-468b-4559-92f2-8b740aa9f875" name="Default" comment="反转字符串">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode129.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode142.java" afterDir="false" />
+    <list default="true" id="25d36261-468b-4559-92f2-8b740aa9f875" name="Default" comment="求根到叶子节点数字之和">
+      <change afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode941.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -501,14 +501,7 @@
       <workItem from="1603960929071" duration="222000" />
       <workItem from="1603961258011" duration="747000" />
       <workItem from="1604284828397" duration="2337000" />
-      <workItem from="1604365866786" duration="1859000" />
-    </task>
-    <task id="LOCAL-00115" summary="动态规划解决最长定差子序列">
-      <created>1593339582908</created>
-      <option name="number" value="00115" />
-      <option name="presentableId" value="LOCAL-00115" />
-      <option name="project" value="LOCAL" />
-      <updated>1593339582909</updated>
+      <workItem from="1604365866786" duration="4370000" />
     </task>
     <task id="LOCAL-00116" summary="双指针解决汇总区间">
       <created>1593512376415</created>
@@ -846,7 +839,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602160449169</updated>
     </task>
-    <option name="localTasksCounter" value="164" />
+    <task id="LOCAL-00164" summary="求根到叶子节点数字之和">
+      <created>1604368400480</created>
+      <option name="number" value="00164" />
+      <option name="presentableId" value="LOCAL-00164" />
+      <option name="project" value="LOCAL" />
+      <updated>1604368400482</updated>
+    </task>
+    <option name="localTasksCounter" value="165" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -879,7 +879,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="递归解决节点间通道" />
     <MESSAGE value="通过treemap根据value排序完成字符出现频率排序" />
     <MESSAGE value="dfs解决二叉树中第二小的节点" />
     <MESSAGE value="dfs解决水域大小" />
@@ -904,7 +903,8 @@
     <MESSAGE value="bfs解决填充每个节点的下一个右侧节点指针 II" />
     <MESSAGE value="两数相加" />
     <MESSAGE value="反转字符串" />
-    <option name="LAST_COMMIT_MESSAGE" value="反转字符串" />
+    <MESSAGE value="求根到叶子节点数字之和" />
+    <option name="LAST_COMMIT_MESSAGE" value="求根到叶子节点数字之和" />
   </component>
   <component name="WindowStateProjectService">
     <state x="574" y="142" key="#com.intellij.ide.util.MemberChooser" timestamp="1599034225426">
@@ -992,10 +992,10 @@
     </state>
     <state width="1493" height="2" key="GridCell.Tab.2.right/0.0.1536.864@0.0.1536.864" timestamp="1601831265257" />
     <state width="1877" height="223" key="GridCell.Tab.2.right/1920.6.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1599363947902" />
-    <state x="361" y="166" key="Vcs.Push.Dialog.v2" timestamp="1602161349045">
+    <state x="361" y="166" key="Vcs.Push.Dialog.v2" timestamp="1604368421480">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="166" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1602161349045" />
+    <state x="361" y="166" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1604368421480" />
     <state x="377" y="132" width="782" height="600" key="find.popup" timestamp="1599878447118">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -1005,10 +1005,10 @@
     </state>
     <state x="470" y="60" key="refactoring.ChangeSignatureDialog/0.0.1536.864@0.0.1536.864" timestamp="1599724803761" />
     <state x="588" y="75" key="refactoring.ChangeSignatureDialog/1920.6.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1599360842166" />
-    <state x="431" y="152" width="672" height="711" key="search.everywhere.popup" timestamp="1600937486371">
+    <state x="431" y="152" width="672" height="711" key="search.everywhere.popup" timestamp="1604369759144">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="431" y="152" width="672" height="711" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1600937486371" />
+    <state x="431" y="152" width="672" height="711" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1604369759144" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
