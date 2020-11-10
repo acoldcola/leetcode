@@ -4,9 +4,10 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25d36261-468b-4559-92f2-8b740aa9f875" name="Default" comment="求根到叶子节点数字之和">
-      <change afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode941.java" afterDir="false" />
+    <list default="true" id="25d36261-468b-4559-92f2-8b740aa9f875" name="Default" comment="有效的山脉数组">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode59.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode973.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -501,14 +502,10 @@
       <workItem from="1603960929071" duration="222000" />
       <workItem from="1603961258011" duration="747000" />
       <workItem from="1604284828397" duration="2337000" />
-      <workItem from="1604365866786" duration="4370000" />
-    </task>
-    <task id="LOCAL-00116" summary="双指针解决汇总区间">
-      <created>1593512376415</created>
-      <option name="number" value="00116" />
-      <option name="presentableId" value="LOCAL-00116" />
-      <option name="project" value="LOCAL" />
-      <updated>1593512376416</updated>
+      <workItem from="1604365866786" duration="5736000" />
+      <workItem from="1604452097938" duration="913000" />
+      <workItem from="1604470089156" duration="1136000" />
+      <workItem from="1604906235106" duration="1831000" />
     </task>
     <task id="LOCAL-00117" summary="动态规划解决最长重复子数组">
       <created>1593608294169</created>
@@ -846,7 +843,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604368400482</updated>
     </task>
-    <option name="localTasksCounter" value="165" />
+    <task id="LOCAL-00165" summary="有效的山脉数组">
+      <created>1604371231571</created>
+      <option name="number" value="00165" />
+      <option name="presentableId" value="LOCAL-00165" />
+      <option name="project" value="LOCAL" />
+      <updated>1604371231571</updated>
+    </task>
+    <option name="localTasksCounter" value="166" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -879,7 +883,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="通过treemap根据value排序完成字符出现频率排序" />
     <MESSAGE value="dfs解决二叉树中第二小的节点" />
     <MESSAGE value="dfs解决水域大小" />
     <MESSAGE value="回溯结局n皇后" />
@@ -904,13 +907,14 @@
     <MESSAGE value="两数相加" />
     <MESSAGE value="反转字符串" />
     <MESSAGE value="求根到叶子节点数字之和" />
-    <option name="LAST_COMMIT_MESSAGE" value="求根到叶子节点数字之和" />
+    <MESSAGE value="有效的山脉数组" />
+    <option name="LAST_COMMIT_MESSAGE" value="有效的山脉数组" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="574" y="142" key="#com.intellij.ide.util.MemberChooser" timestamp="1599034225426">
+    <state x="574" y="142" key="#com.intellij.ide.util.MemberChooser" timestamp="1604907069762">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="574" y="142" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1599034225426" />
+    <state x="574" y="142" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1604907069762" />
     <state x="549" y="311" width="439" height="239" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1599812202891">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -919,10 +923,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="608" y="329" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1536.864@0.0.1536.864" timestamp="1600154990608" />
-    <state x="135" y="0" width="1384" height="825" key="CommitChangelistDialog2" timestamp="1604368389001">
+    <state x="135" y="0" width="1384" height="825" key="CommitChangelistDialog2" timestamp="1604371230497">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="135" y="0" width="1384" height="825" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1604368389001" />
+    <state x="135" y="0" width="1384" height="825" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1604371230497" />
     <state width="431" height="373" key="DebuggerActiveHint" timestamp="1601831276840">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -992,10 +996,10 @@
     </state>
     <state width="1493" height="2" key="GridCell.Tab.2.right/0.0.1536.864@0.0.1536.864" timestamp="1601831265257" />
     <state width="1877" height="223" key="GridCell.Tab.2.right/1920.6.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1599363947902" />
-    <state x="361" y="166" key="Vcs.Push.Dialog.v2" timestamp="1604368421480">
+    <state x="361" y="166" key="Vcs.Push.Dialog.v2" timestamp="1604371232960">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="166" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1604368421480" />
+    <state x="361" y="166" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1604371232960" />
     <state x="377" y="132" width="782" height="600" key="find.popup" timestamp="1599878447118">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
