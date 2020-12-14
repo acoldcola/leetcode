@@ -7,6 +7,7 @@ import java.util.Queue;
  * @Author ZhangKe
  * @Date 2020/12/11 17:28
  * @Version 1.0
+ * Dota2 参议院
  */
 public class leetcode649 {
     public static void main(String[] args) {
