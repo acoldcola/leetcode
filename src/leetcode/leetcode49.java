@@ -23,10 +23,7 @@ public class leetcode49 {
             char[] chars = strs[i].toCharArray();
             Arrays.sort(chars);
             String s = String.valueOf(chars);
-            List<Integer> list = new ArrayList<>();
-            if (map.containsKey(s)) {
-                list = map.get(s);
-            }
+            List<Integer> list = map.getOrDefault(s,new ArrayList<>());
             list.add(i);
             map.put(s,list);
         }
