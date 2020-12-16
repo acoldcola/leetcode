@@ -13,7 +13,8 @@ public class leetcode290 {
         leetcode290 l = new leetcode290();
         l.wordPattern("jquery","jquery");
     }
-    public boolean wordPattern(String pattern, String s) {
+    // 自己写的
+    /*public boolean wordPattern(String pattern, String s) {
         if (pattern == null || "".equals(pattern)) {
             return false;
         }
@@ -43,5 +44,26 @@ public class leetcode290 {
             set.add(secondMap.get(c));
         }
         return set.size() == size && pattern.length() == str.length;
+    }*/
+
+    // 题解，集合双射
+    public boolean wordPattern(String pattern, String s) {
+        Map<Character,String> charMap = new HashMap<>();
+        Map<String, Character> stringMap = new HashMap<>();
+        String[] str = s.split(" ");
+        if (str.length != pattern.length()) {
+            return false;
+        }
+        for (int i = 0; i < pattern.length(); i++) {
+            if (charMap.containsKey(pattern.charAt(i)) && !charMap.get(pattern.charAt(i)) .equals(str[i])) {
+                return false;
+            }
+            if (stringMap.containsKey(str[i]) && stringMap.get(str[i]) != pattern.charAt(i)) {
+                return false;
+            }
+            charMap.put(pattern.charAt(i),str[i]);
+            stringMap.put(str[i], pattern.charAt(i));
+        }
+        return true;
     }
 }
