@@ -4,7 +4,7 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25d36261-468b-4559-92f2-8b740aa9f875" name="Default" comment="找不同">
+    <list default="true" id="25d36261-468b-4559-92f2-8b740aa9f875" name="Default" comment="变位词组">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -516,14 +516,8 @@
       <workItem from="1608082389593" duration="7518000" />
       <workItem from="1608100964388" duration="7615000" />
       <workItem from="1608122190761" duration="1194000" />
-      <workItem from="1608260680008" duration="1980000" />
-    </task>
-    <task id="LOCAL-00130" summary="复写零">
-      <created>1598264881092</created>
-      <option name="number" value="00130" />
-      <option name="presentableId" value="LOCAL-00130" />
-      <option name="project" value="LOCAL" />
-      <updated>1598264881092</updated>
+      <workItem from="1608260680008" duration="5422000" />
+      <workItem from="1608341021598" duration="2074000" />
     </task>
     <task id="LOCAL-00131" summary="回溯解决递增子序列">
       <created>1598326075218</created>
@@ -861,7 +855,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608262306352</updated>
     </task>
-    <option name="localTasksCounter" value="179" />
+    <task id="LOCAL-00179" summary="变位词组">
+      <created>1608263483636</created>
+      <option name="number" value="00179" />
+      <option name="presentableId" value="LOCAL-00179" />
+      <option name="project" value="LOCAL" />
+      <updated>1608263483636</updated>
+    </task>
+    <option name="localTasksCounter" value="180" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -894,7 +895,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="回溯解决累加数" />
     <MESSAGE value="递归" />
     <MESSAGE value="实现前缀树" />
     <MESSAGE value="字典树解决单词替换" />
@@ -919,7 +919,8 @@
     <MESSAGE value="二分查找解决第一个错误的版本" />
     <MESSAGE value="二分查找解决寻找峰值" />
     <MESSAGE value="找不同" />
-    <option name="LAST_COMMIT_MESSAGE" value="找不同" />
+    <MESSAGE value="变位词组" />
+    <option name="LAST_COMMIT_MESSAGE" value="变位词组" />
   </component>
   <component name="WindowStateProjectService">
     <state x="574" y="142" key="#com.intellij.ide.util.MemberChooser" timestamp="1604907069762">
@@ -939,14 +940,14 @@
     </state>
     <state x="524" y="134" key="#xdebugger.evaluate/0.0.1536.864@0.0.1536.864" timestamp="1608111910396" />
     <state x="582" y="149" key="#xdebugger.evaluate/0.0.1707.960/2560.0.1536.864@0.0.1707.960" timestamp="1608035664789" />
-    <state x="38" y="10" width="1384" height="825" key="CommitChangelistDialog2" timestamp="1608262300697">
+    <state x="38" y="10" width="1384" height="825" key="CommitChangelistDialog2" timestamp="1608263482653">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="82" y="0" key="CommitChangelistDialog2.inPresentationMode" timestamp="1608097624356">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="82" y="0" key="CommitChangelistDialog2.inPresentationMode/0.0.1536.864@0.0.1536.864" timestamp="1608097624356" />
-    <state x="38" y="10" width="1384" height="825" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1608262300697" />
+    <state x="38" y="10" width="1384" height="825" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1608263482653" />
     <state x="42" y="11" key="CommitChangelistDialog2/0.0.1707.960/2560.0.1536.864@0.0.1707.960" timestamp="1607954545333" />
     <state width="431" height="373" key="DebuggerActiveHint" timestamp="1601831276840">
       <screen x="0" y="0" width="1536" height="864" />
@@ -1064,14 +1065,14 @@
     <state width="1536" height="43" key="GridCell.Tab.2.right.inPresentationMode/0.0.1536.864@0.0.1536.864" timestamp="1608096896446" />
     <state width="1493" height="45" key="GridCell.Tab.2.right/0.0.1536.864@0.0.1536.864" timestamp="1608111880332" />
     <state width="1663" height="69" key="GridCell.Tab.2.right/0.0.1707.960/2560.0.1536.864@0.0.1707.960" timestamp="1608038484647" />
-    <state x="361" y="166" key="Vcs.Push.Dialog.v2" timestamp="1608262309555">
+    <state x="361" y="166" key="Vcs.Push.Dialog.v2" timestamp="1608263485063">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="0" y="0" key="Vcs.Push.Dialog.v2.inPresentationMode" timestamp="1608097627320">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="0" y="0" key="Vcs.Push.Dialog.v2.inPresentationMode/0.0.1536.864@0.0.1536.864" timestamp="1608097627320" />
-    <state x="361" y="166" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1608262309555" />
+    <state x="361" y="166" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1608263485063" />
     <state x="401" y="184" key="Vcs.Push.Dialog.v2/0.0.1707.960/2560.0.1536.864@0.0.1707.960" timestamp="1607955518859" />
     <state x="377" y="132" width="782" height="600" key="find.popup" timestamp="1599878447118">
       <screen x="0" y="0" width="1536" height="864" />
