@@ -4,7 +4,7 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25d36261-468b-4559-92f2-8b740aa9f875" name="Default" comment="栈解决有效括号">
+    <list default="true" id="25d36261-468b-4559-92f2-8b740aa9f875" name="Default" comment="罗马数字转整数">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -517,14 +517,7 @@
       <workItem from="1608100964388" duration="7615000" />
       <workItem from="1608122190761" duration="1194000" />
       <workItem from="1608260680008" duration="5422000" />
-      <workItem from="1608341021598" duration="6040000" />
-    </task>
-    <task id="LOCAL-00134" summary="斐波那契数列">
-      <created>1598347738297</created>
-      <option name="number" value="00134" />
-      <option name="presentableId" value="LOCAL-00134" />
-      <option name="project" value="LOCAL" />
-      <updated>1598347738297</updated>
+      <workItem from="1608341021598" duration="6779000" />
     </task>
     <task id="LOCAL-00135" summary="回溯解决电话号码的字母组合">
       <created>1598407303805</created>
@@ -862,7 +855,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608368629297</updated>
     </task>
-    <option name="localTasksCounter" value="183" />
+    <task id="LOCAL-00183" summary="罗马数字转整数">
+      <created>1608370677433</created>
+      <option name="number" value="00183" />
+      <option name="presentableId" value="LOCAL-00183" />
+      <option name="project" value="LOCAL" />
+      <updated>1608370677433</updated>
+    </task>
+    <option name="localTasksCounter" value="184" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -895,7 +895,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="回溯解决单词搜索" />
     <MESSAGE value="回溯解决数独" />
     <MESSAGE value="动态规划解决数组拆分" />
     <MESSAGE value="将矩阵按对角线排序" />
@@ -920,7 +919,8 @@
     <MESSAGE value="旋转图像" />
     <MESSAGE value="滑动窗口解决无重复字符的最长子串" />
     <MESSAGE value="栈解决有效括号" />
-    <option name="LAST_COMMIT_MESSAGE" value="栈解决有效括号" />
+    <MESSAGE value="罗马数字转整数" />
+    <option name="LAST_COMMIT_MESSAGE" value="罗马数字转整数" />
   </component>
   <component name="WindowStateProjectService">
     <state x="574" y="142" key="#com.intellij.ide.util.MemberChooser" timestamp="1604907069762">
@@ -940,14 +940,14 @@
     </state>
     <state x="524" y="134" key="#xdebugger.evaluate/0.0.1536.864@0.0.1536.864" timestamp="1608111910396" />
     <state x="582" y="149" key="#xdebugger.evaluate/0.0.1707.960/2560.0.1536.864@0.0.1707.960" timestamp="1608035664789" />
-    <state x="38" y="10" width="1384" height="825" key="CommitChangelistDialog2" timestamp="1608368628246">
+    <state x="38" y="10" width="1384" height="825" key="CommitChangelistDialog2" timestamp="1608370676298">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="82" y="0" key="CommitChangelistDialog2.inPresentationMode" timestamp="1608097624356">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="82" y="0" key="CommitChangelistDialog2.inPresentationMode/0.0.1536.864@0.0.1536.864" timestamp="1608097624356" />
-    <state x="38" y="10" width="1384" height="825" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1608368628246" />
+    <state x="38" y="10" width="1384" height="825" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1608370676298" />
     <state x="42" y="11" key="CommitChangelistDialog2/0.0.1707.960/2560.0.1536.864@0.0.1707.960" timestamp="1607954545333" />
     <state width="431" height="373" key="DebuggerActiveHint" timestamp="1601831276840">
       <screen x="0" y="0" width="1536" height="864" />
@@ -1065,14 +1065,14 @@
     <state width="1536" height="43" key="GridCell.Tab.2.right.inPresentationMode/0.0.1536.864@0.0.1536.864" timestamp="1608096896446" />
     <state width="1493" height="129" key="GridCell.Tab.2.right/0.0.1536.864@0.0.1536.864" timestamp="1608368561788" />
     <state width="1663" height="69" key="GridCell.Tab.2.right/0.0.1707.960/2560.0.1536.864@0.0.1707.960" timestamp="1608038484647" />
-    <state x="361" y="166" key="Vcs.Push.Dialog.v2" timestamp="1608368630381">
+    <state x="361" y="166" key="Vcs.Push.Dialog.v2" timestamp="1608370679106">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="0" y="0" key="Vcs.Push.Dialog.v2.inPresentationMode" timestamp="1608097627320">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="0" y="0" key="Vcs.Push.Dialog.v2.inPresentationMode/0.0.1536.864@0.0.1536.864" timestamp="1608097627320" />
-    <state x="361" y="166" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1608368630381" />
+    <state x="361" y="166" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1608370679106" />
     <state x="401" y="184" key="Vcs.Push.Dialog.v2/0.0.1707.960/2560.0.1536.864@0.0.1707.960" timestamp="1607955518859" />
     <state x="377" y="132" width="782" height="600" key="find.popup" timestamp="1599878447118">
       <screen x="0" y="0" width="1536" height="864" />
