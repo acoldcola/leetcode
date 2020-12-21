@@ -11,7 +11,7 @@ public class leetcode746 {
         leetcode746 l = new leetcode746();
         l.minCostClimbingStairs(new int[] {1, 100, 1, 1, 1, 100, 1, 1, 100, 1});
     }
-    public int minCostClimbingStairs(int[] cost) {
+    /*public int minCostClimbingStairs(int[] cost) {
         int[] dp = new int[cost.length + 1];
         if (cost.length <= 1) {
             return cost[0];
@@ -25,5 +25,17 @@ public class leetcode746 {
             dp[i] = Math.min(dp[i-2] + cost[i-2],dp[i - 1] + cost[i - 1]);
         }
         return dp[dp.length - 1];
+    }*/
+    // 优化空间复杂度
+    public int minCostClimbingStairs(int[] cost) {
+        int a = 0;
+        int b = 0;
+        int c = Math.min(a,b);
+        for (int i = 2; i < cost.length + 1; i++) {
+            c = Math.min(a + cost[i - 2],b + cost[i - 1]);
+            a = b;
+            b = c;
+        }
+        return c;
     }
 }

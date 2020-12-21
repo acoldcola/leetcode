@@ -4,11 +4,9 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25d36261-468b-4559-92f2-8b740aa9f875" name="Default" comment=" 二分查找解决搜索插入位置">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode5629.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode5631.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode746.java" afterDir="false" />
+    <list default="true" id="25d36261-468b-4559-92f2-8b740aa9f875" name="Default" comment="动态规划解决使用最小花费爬楼梯">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/leetcode746.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/leetcode746.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -523,14 +521,7 @@
       <workItem from="1608341021598" duration="7496000" />
       <workItem from="1608431391000" duration="6436000" />
       <workItem from="1608513576095" duration="1273000" />
-      <workItem from="1608519933417" duration="1112000" />
-    </task>
-    <task id="LOCAL-00136" summary="岛屿的周长">
-      <created>1598432635852</created>
-      <option name="number" value="00136" />
-      <option name="presentableId" value="LOCAL-00136" />
-      <option name="project" value="LOCAL" />
-      <updated>1598432635852</updated>
+      <workItem from="1608519933417" duration="1654000" />
     </task>
     <task id="LOCAL-00137" summary="动态规划解决删除一次得到子数组最大和">
       <created>1598434907339</created>
@@ -868,7 +859,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608371422576</updated>
     </task>
-    <option name="localTasksCounter" value="185" />
+    <task id="LOCAL-00185" summary="动态规划解决使用最小花费爬楼梯">
+      <created>1608521208897</created>
+      <option name="number" value="00185" />
+      <option name="presentableId" value="LOCAL-00185" />
+      <option name="project" value="LOCAL" />
+      <updated>1608521208898</updated>
+    </task>
+    <option name="localTasksCounter" value="186" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -901,7 +899,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="动态规划解决数组拆分" />
     <MESSAGE value="将矩阵按对角线排序" />
     <MESSAGE value="bfs解决填充每个节点的下一个右侧节点指针 II" />
     <MESSAGE value="两数相加" />
@@ -926,7 +923,8 @@
     <MESSAGE value="栈解决有效括号" />
     <MESSAGE value="罗马数字转整数" />
     <MESSAGE value=" 二分查找解决搜索插入位置" />
-    <option name="LAST_COMMIT_MESSAGE" value=" 二分查找解决搜索插入位置" />
+    <MESSAGE value="动态规划解决使用最小花费爬楼梯" />
+    <option name="LAST_COMMIT_MESSAGE" value="动态规划解决使用最小花费爬楼梯" />
   </component>
   <component name="WindowStateProjectService">
     <state x="574" y="142" key="#com.intellij.ide.util.MemberChooser" timestamp="1604907069762">
@@ -1079,14 +1077,14 @@
     <state width="1493" height="27" key="GridCell.Tab.2.right/0.0.1536.864@0.0.1536.864" timestamp="1608520805826" />
     <state width="1663" height="69" key="GridCell.Tab.2.right/0.0.1707.960/2560.0.1536.864@0.0.1707.960" timestamp="1608038484647" />
     <state width="1663" height="35" key="GridCell.Tab.2.right/0.0.1707.960@0.0.1707.960" timestamp="1608437045529" />
-    <state x="361" y="166" key="Vcs.Push.Dialog.v2" timestamp="1608371423774">
+    <state x="361" y="166" key="Vcs.Push.Dialog.v2" timestamp="1608521223281">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="0" y="0" key="Vcs.Push.Dialog.v2.inPresentationMode" timestamp="1608097627320">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="0" y="0" key="Vcs.Push.Dialog.v2.inPresentationMode/0.0.1536.864@0.0.1536.864" timestamp="1608097627320" />
-    <state x="361" y="166" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1608371423774" />
+    <state x="361" y="166" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1608521223281" />
     <state x="401" y="184" key="Vcs.Push.Dialog.v2/0.0.1707.960/2560.0.1536.864@0.0.1707.960" timestamp="1607955518859" />
     <state x="431" y="152" width="672" height="711" key="search.everywhere.popup" timestamp="1604369759144">
       <screen x="0" y="0" width="1536" height="864" />
@@ -2855,7 +2853,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/leetcode/leetcode746.java</url>
-          <line>13</line>
+          <line>14</line>
           <option name="timeStamp" value="686" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
