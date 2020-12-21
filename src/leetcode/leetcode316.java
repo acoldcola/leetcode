@@ -11,7 +11,7 @@ import java.util.*;
 public class leetcode316 {
     public static void main(String[] args) {
         leetcode316 l = new leetcode316();
-        l.removeDuplicateLetters("abacb");
+        l.removeDuplicateLetters("bbcaac");
     }
 
     public String removeDuplicateLetters(String s) {
@@ -20,27 +20,19 @@ public class leetcode316 {
             map.put(s.charAt(i), map.getOrDefault(s.charAt(i), 0) + 1);
         }
         Stack<Character> stack = new Stack<>();
-        Set<Character> set = new HashSet<>();
         for (int i = 0; i < s.length(); i++) {
             char charAt = s.charAt(i);
-            if (!set.add(charAt)) {
+            if (stack.contains(charAt)) {
                 int cou = map.get(charAt);
-                map.put(charAt,--cou);
+                map.put(charAt, --cou);
                 continue;
             }
-            if (stack.isEmpty() || stack.peek() < charAt) {
-                stack.push(charAt);
-                set.add(charAt);
-            } else {
-                while (!stack.isEmpty() && stack.peek() > charAt && map.get(stack.peek()) > 1) {
-                    char c = stack.pop();
-                    int cou = map.get(c);
-                    map.put(c, --cou);
-                    set.remove(c);
-                }
-                stack.push(charAt);
-                set.add(charAt);
+            while (!stack.isEmpty() && stack.peek() > charAt && map.get(stack.peek()) > 1) {
+                char c = stack.pop();
+                int cou = map.get(c);
+                map.put(c, --cou);
             }
+            stack.push(charAt);
         }
         StringBuilder sb = new StringBuilder();
         while (!stack.isEmpty()) {
