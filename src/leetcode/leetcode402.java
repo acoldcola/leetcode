@@ -20,13 +20,14 @@ public class leetcode402 {
         if (k >= num.length()) {
             return "0";
         }
-        Stack<String> stack = new Stack<String>();
+        Stack<Character> stack = new Stack();
         for (int i = 0; i < num.length(); i++) {
-            while (!stack.isEmpty() && Integer.valueOf(num.substring(i,i+1)) < Integer.valueOf(stack.peek()) && k > 0){
+            char a = num.charAt(i);
+            while (!stack.isEmpty() && a < stack.peek() && k > 0){
                 stack.pop();
                 --k;
             }
-            stack.push(num.substring(i,i+1));
+            stack.push(a);
         }
         while (k > 0){
             stack.pop();
@@ -37,7 +38,7 @@ public class leetcode402 {
             sb.append(stack.pop());
         }
         String a = sb.reverse().toString();
-        while (a.substring(0,1).equals("0") && a.length() > 2){
+        while (a.substring(0,1).equals("0") && a.length() > 1){
             a = a.substring(1);
         }
         return a;

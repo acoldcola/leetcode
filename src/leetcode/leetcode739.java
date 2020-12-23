@@ -9,7 +9,7 @@ import java.util.Stack;
  * 每日温度
  */
 public class leetcode739 {
-    public int[] dailyTemperatures(int[] T) {
+    /*public int[] dailyTemperatures(int[] T) {
         if (T == null || T.length < 1) {
             return new int[0];
         }
@@ -23,5 +23,23 @@ public class leetcode739 {
             stack.push(i);
         }
         return a;
+    }*/
+    public int[] dailyTemperatures(int[] T) {
+        if (T == null || T.length == 0) {
+            return new int[0];
+        }
+        int[] res = new int[T.length];
+        Stack<Integer> stack = new Stack<>();
+        for (int i = 0; i < T.length; i++) {
+            while (!stack.isEmpty() && T[i] > T[stack.peek()]) {
+                int a = stack.pop();
+                res[a] = i - a;
+            }
+            stack.push(i);
+        }
+        while (!stack.isEmpty()) {
+            res[stack.pop()] = 0;
+        }
+        return res;
     }
 }

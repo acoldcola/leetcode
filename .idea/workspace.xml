@@ -4,9 +4,10 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25d36261-468b-4559-92f2-8b740aa9f875" name="Default" comment="二叉树的锯齿形层序遍历">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode402.java" afterDir="false" />
+    <list default="true" id="25d36261-468b-4559-92f2-8b740aa9f875" name="Default" comment="移掉K位数字">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/leetcode402.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/leetcode402.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/leetcode739.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/leetcode739.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -524,14 +525,9 @@
       <workItem from="1608519933417" duration="14434000" />
       <workItem from="1608554362305" duration="3127000" />
       <workItem from="1608600246168" duration="3374000" />
-      <workItem from="1608625447176" duration="1185000" />
-    </task>
-    <task id="LOCAL-00141" summary="dfs解决二叉树中第二小的节点">
-      <created>1599038819930</created>
-      <option name="number" value="00141" />
-      <option name="presentableId" value="LOCAL-00141" />
-      <option name="project" value="LOCAL" />
-      <updated>1599038819930</updated>
+      <workItem from="1608625447176" duration="2057000" />
+      <workItem from="1608686670181" duration="3210000" />
+      <workItem from="1608708493993" duration="599000" />
     </task>
     <task id="LOCAL-00142" summary="dfs解决水域大小">
       <created>1599040798436</created>
@@ -869,7 +865,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608602692948</updated>
     </task>
-    <option name="localTasksCounter" value="190" />
+    <task id="LOCAL-00190" summary="移掉K位数字">
+      <created>1608627511473</created>
+      <option name="number" value="00190" />
+      <option name="presentableId" value="LOCAL-00190" />
+      <option name="project" value="LOCAL" />
+      <updated>1608627511474</updated>
+    </task>
+    <option name="localTasksCounter" value="191" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -902,7 +905,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="求根到叶子节点数字之和" />
     <MESSAGE value="有效的山脉数组" />
     <MESSAGE value=" 最接近原点的k个点" />
     <MESSAGE value="Dota2 参议院" />
@@ -927,7 +929,8 @@
     <MESSAGE value="去除重复字母" />
     <MESSAGE value="拼接最大数" />
     <MESSAGE value="二叉树的锯齿形层序遍历" />
-    <option name="LAST_COMMIT_MESSAGE" value="二叉树的锯齿形层序遍历" />
+    <MESSAGE value="移掉K位数字" />
+    <option name="LAST_COMMIT_MESSAGE" value="移掉K位数字" />
   </component>
   <component name="WindowStateProjectService">
     <state x="574" y="142" key="#com.intellij.ide.util.MemberChooser" timestamp="1604907069762">
@@ -943,14 +946,14 @@
     </state>
     <state x="524" y="134" key="#xdebugger.evaluate/0.0.1536.864@0.0.1536.864" timestamp="1608536089676" />
     <state x="582" y="149" key="#xdebugger.evaluate/0.0.1707.960/2560.0.1536.864@0.0.1707.960" timestamp="1608035664789" />
-    <state x="42" y="11" width="1384" height="825" key="CommitChangelistDialog2" timestamp="1608627499455">
-      <screen x="0" y="0" width="1707" height="960" />
+    <state x="38" y="10" width="1384" height="825" key="CommitChangelistDialog2" timestamp="1608713762179">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="82" y="0" key="CommitChangelistDialog2.inPresentationMode" timestamp="1608097624356">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="82" y="0" key="CommitChangelistDialog2.inPresentationMode/0.0.1536.864@0.0.1536.864" timestamp="1608097624356" />
-    <state x="38" y="10" width="1384" height="825" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1608602687089" />
+    <state x="38" y="10" width="1384" height="825" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1608713762179" />
     <state x="42" y="11" key="CommitChangelistDialog2/0.0.1707.960/2560.0.1536.864@0.0.1707.960" timestamp="1607954545333" />
     <state x="42" y="11" key="CommitChangelistDialog2/0.0.1707.960@0.0.1707.960" timestamp="1608627499455" />
     <state width="431" height="373" key="DebuggerActiveHint" timestamp="1608613204274">
@@ -1081,8 +1084,8 @@
     <state width="1493" height="115" key="GridCell.Tab.2.right/0.0.1536.864@0.0.1536.864" timestamp="1608545616465" />
     <state width="1663" height="69" key="GridCell.Tab.2.right/0.0.1707.960/2560.0.1536.864@0.0.1707.960" timestamp="1608038484647" />
     <state width="1663" height="58" key="GridCell.Tab.2.right/0.0.1707.960@0.0.1707.960" timestamp="1608557994398" />
-    <state x="361" y="166" key="Vcs.Push.Dialog.v2" timestamp="1608602696150">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state x="401" y="184" key="Vcs.Push.Dialog.v2" timestamp="1608627518825">
+      <screen x="0" y="0" width="1707" height="960" />
     </state>
     <state x="0" y="0" key="Vcs.Push.Dialog.v2.inPresentationMode" timestamp="1608097627320">
       <screen x="0" y="0" width="1536" height="864" />
@@ -1090,7 +1093,7 @@
     <state x="0" y="0" key="Vcs.Push.Dialog.v2.inPresentationMode/0.0.1536.864@0.0.1536.864" timestamp="1608097627320" />
     <state x="361" y="166" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1608602696150" />
     <state x="401" y="184" key="Vcs.Push.Dialog.v2/0.0.1707.960/2560.0.1536.864@0.0.1707.960" timestamp="1607955518859" />
-    <state x="401" y="184" key="Vcs.Push.Dialog.v2/0.0.1707.960@0.0.1707.960" timestamp="1608557980352" />
+    <state x="401" y="184" key="Vcs.Push.Dialog.v2/0.0.1707.960@0.0.1707.960" timestamp="1608627518825" />
     <state x="431" y="152" width="672" height="711" key="search.everywhere.popup" timestamp="1604369759144">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -2883,12 +2886,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/leetcode/leetcode402.java</url>
-          <line>18</line>
+          <line>19</line>
           <option name="timeStamp" value="710" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/leetcode/leetcode402.java</url>
-          <line>37</line>
+          <line>39</line>
           <option name="timeStamp" value="711" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
