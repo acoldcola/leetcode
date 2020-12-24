@@ -25,7 +25,7 @@ public class leetcode496 {
         }
         int[] res = new int[nums1.length];
         for(int i = 0; i < nums1.length; i++) {
-            res[i] = map.get(nums1[i]) == null ? -1 : map.get(nums1[i]);
+            res[i] = map.getOrDefault(nums1[i],-1);
         }
         return res;
     }
