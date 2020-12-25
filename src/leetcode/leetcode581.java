@@ -35,7 +35,7 @@ public class leetcode581 {
         if (right == 0) {
             return 0;
         }
-        res = res + (right - left + 1);
+        res = (right - left + 1);
         for (int j = right + 1; j < nums.length; j++) {
             if (nums[j] < max) {
                 res++;
