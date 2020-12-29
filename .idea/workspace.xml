@@ -4,12 +4,7 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25d36261-468b-4559-92f2-8b740aa9f875" name="Default" comment="单调栈和动态规划解决最大面积">
-      <change afterPath="$PROJECT_DIR$/src/AcWing/AcWing2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode205.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode5637.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode5638.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode5640.java" afterDir="false" />
+    <list default="true" id="25d36261-468b-4559-92f2-8b740aa9f875" name="Default" comment="按要求补齐数组">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -539,14 +534,7 @@
       <workItem from="1609036146661" duration="7127000" />
       <workItem from="1609118193851" duration="4000" />
       <workItem from="1609118221113" duration="15000" />
-      <workItem from="1609212463813" duration="1535000" />
-    </task>
-    <task id="LOCAL-00147" summary="小顶堆前K个高频元素">
-      <created>1599466570541</created>
-      <option name="number" value="00147" />
-      <option name="presentableId" value="LOCAL-00147" />
-      <option name="project" value="LOCAL" />
-      <updated>1599466570541</updated>
+      <workItem from="1609212463813" duration="2187000" />
     </task>
     <task id="LOCAL-00148" summary="回溯解决组数总和">
       <created>1599631111606</created>
@@ -884,7 +872,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608958298537</updated>
     </task>
-    <option name="localTasksCounter" value="196" />
+    <task id="LOCAL-00196" summary="按要求补齐数组">
+      <created>1609224052929</created>
+      <option name="number" value="00196" />
+      <option name="presentableId" value="LOCAL-00196" />
+      <option name="project" value="LOCAL" />
+      <updated>1609224052930</updated>
+    </task>
+    <option name="localTasksCounter" value="197" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -917,7 +912,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="二分查找解决在排序数组中查找元素的第一个和最后一个位置" />
     <MESSAGE value="单调递增的数字" />
     <MESSAGE value="二分查找解决猜数字大小" />
     <MESSAGE value="简单规律" />
@@ -942,7 +936,8 @@
     <MESSAGE value="单调栈解决最短无序连续子数组" />
     <MESSAGE value="分发饼干" />
     <MESSAGE value="单调栈和动态规划解决最大面积" />
-    <option name="LAST_COMMIT_MESSAGE" value="单调栈和动态规划解决最大面积" />
+    <MESSAGE value="按要求补齐数组" />
+    <option name="LAST_COMMIT_MESSAGE" value="按要求补齐数组" />
   </component>
   <component name="WindowStateProjectService">
     <state x="574" y="142" key="#com.intellij.ide.util.MemberChooser" timestamp="1604907069762">
@@ -1093,14 +1088,14 @@
     <state width="1493" height="2" key="GridCell.Tab.2.right/0.0.1536.864@0.0.1536.864" timestamp="1608804194865" />
     <state width="1663" height="75" key="GridCell.Tab.2.right/0.0.1707.960/2560.0.1536.864@0.0.1707.960" timestamp="1609084031990" />
     <state width="1663" height="2" key="GridCell.Tab.2.right/0.0.1707.960@0.0.1707.960" timestamp="1609041059762" />
-    <state x="361" y="166" key="Vcs.Push.Dialog.v2" timestamp="1608958300042">
+    <state x="361" y="166" key="Vcs.Push.Dialog.v2" timestamp="1609224054643">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="0" y="0" key="Vcs.Push.Dialog.v2.inPresentationMode" timestamp="1608097627320">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="0" y="0" key="Vcs.Push.Dialog.v2.inPresentationMode/0.0.1536.864@0.0.1536.864" timestamp="1608097627320" />
-    <state x="361" y="166" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1608958300042" />
+    <state x="361" y="166" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1609224054643" />
     <state x="401" y="184" key="Vcs.Push.Dialog.v2/0.0.1707.960/2560.0.1536.864@0.0.1707.960" timestamp="1607955518859" />
     <state x="401" y="184" key="Vcs.Push.Dialog.v2/0.0.1707.960@0.0.1707.960" timestamp="1608627518825" />
     <state x="431" y="152" width="672" height="711" key="search.everywhere.popup" timestamp="1604369759144">
