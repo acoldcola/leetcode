@@ -52,4 +52,79 @@ public class leetcode1046 {
             left = index * 2 + 1;
         }
     }
+
+    /* // 优先队列
+    public int lastStoneWeight(int[] stones) {
+        PriorityQueue<Integer> queue = new PriorityQueue<>((o1, o2) -> o2-o1);
+        for (int i = 0; i < stones.length; i++) {
+            queue.offer(stones[i]);
+        }
+        while (queue.size() >= 2) {
+            int x = queue.poll();
+            int y = queue.poll();
+            if (x != y) {
+                queue.offer(x-y);
+            }
+        }
+        return queue.isEmpty() ? 0 : queue.poll();
+    }*/
+
+    /*// 自己实现大根堆
+    public int lastStoneWeight(int[] stones) {
+        for (int i = stones.length / 2 - 1; i >= 0; i--) {
+            heap(i, stones.length, stones);
+        }
+        int j = stones.length - 1;
+        while (j >= 1) {
+            // 取最大的数
+            int a = stones[0];
+            swap(stones,0,j);
+            // 更新堆
+            heap(0,j--,stones);
+            int b = stones[0];
+            swap(stones,0,j);
+            heap(0,j--,stones);
+            if (a != b) {
+                stones[++j] = a - b;
+                // 判断加入的数字和堆顶的数字的大小
+                if (stones[j] > stones[0]) {
+                    swap(stones,0,j);
+                    heap(0,j,stones);
+                }
+            }
+        }
+        return j == -1 ? 0 : stones[j];
+    }
+
+    *//**
+     * 建立大根堆
+     * @param i
+     * @param a
+     *//*
+    public void heap(int i,int length, int[] a) {
+        for (int k = i * 2 + 1; k < length; k = i * 2 + 1) {
+            // 比较左右儿子节点那个更大
+            if (k + 1 < length && a[k] < a[k+1]) {
+                k++;
+            }
+            if (a[i] < a[k]) {
+                swap(a,i,k);
+                i = k;
+            }else {
+                break;
+            }
+        }
+    }
+
+    *//**
+     * 数组中两个数交换
+     * @param a
+     * @param i
+     * @param j
+     *//*
+    public void swap(int[]a, int i, int j) {
+        int temp = a[i];
+        a[i] = a[j];
+        a[j] = temp;
+    }*/
 }
