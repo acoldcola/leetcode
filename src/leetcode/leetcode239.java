@@ -1,8 +1,6 @@
 package leetcode;
 
-import javafx.beans.binding.When;
-
-import java.util.LinkedList;
+import java.util.*;
 
 /**
  * @auther ZhangKe
@@ -15,7 +13,7 @@ public class leetcode239 {
         maxSlidingWindow(a, 3);
     }
 
-    public static int[] maxSlidingWindow(int[] nums, int k) {
+    /*public static int[] maxSlidingWindow(int[] nums, int k) {
         if (nums.length < 1 || k < 1 || nums.length < k) {
             return null;
         }
@@ -27,6 +25,25 @@ public class leetcode239 {
                 list.pollLast();
             }
             list.addLast(i);
+            if (list.peekFirst() == i - k) {
+                list.pollFirst();
+            }
+            if (i >= k - 1) {
+                res[index++] = nums[list.peekFirst()];
+            }
+        }
+        return res;
+    }*/
+
+    public static int[] maxSlidingWindow(int[] nums, int k) {
+        int[] res = new int[nums.length - k + 1];
+        int index = 0;
+        Deque<Integer> list = new LinkedList<>();
+        for (int i = 0; i < nums.length; i++) {
+            while (!list.isEmpty() && nums[list.peekLast()] <= nums[i]) {
+                list.pollLast();
+            }
+            list.offer(i);
             if (list.peekFirst() == i - k) {
                 list.pollFirst();
             }
