@@ -4,15 +4,10 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25d36261-468b-4559-92f2-8b740aa9f875" name="Default" comment="滑动窗口的最大值">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode1712.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode234.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode5641.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode5642.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode58.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode830.java" afterDir="false" />
+    <list default="true" id="25d36261-468b-4559-92f2-8b740aa9f875" name="Default" comment="较大分组的位置">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode399.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/leetcode509.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/leetcode509.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/leetcode830.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/leetcode830.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -552,14 +547,9 @@
       <workItem from="1609723260626" duration="22000" />
       <workItem from="1609727372982" duration="7950000" />
       <workItem from="1609810013510" duration="978000" />
-      <workItem from="1609817126390" duration="1092000" />
-    </task>
-    <task id="LOCAL-00152" summary="dfs解决最大人工岛">
-      <created>1599725084950</created>
-      <option name="number" value="00152" />
-      <option name="presentableId" value="LOCAL-00152" />
-      <option name="project" value="LOCAL" />
-      <updated>1599725084950</updated>
+      <workItem from="1609817126390" duration="1718000" />
+      <workItem from="1609896137598" duration="27000" />
+      <workItem from="1609939246605" duration="2552000" />
     </task>
     <task id="LOCAL-00153" summary="回溯解决累加数">
       <created>1599729731438</created>
@@ -897,7 +887,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609556056585</updated>
     </task>
-    <option name="localTasksCounter" value="201" />
+    <task id="LOCAL-00201" summary="较大分组的位置">
+      <created>1609819430899</created>
+      <option name="number" value="00201" />
+      <option name="presentableId" value="LOCAL-00201" />
+      <option name="project" value="LOCAL" />
+      <updated>1609819430900</updated>
+    </task>
+    <option name="localTasksCounter" value="202" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -930,7 +927,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="二分查找解决第一个错误的版本" />
     <MESSAGE value="二分查找解决寻找峰值" />
     <MESSAGE value="找不同" />
     <MESSAGE value="变位词组" />
@@ -955,7 +951,8 @@
     <MESSAGE value="无重叠区间" />
     <MESSAGE value="种花问题" />
     <MESSAGE value="滑动窗口的最大值" />
-    <option name="LAST_COMMIT_MESSAGE" value="滑动窗口的最大值" />
+    <MESSAGE value="较大分组的位置" />
+    <option name="LAST_COMMIT_MESSAGE" value="较大分组的位置" />
   </component>
   <component name="WindowStateProjectService">
     <state x="574" y="142" key="#com.intellij.ide.util.MemberChooser" timestamp="1604907069762">
@@ -967,15 +964,15 @@
     </state>
     <state x="524" y="134" key="#xdebugger.evaluate/0.0.1536.864@0.0.1536.864" timestamp="1609745695989" />
     <state x="582" y="149" key="#xdebugger.evaluate/0.0.1707.960/2560.0.1536.864@0.0.1707.960" timestamp="1609330311464" />
-    <state x="38" y="10" width="1384" height="825" key="CommitChangelistDialog2" timestamp="1609556043859">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state x="42" y="11" width="1384" height="825" key="CommitChangelistDialog2" timestamp="1609819424769">
+      <screen x="0" y="0" width="1707" height="960" />
     </state>
     <state x="82" y="0" key="CommitChangelistDialog2.inPresentationMode" timestamp="1608097624356">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="82" y="0" key="CommitChangelistDialog2.inPresentationMode/0.0.1536.864@0.0.1536.864" timestamp="1608097624356" />
     <state x="38" y="10" width="1384" height="825" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1609556043859" />
-    <state x="42" y="11" key="CommitChangelistDialog2/0.0.1707.960/2560.0.1536.864@0.0.1707.960" timestamp="1607954545333" />
+    <state x="42" y="11" key="CommitChangelistDialog2/0.0.1707.960/2560.0.1536.864@0.0.1707.960" timestamp="1609819424769" />
     <state x="42" y="11" key="CommitChangelistDialog2/0.0.1707.960@0.0.1707.960" timestamp="1608627499455" />
     <state width="431" height="373" key="DebuggerActiveHint" timestamp="1609645280908">
       <screen x="0" y="0" width="1536" height="864" />
@@ -1107,15 +1104,15 @@
     <state width="1493" height="233" key="GridCell.Tab.2.right/0.0.1536.864@0.0.1536.864" timestamp="1609745988965" />
     <state width="1663" height="343" key="GridCell.Tab.2.right/0.0.1707.960/2560.0.1536.864@0.0.1707.960" timestamp="1609330355112" />
     <state width="1663" height="2" key="GridCell.Tab.2.right/0.0.1707.960@0.0.1707.960" timestamp="1609041059762" />
-    <state x="361" y="166" key="Vcs.Push.Dialog.v2" timestamp="1609556093238">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state x="401" y="184" key="Vcs.Push.Dialog.v2" timestamp="1609819432514">
+      <screen x="0" y="0" width="1707" height="960" />
     </state>
     <state x="0" y="0" key="Vcs.Push.Dialog.v2.inPresentationMode" timestamp="1608097627320">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="0" y="0" key="Vcs.Push.Dialog.v2.inPresentationMode/0.0.1536.864@0.0.1536.864" timestamp="1608097627320" />
     <state x="361" y="166" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1609556093238" />
-    <state x="401" y="184" key="Vcs.Push.Dialog.v2/0.0.1707.960/2560.0.1536.864@0.0.1707.960" timestamp="1607955518859" />
+    <state x="401" y="184" key="Vcs.Push.Dialog.v2/0.0.1707.960/2560.0.1536.864@0.0.1707.960" timestamp="1609819432514" />
     <state x="401" y="184" key="Vcs.Push.Dialog.v2/0.0.1707.960@0.0.1707.960" timestamp="1608627518825" />
     <state x="431" y="152" width="672" height="711" key="search.everywhere.popup" timestamp="1609555098129">
       <screen x="0" y="0" width="1536" height="864" />

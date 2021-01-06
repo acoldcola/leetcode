@@ -7,7 +7,7 @@ import java.util.List;
  * @Author ZhangKe
  * @Date 2021/1/5 10:43
  * @Version 1.0
- * 较大分组的位置
+ * 较大分组的位置  
  */
 public class leetcode830 {
     public static void main(String[] args) {
