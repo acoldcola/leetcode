@@ -10,7 +10,6 @@ import java.util.Map;
  * @Author ZhangKe
  * @Date 2021/1/6 21:21
  * @Version 1.0
- * 除法求值
  */
 public class leetcode399 {
     public static void main(String[] args) {
