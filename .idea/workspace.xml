@@ -4,7 +4,8 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25d36261-468b-4559-92f2-8b740aa9f875" name="Default" comment="并查集解决交换字符串中的元素">
+    <list default="true" id="25d36261-468b-4559-92f2-8b740aa9f875" name="Default" comment="冗余连接">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode1018.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -555,13 +556,8 @@
       <workItem from="1610245519846" duration="8886000" />
       <workItem from="1610330295362" duration="4127000" />
       <workItem from="1610347841495" duration="11000" />
-    </task>
-    <task id="LOCAL-00156" summary="字典树解决单词替换">
-      <created>1599814094507</created>
-      <option name="number" value="00156" />
-      <option name="presentableId" value="LOCAL-00156" />
-      <option name="project" value="LOCAL" />
-      <updated>1599814094507</updated>
+      <workItem from="1610530147377" duration="641000" />
+      <workItem from="1610587067568" duration="1249000" />
     </task>
     <task id="LOCAL-00157" summary="回溯解决单词搜索">
       <created>1599958741610</created>
@@ -899,7 +895,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610342780476</updated>
     </task>
-    <option name="localTasksCounter" value="205" />
+    <task id="LOCAL-00205" summary="冗余连接">
+      <created>1610530193712</created>
+      <option name="number" value="00205" />
+      <option name="presentableId" value="LOCAL-00205" />
+      <option name="project" value="LOCAL" />
+      <updated>1610530193713</updated>
+    </task>
+    <option name="localTasksCounter" value="206" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -932,7 +935,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="旋转图像" />
     <MESSAGE value="滑动窗口解决无重复字符的最长子串" />
     <MESSAGE value="栈解决有效括号" />
     <MESSAGE value="罗马数字转整数" />
@@ -957,7 +959,8 @@
     <MESSAGE value="Fylod解决除法求值" />
     <MESSAGE value="并查集解决省份数量" />
     <MESSAGE value="并查集解决交换字符串中的元素" />
-    <option name="LAST_COMMIT_MESSAGE" value="并查集解决交换字符串中的元素" />
+    <MESSAGE value="冗余连接" />
+    <option name="LAST_COMMIT_MESSAGE" value="冗余连接" />
   </component>
   <component name="WindowStateProjectService">
     <state x="574" y="142" key="#com.intellij.ide.util.MemberChooser" timestamp="1604907069762">
@@ -969,14 +972,14 @@
     </state>
     <state x="524" y="134" key="#xdebugger.evaluate/0.0.1536.864@0.0.1536.864" timestamp="1609745695989" />
     <state x="582" y="149" key="#xdebugger.evaluate/0.0.1707.960/2560.0.1536.864@0.0.1707.960" timestamp="1610207701969" />
-    <state x="38" y="10" width="1384" height="825" key="CommitChangelistDialog2" timestamp="1610530187656">
+    <state x="38" y="10" width="1384" height="825" key="CommitChangelistDialog2" timestamp="1610588439459">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="82" y="0" key="CommitChangelistDialog2.inPresentationMode" timestamp="1608097624356">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="82" y="0" key="CommitChangelistDialog2.inPresentationMode/0.0.1536.864@0.0.1536.864" timestamp="1608097624356" />
-    <state x="38" y="10" width="1384" height="825" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1610530187656" />
+    <state x="38" y="10" width="1384" height="825" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1610588439459" />
     <state x="42" y="11" key="CommitChangelistDialog2/0.0.1707.960/2560.0.1536.864@0.0.1707.960" timestamp="1609943023761" />
     <state x="42" y="11" key="CommitChangelistDialog2/0.0.1707.960@0.0.1707.960" timestamp="1608627499455" />
     <state width="431" height="373" key="DebuggerActiveHint" timestamp="1610252926467">
@@ -1113,14 +1116,14 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="254" height="198" key="ShowFilterAction_Filter_Popup/0.0.1536.864@0.0.1536.864" timestamp="1610347439118" />
-    <state x="361" y="166" key="Vcs.Push.Dialog.v2" timestamp="1610342782400">
+    <state x="361" y="166" key="Vcs.Push.Dialog.v2" timestamp="1610530197445">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="0" y="0" key="Vcs.Push.Dialog.v2.inPresentationMode" timestamp="1608097627320">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="0" y="0" key="Vcs.Push.Dialog.v2.inPresentationMode/0.0.1536.864@0.0.1536.864" timestamp="1608097627320" />
-    <state x="361" y="166" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1610342782400" />
+    <state x="361" y="166" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1610530197445" />
     <state x="401" y="184" key="Vcs.Push.Dialog.v2/0.0.1707.960/2560.0.1536.864@0.0.1707.960" timestamp="1609943563941" />
     <state x="401" y="184" key="Vcs.Push.Dialog.v2/0.0.1707.960@0.0.1707.960" timestamp="1608627518825" />
     <state x="504" y="252" width="672" height="711" key="search.everywhere.popup" timestamp="1610347451845">
