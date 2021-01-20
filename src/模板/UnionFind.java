@@ -1,6 +1,6 @@
 package 模板;
 
-import com.sun.org.apache.regexp.internal.RE;
+import java.util.Arrays;
 
 /**
  * @Author ZhangKe
@@ -9,8 +9,19 @@ import com.sun.org.apache.regexp.internal.RE;
  * 并查集模板
  */
 public class UnionFind {
-    public int[] pre = new int[1000];
+    int[] pre;
+    int[] rank;
+    int n;
 
+    UnionFind(int n) {
+        this.n = n;
+        rank = new int[n];
+        Arrays.fill(rank,1);
+        pre = new int[n];
+        for (int i = 0; i < n; i++) {
+            pre[i] = i;
+        }
+    }
     // 找到父节点
     public int find(int x) {
         if (x != pre[x]) {
@@ -21,11 +32,19 @@ public class UnionFind {
     }
 
     // 合并集合
-    public void merge(int x, int y) {
-        int a = find(x);
-        int b = find(y);
-        if (a != b) {
-            pre[a] = b;
+    public boolean merge(int x, int y) {
+        int fx = find(x), fy = find(y);
+        if (fx == fy) {
+            return false;
         }
+        if (rank[fx] > rank[fy]) {
+            pre[fy] = fx;
+        }else {
+            if (rank[fx] == rank[fy]) {
+                rank[fy]++;
+            }
+            pre[fx] = fy;
+        }
+        return true;
     }
 }
