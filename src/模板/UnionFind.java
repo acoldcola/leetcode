@@ -28,7 +28,7 @@ public class UnionFind {
             // 使用递归进行路径压缩
             pre[x] = find(pre[x]);
         }
-        return x;
+        return pre[x];
     }
 
     // 合并集合
