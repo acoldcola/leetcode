@@ -56,10 +56,12 @@ class Edge {
 class UnionFind {
     int[] pre;
     int[] rank;
+    int count;
     int n;
 
     UnionFind(int n) {
         this.n = n;
+        this.count = n;
         rank = new int[n];
         Arrays.fill(rank, 1);
         pre = new int[n];
@@ -91,6 +93,7 @@ class UnionFind {
             }
             pre[fx] = fy;
         }
+        count --;
         return true;
     }
 }

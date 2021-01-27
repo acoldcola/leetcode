@@ -4,16 +4,12 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25d36261-468b-4559-92f2-8b740aa9f875" name="Default" comment="连通网络的操作次数">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode674.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode959.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/竞赛/第44场双周赛/Test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/竞赛/第44场双周赛/Test2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/竞赛/第44场双周赛/Test3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/竞赛/第44场双周赛/add1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/竞赛/第44场双周赛/add2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/竞赛/第44场双周赛/add3.java" afterDir="false" />
+    <list default="true" id="25d36261-468b-4559-92f2-8b740aa9f875" name="Default" comment="由斜杠划分区域">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode1128.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode1579.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/leetcode1584.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/leetcode1584.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/竞赛/第44场双周赛/add2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/竞赛/第44场双周赛/add2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -586,14 +582,12 @@
       <workItem from="1611493283228" duration="1008000" />
       <workItem from="1611537572225" duration="10000" />
       <workItem from="1611537601664" duration="14000" />
-      <workItem from="1611552774741" duration="34000" />
-    </task>
-    <task id="LOCAL-00165" summary="有效的山脉数组">
-      <created>1604371231571</created>
-      <option name="number" value="00165" />
-      <option name="presentableId" value="LOCAL-00165" />
-      <option name="project" value="LOCAL" />
-      <updated>1604371231571</updated>
+      <workItem from="1611552774741" duration="647000" />
+      <workItem from="1611565687195" duration="1240000" />
+      <workItem from="1611624436939" duration="1881000" />
+      <workItem from="1611641980524" duration="614000" />
+      <workItem from="1611710614870" duration="2000" />
+      <workItem from="1611739605504" duration="1686000" />
     </task>
     <task id="LOCAL-00166" summary=" 最接近原点的k个点">
       <created>1604971166992</created>
@@ -931,7 +925,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611374674635</updated>
     </task>
-    <option name="localTasksCounter" value="214" />
+    <task id="LOCAL-00214" summary="由斜杠划分区域">
+      <created>1611552826785</created>
+      <option name="number" value="00214" />
+      <option name="presentableId" value="LOCAL-00214" />
+      <option name="project" value="LOCAL" />
+      <updated>1611552826786</updated>
+    </task>
+    <option name="localTasksCounter" value="215" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -964,7 +965,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="二叉树的锯齿形层序遍历" />
     <MESSAGE value="移掉K位数字" />
     <MESSAGE value="单调栈解决下一个更大元素 I" />
     <MESSAGE value="分发糖果" />
@@ -989,7 +989,8 @@
     <MESSAGE value="找到最小生成树里的关键边和伪关键边" />
     <MESSAGE value="数组形式的整数加法" />
     <MESSAGE value="连通网络的操作次数" />
-    <option name="LAST_COMMIT_MESSAGE" value="连通网络的操作次数" />
+    <MESSAGE value="由斜杠划分区域" />
+    <option name="LAST_COMMIT_MESSAGE" value="由斜杠划分区域" />
   </component>
   <component name="WindowStateProjectService">
     <state x="574" y="142" key="#com.intellij.ide.util.MemberChooser" timestamp="1604907069762">
@@ -1001,14 +1002,14 @@
     </state>
     <state x="524" y="134" key="#xdebugger.evaluate/0.0.1536.864@0.0.1536.864" timestamp="1611459969822" />
     <state x="582" y="149" key="#xdebugger.evaluate/0.0.1707.960/2560.0.1536.864@0.0.1707.960" timestamp="1610853314834" />
-    <state x="38" y="10" width="1384" height="825" key="CommitChangelistDialog2" timestamp="1611552819776">
+    <state x="38" y="10" width="1384" height="825" key="CommitChangelistDialog2" timestamp="1611741361201">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="82" y="0" key="CommitChangelistDialog2.inPresentationMode" timestamp="1608097624356">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="82" y="0" key="CommitChangelistDialog2.inPresentationMode/0.0.1536.864@0.0.1536.864" timestamp="1608097624356" />
-    <state x="38" y="10" width="1384" height="825" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1611552819776" />
+    <state x="38" y="10" width="1384" height="825" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1611741361201" />
     <state x="42" y="11" key="CommitChangelistDialog2/0.0.1707.960/2560.0.1536.864@0.0.1707.960" timestamp="1611374668265" />
     <state x="42" y="11" key="CommitChangelistDialog2/0.0.1707.960@0.0.1707.960" timestamp="1608627499455" />
     <state width="431" height="373" key="DebuggerActiveHint" timestamp="1610252926467">
@@ -1145,14 +1146,14 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="254" height="198" key="ShowFilterAction_Filter_Popup/0.0.1536.864@0.0.1536.864" timestamp="1610347439118" />
-    <state x="401" y="184" key="Vcs.Push.Dialog.v2" timestamp="1611374676130">
-      <screen x="0" y="0" width="1707" height="960" />
+    <state x="361" y="166" key="Vcs.Push.Dialog.v2" timestamp="1611552828586">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="0" y="0" key="Vcs.Push.Dialog.v2.inPresentationMode" timestamp="1608097627320">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="0" y="0" key="Vcs.Push.Dialog.v2.inPresentationMode/0.0.1536.864@0.0.1536.864" timestamp="1608097627320" />
-    <state x="361" y="166" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1611294645526" />
+    <state x="361" y="166" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1611552828586" />
     <state x="401" y="184" key="Vcs.Push.Dialog.v2/0.0.1707.960/2560.0.1536.864@0.0.1707.960" timestamp="1611374676130" />
     <state x="401" y="184" key="Vcs.Push.Dialog.v2/0.0.1707.960@0.0.1707.960" timestamp="1608627518825" />
     <state x="504" y="252" width="672" height="711" key="search.everywhere.popup" timestamp="1610347451845">
@@ -3208,18 +3209,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/竞赛/第44场双周赛/add2.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="827" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/竞赛/第44场双周赛/add2.java</url>
-          <line>32</line>
+          <line>46</line>
           <option name="timeStamp" value="828" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/竞赛/第44场双周赛/add2.java</url>
-          <line>42</line>
-          <option name="timeStamp" value="829" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/竞赛/第44场双周赛/add3.java</url>
