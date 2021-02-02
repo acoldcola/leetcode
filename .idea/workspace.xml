@@ -4,13 +4,12 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25d36261-468b-4559-92f2-8b740aa9f875" name="Default" comment="并查集解决保证图可完全遍历">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode724.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/竞赛/第226场周赛/test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/竞赛/第226场周赛/test2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/竞赛/第226场周赛/test3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/竞赛/第226场周赛/test4.java" afterDir="false" />
+    <list default="true" id="25d36261-468b-4559-92f2-8b740aa9f875" name="Default" comment="公平的糖果棒交换">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode131.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/竞赛/第226场周赛/test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/竞赛/第226场周赛/test2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/竞赛/第226场周赛/test3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/竞赛/第226场周赛/test3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,9 +30,6 @@
     <expand />
     <select />
   </component>
-  <component name="FavoritesManager">
-    <favorites_list name="LeetCode" />
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -47,7 +43,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="JupyterTrust" id="aadac400-9a04-4c75-aa59-345995a35091" />
+  <component name="JupyterTrust" id="5f8f1a2a-93a6-4097-895e-01edea620490" />
   <component name="ProjectId" id="1Y3PgUArFJlo4zRXDaT4NPGchy0" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -55,7 +51,6 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="GO_FMT" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -584,14 +579,8 @@
       <workItem from="1611886921486" duration="2398000" />
       <workItem from="1612059806680" duration="5160000" />
       <workItem from="1612142548369" duration="1094000" />
-      <workItem from="1612156360012" duration="599000" />
-    </task>
-    <task id="LOCAL-00167" summary="Dota2 参议院">
-      <created>1607936472431</created>
-      <option name="number" value="00167" />
-      <option name="presentableId" value="LOCAL-00167" />
-      <option name="project" value="LOCAL" />
-      <updated>1607936472432</updated>
+      <workItem from="1612156360012" duration="7539000" />
+      <workItem from="1612229091782" duration="1210000" />
     </task>
     <task id="LOCAL-00168" summary="完成字母异位词分组">
       <created>1607937899593</created>
@@ -929,7 +918,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611741370619</updated>
     </task>
-    <option name="localTasksCounter" value="216" />
+    <task id="LOCAL-00216" summary="公平的糖果棒交换">
+      <created>1612158349861</created>
+      <option name="number" value="00216" />
+      <option name="presentableId" value="LOCAL-00216" />
+      <option name="project" value="LOCAL" />
+      <updated>1612158349862</updated>
+    </task>
+    <option name="localTasksCounter" value="217" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -961,7 +957,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="单调栈解决下一个更大元素 I" />
     <MESSAGE value="分发糖果" />
     <MESSAGE value="单调栈解决最短无序连续子数组" />
     <MESSAGE value="分发饼干" />
@@ -986,7 +981,8 @@
     <MESSAGE value="连通网络的操作次数" />
     <MESSAGE value="由斜杠划分区域" />
     <MESSAGE value="并查集解决保证图可完全遍历" />
-    <option name="LAST_COMMIT_MESSAGE" value="并查集解决保证图可完全遍历" />
+    <MESSAGE value="公平的糖果棒交换" />
+    <option name="LAST_COMMIT_MESSAGE" value="公平的糖果棒交换" />
   </component>
   <component name="WindowStateProjectService">
     <state x="574" y="142" key="#com.intellij.ide.util.MemberChooser" timestamp="1604907069762">
@@ -998,14 +994,14 @@
     </state>
     <state x="524" y="134" key="#xdebugger.evaluate/0.0.1536.864@0.0.1536.864" timestamp="1611459969822" />
     <state x="582" y="149" key="#xdebugger.evaluate/0.0.1707.960/2560.0.1536.864@0.0.1707.960" timestamp="1612064740698" />
-    <state x="38" y="10" width="1384" height="825" key="CommitChangelistDialog2" timestamp="1611741361201">
+    <state x="38" y="10" width="1384" height="825" key="CommitChangelistDialog2" timestamp="1612158347026">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="82" y="0" key="CommitChangelistDialog2.inPresentationMode" timestamp="1608097624356">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="82" y="0" key="CommitChangelistDialog2.inPresentationMode/0.0.1536.864@0.0.1536.864" timestamp="1608097624356" />
-    <state x="38" y="10" width="1384" height="825" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1611741361201" />
+    <state x="38" y="10" width="1384" height="825" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1612158347026" />
     <state x="42" y="11" key="CommitChangelistDialog2/0.0.1707.960/2560.0.1536.864@0.0.1707.960" timestamp="1611374668265" />
     <state x="42" y="11" key="CommitChangelistDialog2/0.0.1707.960@0.0.1707.960" timestamp="1608627499455" />
     <state width="431" height="373" key="DebuggerActiveHint" timestamp="1610252926467">
@@ -1142,20 +1138,20 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="254" height="198" key="ShowFilterAction_Filter_Popup/0.0.1536.864@0.0.1536.864" timestamp="1610347439118" />
-    <state x="361" y="166" key="Vcs.Push.Dialog.v2" timestamp="1611741372017">
+    <state x="361" y="166" key="Vcs.Push.Dialog.v2" timestamp="1612158351488">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="0" y="0" key="Vcs.Push.Dialog.v2.inPresentationMode" timestamp="1608097627320">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="0" y="0" key="Vcs.Push.Dialog.v2.inPresentationMode/0.0.1536.864@0.0.1536.864" timestamp="1608097627320" />
-    <state x="361" y="166" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1611741372017" />
+    <state x="361" y="166" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1612158351488" />
     <state x="401" y="184" key="Vcs.Push.Dialog.v2/0.0.1707.960/2560.0.1536.864@0.0.1707.960" timestamp="1611374676130" />
     <state x="401" y="184" key="Vcs.Push.Dialog.v2/0.0.1707.960@0.0.1707.960" timestamp="1608627518825" />
-    <state x="504" y="252" width="672" height="711" key="search.everywhere.popup" timestamp="1610347451845">
+    <state x="504" y="252" width="672" height="711" key="search.everywhere.popup" timestamp="1612168837947">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="504" y="252" width="672" height="711" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1610347451845" />
+    <state x="504" y="252" width="672" height="711" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1612168837947" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

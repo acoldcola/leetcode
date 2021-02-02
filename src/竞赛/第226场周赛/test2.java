@@ -12,43 +12,26 @@ public class test2 {
         restoreArray(new int[][] {{2,1},{3,4},{3,2}});
     }
     public static int[] restoreArray(int[][] adjacentPairs) {
-        Map<Integer,Integer> map1 = new HashMap<>();
-        Map<Integer,Integer> map2 = new HashMap<>();
-        for (int i = 0; i < adjacentPairs.length; i++) {
-            if (map1.containsKey(adjacentPairs[i][0])) {
-                if (map1.containsKey(adjacentPairs[i][1])) {
-                    if (map1.containsKey(map1.get(adjacentPairs[i][0]))) {
-                        int x = map1.get(adjacentPairs[i][1]);
-                        map1.put(x,adjacentPairs[i][1]);
-                        map1.remove(adjacentPairs[i][1]);
-                    }else {
-                        int x = map1.get(adjacentPairs[i][0]);
-                        map1.put(x ,adjacentPairs[i][0]);
-                        map1.remove(adjacentPairs[i][0]);
-                    }
-                    map1.put(adjacentPairs[i][0],adjacentPairs[i][1]);
-                }else {
-                    map1.put(adjacentPairs[i][1],adjacentPairs[i][0]);
-                }
-            }else {
-                map1.put(adjacentPairs[i][0],adjacentPairs[i][1]);
-            }
-            map2.put(adjacentPairs[i][0],map2.getOrDefault(adjacentPairs[i][0],0) + 1);
-            map2.put(adjacentPairs[i][1],map2.getOrDefault(adjacentPairs[i][1],0) + 1);
-        }
-        int a = 0;
-        for (Integer i : map2.keySet()) {
-            int x = map2.get(i);
-            if (x == 1 && map1.containsKey(i)) {
-                a = i;
-            }
-        }
         int[] res = new int[adjacentPairs.length + 1];
-        res[0] = a;
+        Map<Integer, List<Integer>> map = new HashMap<>();
+        for (int i = 0; i < adjacentPairs.length; i++) {
+            map.computeIfAbsent(adjacentPairs[i][0], k -> new ArrayList<>()).add(adjacentPairs[i][1]);
+            map.computeIfAbsent(adjacentPairs[i][1], k -> new ArrayList<>()).add(adjacentPairs[i][0]);
+        }
+        for (Integer i : map.keySet()) {
+            if (map.get(i).size() == 1) {
+                res[0] = i;
+                break;
+            }
+        }
         for (int i = 1; i < res.length; i++) {
-            int x = map1.get(a);
-            res[i] = x;
-            a = x;
+            List<Integer> list = map.get(res[i-1]);
+            for (Integer x : list) {
+                if (map.containsKey(x)) {
+                    res[i] = x;
+                }
+            }
+            map.remove(res[i - 1]);
         }
         return res;
     }
