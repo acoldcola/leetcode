@@ -4,11 +4,8 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25d36261-468b-4559-92f2-8b740aa9f875" name="Default" comment="滑动窗口解决替换后的最长重复字符">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode132.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode230.java" afterDir="false" />
+    <list default="true" id="25d36261-468b-4559-92f2-8b740aa9f875" name="Default" comment="大顶堆和小顶堆解决滑动窗口中位数">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/leetcode5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/leetcode5.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +39,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="JupyterTrust" id="5f8f1a2a-93a6-4097-895e-01edea620490" />
+  <component name="JupyterTrust" id="4b712e43-fc5f-480b-9ff7-5390ad518363" />
   <component name="ProjectId" id="1Y3PgUArFJlo4zRXDaT4NPGchy0" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -581,13 +578,7 @@
       <workItem from="1612156360012" duration="7539000" />
       <workItem from="1612229091782" duration="1210000" />
       <workItem from="1612246086892" duration="3555000" />
-    </task>
-    <task id="LOCAL-00169" summary="存在重复元素">
-      <created>1607939251437</created>
-      <option name="number" value="00169" />
-      <option name="presentableId" value="LOCAL-00169" />
-      <option name="project" value="LOCAL" />
-      <updated>1607939251437</updated>
+      <workItem from="1612336949812" duration="688000" />
     </task>
     <task id="LOCAL-00170" summary="存在重复元素">
       <created>1607939267987</created>
@@ -925,7 +916,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612246143084</updated>
     </task>
-    <option name="localTasksCounter" value="218" />
+    <task id="LOCAL-00218" summary="大顶堆和小顶堆解决滑动窗口中位数">
+      <created>1612337041169</created>
+      <option name="number" value="00218" />
+      <option name="presentableId" value="LOCAL-00218" />
+      <option name="project" value="LOCAL" />
+      <updated>1612337041170</updated>
+    </task>
+    <option name="localTasksCounter" value="219" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -957,7 +955,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="单调栈解决最短无序连续子数组" />
     <MESSAGE value="分发饼干" />
     <MESSAGE value="单调栈和动态规划解决最大面积" />
     <MESSAGE value="按要求补齐数组" />
@@ -982,7 +979,8 @@
     <MESSAGE value="并查集解决保证图可完全遍历" />
     <MESSAGE value="公平的糖果棒交换" />
     <MESSAGE value="滑动窗口解决替换后的最长重复字符" />
-    <option name="LAST_COMMIT_MESSAGE" value="滑动窗口解决替换后的最长重复字符" />
+    <MESSAGE value="大顶堆和小顶堆解决滑动窗口中位数" />
+    <option name="LAST_COMMIT_MESSAGE" value="大顶堆和小顶堆解决滑动窗口中位数" />
   </component>
   <component name="WindowStateProjectService">
     <state x="574" y="142" key="#com.intellij.ide.util.MemberChooser" timestamp="1604907069762">
@@ -994,14 +992,14 @@
     </state>
     <state x="524" y="134" key="#xdebugger.evaluate/0.0.1536.864@0.0.1536.864" timestamp="1611459969822" />
     <state x="582" y="149" key="#xdebugger.evaluate/0.0.1707.960/2560.0.1536.864@0.0.1707.960" timestamp="1612064740698" />
-    <state x="38" y="10" width="1384" height="825" key="CommitChangelistDialog2" timestamp="1612246133602">
+    <state x="38" y="10" width="1384" height="825" key="CommitChangelistDialog2" timestamp="1612337031902">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="82" y="0" key="CommitChangelistDialog2.inPresentationMode" timestamp="1608097624356">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="82" y="0" key="CommitChangelistDialog2.inPresentationMode/0.0.1536.864@0.0.1536.864" timestamp="1608097624356" />
-    <state x="38" y="10" width="1384" height="825" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1612246133602" />
+    <state x="38" y="10" width="1384" height="825" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1612337031902" />
     <state x="42" y="11" key="CommitChangelistDialog2/0.0.1707.960/2560.0.1536.864@0.0.1707.960" timestamp="1611374668265" />
     <state x="42" y="11" key="CommitChangelistDialog2/0.0.1707.960@0.0.1707.960" timestamp="1608627499455" />
     <state width="431" height="373" key="DebuggerActiveHint" timestamp="1610252926467">
@@ -1138,14 +1136,14 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="254" height="198" key="ShowFilterAction_Filter_Popup/0.0.1536.864@0.0.1536.864" timestamp="1610347439118" />
-    <state x="361" y="166" key="Vcs.Push.Dialog.v2" timestamp="1612246146728">
+    <state x="361" y="166" key="Vcs.Push.Dialog.v2" timestamp="1612337042638">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="0" y="0" key="Vcs.Push.Dialog.v2.inPresentationMode" timestamp="1608097627320">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="0" y="0" key="Vcs.Push.Dialog.v2.inPresentationMode/0.0.1536.864@0.0.1536.864" timestamp="1608097627320" />
-    <state x="361" y="166" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1612246146728" />
+    <state x="361" y="166" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1612337042638" />
     <state x="401" y="184" key="Vcs.Push.Dialog.v2/0.0.1707.960/2560.0.1536.864@0.0.1707.960" timestamp="1611374676130" />
     <state x="401" y="184" key="Vcs.Push.Dialog.v2/0.0.1707.960@0.0.1707.960" timestamp="1608627518825" />
     <state x="425" y="197" key="run.anything.popup" timestamp="1612258871722">
