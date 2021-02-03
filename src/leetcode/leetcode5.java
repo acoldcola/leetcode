@@ -1,7 +1,5 @@
 package leetcode;
 
-import jdk.nashorn.internal.ir.IfNode;
-
 /**
  * @Author ZhangKe
  * @Date 2020/5/21 17:02
@@ -13,7 +11,7 @@ public class leetcode5 {
         leetcode5 l = new leetcode5();
         l.longestPalindrome("babab");
     }
-    public String longestPalindrome(String s) {
+    /*public String longestPalindrome(String s) {
         if (s == null || "".equals(s) || s.length() == 1) {
             return s;
         }
@@ -37,5 +35,22 @@ public class leetcode5 {
             right++;
         }
         return right - left - 1;
+    }*/
+    public String longestPalindrome(String s) {
+        boolean[][] dp = new boolean[s.length()][s.length()];
+        int left = 0;
+        int right = 0;
+        for (int i = 0; i < s.length(); i++) {
+            for (int j = 0; j <= i; j++) {
+                if (s.charAt(j) == s.charAt(i) && (i - j <= 2 || dp[j+1][i-1])) {
+                    dp[j][i] = true;
+                    if (i-j > (right - left)) {
+                        left = j;
+                        right = i;
+                    }
+                }
+            }
+        }
+        return s.substring(left,right + 1);
     }
 }
