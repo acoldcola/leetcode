@@ -4,7 +4,7 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25d36261-468b-4559-92f2-8b740aa9f875" name="Default" comment="统计同构子字符串的数目">
+    <list default="true" id="25d36261-468b-4559-92f2-8b740aa9f875" name="Default" comment=" 数组的度">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -585,14 +585,7 @@
       <workItem from="1612681660721" duration="1823000" />
       <workItem from="1613700908954" duration="1526000" />
       <workItem from="1613716196389" duration="1189000" />
-      <workItem from="1613783512718" duration="1006000" />
-    </task>
-    <task id="LOCAL-00177" summary="二分查找解决寻找峰值">
-      <created>1608109341255</created>
-      <option name="number" value="00177" />
-      <option name="presentableId" value="LOCAL-00177" />
-      <option name="project" value="LOCAL" />
-      <updated>1608109341255</updated>
+      <workItem from="1613783512718" duration="1642000" />
     </task>
     <task id="LOCAL-00178" summary="找不同">
       <created>1608262306351</created>
@@ -930,7 +923,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613703226900</updated>
     </task>
-    <option name="localTasksCounter" value="226" />
+    <task id="LOCAL-00226" summary=" 数组的度">
+      <created>1613788921945</created>
+      <option name="number" value="00226" />
+      <option name="presentableId" value="LOCAL-00226" />
+      <option name="project" value="LOCAL" />
+      <updated>1613788921945</updated>
+    </task>
+    <option name="localTasksCounter" value="227" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -962,7 +962,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="较大分组的位置" />
     <MESSAGE value="Fylod解决除法求值" />
     <MESSAGE value="并查集解决省份数量" />
     <MESSAGE value="并查集解决交换字符串中的元素" />
@@ -987,7 +986,8 @@
     <MESSAGE value=" 用户分组" />
     <MESSAGE value="生成交替二进制字符串的最少操作数" />
     <MESSAGE value="统计同构子字符串的数目" />
-    <option name="LAST_COMMIT_MESSAGE" value="统计同构子字符串的数目" />
+    <MESSAGE value=" 数组的度" />
+    <option name="LAST_COMMIT_MESSAGE" value=" 数组的度" />
   </component>
   <component name="WindowStateProjectService">
     <state x="582" y="149" key="#xdebugger.evaluate" timestamp="1612669503900">
@@ -995,14 +995,14 @@
     </state>
     <state x="524" y="134" key="#xdebugger.evaluate/0.0.1536.864@0.0.1536.864" timestamp="1612341454135" />
     <state x="582" y="149" key="#xdebugger.evaluate/0.0.1707.960/2560.0.1536.864@0.0.1707.960" timestamp="1612669503900" />
-    <state x="38" y="10" width="1384" height="825" key="CommitChangelistDialog2" timestamp="1613703225970">
+    <state x="38" y="10" width="1384" height="825" key="CommitChangelistDialog2" timestamp="1613788912125">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="82" y="0" key="CommitChangelistDialog2.inPresentationMode" timestamp="1608097624356">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="82" y="0" key="CommitChangelistDialog2.inPresentationMode/0.0.1536.864@0.0.1536.864" timestamp="1608097624356" />
-    <state x="38" y="10" width="1384" height="825" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1613703225970" />
+    <state x="38" y="10" width="1384" height="825" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1613788912125" />
     <state x="42" y="11" key="CommitChangelistDialog2/0.0.1707.960/2560.0.1536.864@0.0.1707.960" timestamp="1611374668265" />
     <state x="42" y="11" key="CommitChangelistDialog2/0.0.1707.960@0.0.1707.960" timestamp="1608627499455" />
     <state width="445" height="373" key="DebuggerActiveHint" timestamp="1612341181709">
@@ -1139,14 +1139,14 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="254" height="198" key="ShowFilterAction_Filter_Popup/0.0.1536.864@0.0.1536.864" timestamp="1610347439118" />
-    <state x="361" y="166" key="Vcs.Push.Dialog.v2" timestamp="1613703228406">
+    <state x="361" y="166" key="Vcs.Push.Dialog.v2" timestamp="1613788923274">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="0" y="0" key="Vcs.Push.Dialog.v2.inPresentationMode" timestamp="1608097627320">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="0" y="0" key="Vcs.Push.Dialog.v2.inPresentationMode/0.0.1536.864@0.0.1536.864" timestamp="1608097627320" />
-    <state x="361" y="166" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1613703228406" />
+    <state x="361" y="166" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1613788923274" />
     <state x="401" y="184" key="Vcs.Push.Dialog.v2/0.0.1707.960/2560.0.1536.864@0.0.1707.960" timestamp="1611374676130" />
     <state x="401" y="184" key="Vcs.Push.Dialog.v2/0.0.1707.960@0.0.1707.960" timestamp="1608627518825" />
     <state x="472" y="219" key="run.anything.popup" timestamp="1612667091775">

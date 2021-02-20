@@ -7,12 +7,28 @@ package leetcode;
  * 目标和
  */
 public class leetcode494 {
-    public int findTargetSumWays(int[] nums, int S) {
-        int max = 0;
-        int min = 0;
-        for (int i = 0; i < nums.length; i++) {
+    public int res = 0;
 
+    public int findTargetSumWays(int[] nums, int S) {
+        if (nums == null || nums.length == 0) {
+            return 0;
         }
-        return 0;
+        dfs(0, nums, S);
+        return res;
+    }
+
+    private void dfs(int i, int[] nums, int s) {
+        if (i == nums.length) {
+            if (s == 0) {
+                res++;
+            }
+            return;
+        }
+        s -= nums[i];
+        dfs(i + 1, nums, s);
+        s += nums[i];
+        s += nums[i];
+        dfs(i + 1, nums, s);
+        s -= nums[i];
     }
 }
