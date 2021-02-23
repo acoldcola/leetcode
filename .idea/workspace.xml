@@ -4,7 +4,7 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25d36261-468b-4559-92f2-8b740aa9f875" name="Default" comment="优先队列解决数据流中的第 K 大元素">
+    <list default="true" id="25d36261-468b-4559-92f2-8b740aa9f875" name="Default" comment="动态规划解决最长公共子序列">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -596,14 +596,7 @@
       <workItem from="1613874184811" duration="1600000" />
       <workItem from="1613955614739" duration="601000" />
       <workItem from="1613960264034" duration="1843000" />
-      <workItem from="1613981064659" duration="1211000" />
-    </task>
-    <task id="LOCAL-00182" summary="栈解决有效括号">
-      <created>1608368629297</created>
-      <option name="number" value="00182" />
-      <option name="presentableId" value="LOCAL-00182" />
-      <option name="project" value="LOCAL" />
-      <updated>1608368629297</updated>
+      <workItem from="1613981064659" duration="1883000" />
     </task>
     <task id="LOCAL-00183" summary="罗马数字转整数">
       <created>1608370677433</created>
@@ -941,7 +934,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613974386815</updated>
     </task>
-    <option name="localTasksCounter" value="231" />
+    <task id="LOCAL-00231" summary="动态规划解决最长公共子序列">
+      <created>1613985392258</created>
+      <option name="number" value="00231" />
+      <option name="presentableId" value="LOCAL-00231" />
+      <option name="project" value="LOCAL" />
+      <updated>1613985392258</updated>
+    </task>
+    <option name="localTasksCounter" value="232" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -973,7 +973,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="可被 5 整除的二进制前缀" />
     <MESSAGE value="并查集解决移除最多的同行或同列石头" />
     <MESSAGE value="账户合并" />
     <MESSAGE value="克鲁斯卡尔算法解决连接所有点的最小费用" />
@@ -998,7 +997,8 @@
     <MESSAGE value="动态规划解决回文子串" />
     <MESSAGE value="第229场周赛" />
     <MESSAGE value="优先队列解决数据流中的第 K 大元素" />
-    <option name="LAST_COMMIT_MESSAGE" value="优先队列解决数据流中的第 K 大元素" />
+    <MESSAGE value="动态规划解决最长公共子序列" />
+    <option name="LAST_COMMIT_MESSAGE" value="动态规划解决最长公共子序列" />
   </component>
   <component name="WindowStateProjectService">
     <state x="582" y="149" key="#xdebugger.evaluate" timestamp="1613835287289">
@@ -1006,14 +1006,14 @@
     </state>
     <state x="524" y="134" key="#xdebugger.evaluate/0.0.1536.864@0.0.1536.864" timestamp="1612341454135" />
     <state x="582" y="149" key="#xdebugger.evaluate/0.0.1707.960/2560.0.1536.864@0.0.1707.960" timestamp="1613835287289" />
-    <state x="38" y="10" width="1384" height="825" key="CommitChangelistDialog2" timestamp="1613974385671">
+    <state x="38" y="10" width="1384" height="825" key="CommitChangelistDialog2" timestamp="1613985381624">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="82" y="0" key="CommitChangelistDialog2.inPresentationMode" timestamp="1608097624356">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="82" y="0" key="CommitChangelistDialog2.inPresentationMode/0.0.1536.864@0.0.1536.864" timestamp="1608097624356" />
-    <state x="38" y="10" width="1384" height="825" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1613974385671" />
+    <state x="38" y="10" width="1384" height="825" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1613985381624" />
     <state x="42" y="11" key="CommitChangelistDialog2/0.0.1707.960/2560.0.1536.864@0.0.1707.960" timestamp="1611374668265" />
     <state x="42" y="11" key="CommitChangelistDialog2/0.0.1707.960@0.0.1707.960" timestamp="1608627499455" />
     <state width="445" height="373" key="DebuggerActiveHint" timestamp="1612341181709">
@@ -1150,14 +1150,14 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="254" height="198" key="ShowFilterAction_Filter_Popup/0.0.1536.864@0.0.1536.864" timestamp="1610347439118" />
-    <state x="361" y="166" key="Vcs.Push.Dialog.v2" timestamp="1613974388422">
+    <state x="361" y="166" key="Vcs.Push.Dialog.v2" timestamp="1613985393994">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="0" y="0" key="Vcs.Push.Dialog.v2.inPresentationMode" timestamp="1608097627320">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="0" y="0" key="Vcs.Push.Dialog.v2.inPresentationMode/0.0.1536.864@0.0.1536.864" timestamp="1608097627320" />
-    <state x="361" y="166" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1613974388422" />
+    <state x="361" y="166" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1613985393994" />
     <state x="401" y="184" key="Vcs.Push.Dialog.v2/0.0.1707.960/2560.0.1536.864@0.0.1707.960" timestamp="1611374676130" />
     <state x="401" y="184" key="Vcs.Push.Dialog.v2/0.0.1707.960@0.0.1707.960" timestamp="1608627518825" />
     <state x="472" y="219" key="run.anything.popup" timestamp="1612667091775">
@@ -1165,10 +1165,10 @@
     </state>
     <state x="425" y="197" key="run.anything.popup/0.0.1536.864@0.0.1536.864" timestamp="1612258871722" />
     <state x="472" y="219" key="run.anything.popup/0.0.1707.960/2560.0.1536.864@0.0.1707.960" timestamp="1612667091775" />
-    <state x="504" y="252" width="672" height="711" key="search.everywhere.popup" timestamp="1612258830593">
+    <state x="504" y="252" width="672" height="711" key="search.everywhere.popup" timestamp="1613985352495">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="504" y="252" width="672" height="711" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1612258830593" />
+    <state x="504" y="252" width="672" height="711" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1613985352495" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
