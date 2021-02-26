@@ -4,7 +4,7 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25d36261-468b-4559-92f2-8b740aa9f875" name="Default" comment="最小差">
+    <list default="true" id="25d36261-468b-4559-92f2-8b740aa9f875" name="Default" comment="差分数组解决航班预订统计">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -142,6 +142,17 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -607,14 +618,7 @@
       <workItem from="1614147311577" duration="801000" />
       <workItem from="1614216772119" duration="25000" />
       <workItem from="1614238949655" duration="659000" />
-      <workItem from="1614301895649" duration="602000" />
-    </task>
-    <task id="LOCAL-00185" summary="动态规划解决使用最小花费爬楼梯">
-      <created>1608521208897</created>
-      <option name="number" value="00185" />
-      <option name="presentableId" value="LOCAL-00185" />
-      <option name="project" value="LOCAL" />
-      <updated>1608521208898</updated>
+      <workItem from="1614301895649" duration="2072000" />
     </task>
     <task id="LOCAL-00186" summary="leetcode746题优化空间复杂度">
       <created>1608521795215</created>
@@ -952,7 +956,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614239005576</updated>
     </task>
-    <option name="localTasksCounter" value="234" />
+    <task id="LOCAL-00234" summary="差分数组解决航班预订统计">
+      <created>1614319009724</created>
+      <option name="number" value="00234" />
+      <option name="presentableId" value="LOCAL-00234" />
+      <option name="project" value="LOCAL" />
+      <updated>1614319009724</updated>
+    </task>
+    <option name="localTasksCounter" value="235" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -984,7 +995,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="克鲁斯卡尔算法解决连接所有点的最小费用" />
     <MESSAGE value="DFS解决二叉树中的列表" />
     <MESSAGE value="找到最小生成树里的关键边和伪关键边" />
     <MESSAGE value="数组形式的整数加法" />
@@ -1009,7 +1019,8 @@
     <MESSAGE value="动态规划解决最长公共子序列" />
     <MESSAGE value="前缀和加滑动窗口解决爱生气的书店老板" />
     <MESSAGE value="最小差" />
-    <option name="LAST_COMMIT_MESSAGE" value="最小差" />
+    <MESSAGE value="差分数组解决航班预订统计" />
+    <option name="LAST_COMMIT_MESSAGE" value="差分数组解决航班预订统计" />
   </component>
   <component name="WindowStateProjectService">
     <state x="582" y="149" key="#xdebugger.evaluate" timestamp="1613835287289">
@@ -1017,14 +1028,14 @@
     </state>
     <state x="524" y="134" key="#xdebugger.evaluate/0.0.1536.864@0.0.1536.864" timestamp="1612341454135" />
     <state x="582" y="149" key="#xdebugger.evaluate/0.0.1707.960/2560.0.1536.864@0.0.1707.960" timestamp="1613835287289" />
-    <state x="38" y="10" width="1384" height="825" key="CommitChangelistDialog2" timestamp="1614238994556">
+    <state x="38" y="10" width="1384" height="825" key="CommitChangelistDialog2" timestamp="1614319000256">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="82" y="0" key="CommitChangelistDialog2.inPresentationMode" timestamp="1608097624356">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="82" y="0" key="CommitChangelistDialog2.inPresentationMode/0.0.1536.864@0.0.1536.864" timestamp="1608097624356" />
-    <state x="38" y="10" width="1384" height="825" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1614238994556" />
+    <state x="38" y="10" width="1384" height="825" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1614319000256" />
     <state x="42" y="11" key="CommitChangelistDialog2/0.0.1707.960/2560.0.1536.864@0.0.1707.960" timestamp="1611374668265" />
     <state x="42" y="11" key="CommitChangelistDialog2/0.0.1707.960@0.0.1707.960" timestamp="1608627499455" />
     <state width="445" height="373" key="DebuggerActiveHint" timestamp="1612341181709">
@@ -1161,14 +1172,14 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="254" height="198" key="ShowFilterAction_Filter_Popup/0.0.1536.864@0.0.1536.864" timestamp="1610347439118" />
-    <state x="361" y="166" key="Vcs.Push.Dialog.v2" timestamp="1614239006823">
+    <state x="361" y="166" key="Vcs.Push.Dialog.v2" timestamp="1614319024336">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="0" y="0" key="Vcs.Push.Dialog.v2.inPresentationMode" timestamp="1608097627320">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="0" y="0" key="Vcs.Push.Dialog.v2.inPresentationMode/0.0.1536.864@0.0.1536.864" timestamp="1608097627320" />
-    <state x="361" y="166" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1614239006823" />
+    <state x="361" y="166" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1614319024336" />
     <state x="401" y="184" key="Vcs.Push.Dialog.v2/0.0.1707.960/2560.0.1536.864@0.0.1707.960" timestamp="1611374676130" />
     <state x="401" y="184" key="Vcs.Push.Dialog.v2/0.0.1707.960@0.0.1707.960" timestamp="1608627518825" />
     <state x="472" y="219" key="run.anything.popup" timestamp="1612667091775">
