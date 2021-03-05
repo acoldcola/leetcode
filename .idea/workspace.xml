@@ -4,8 +4,8 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25d36261-468b-4559-92f2-8b740aa9f875" name="Default" comment="树的子结构">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/offer56_II.java" afterDir="false" />
+    <list default="true" id="25d36261-468b-4559-92f2-8b740aa9f875" name="Default" comment="后续遍历解决寻找重复的子树">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/offer65.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,7 +40,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="JupyterTrust" id="4282d7fc-88fc-4073-bb10-34c95beda29a" />
+  <component name="JupyterTrust" id="42a77eda-d1cf-4631-8b61-8103b283d43e" />
   <component name="ProjectId" id="1Y3PgUArFJlo4zRXDaT4NPGchy0" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -144,17 +144,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -631,14 +620,8 @@
       <workItem from="1614734046782" duration="26000" />
       <workItem from="1614738943272" duration="63000" />
       <workItem from="1614742230521" duration="660000" />
-      <workItem from="1614835944480" duration="670000" />
-    </task>
-    <task id="LOCAL-00190" summary="移掉K位数字">
-      <created>1608627511473</created>
-      <option name="number" value="00190" />
-      <option name="presentableId" value="LOCAL-00190" />
-      <option name="project" value="LOCAL" />
-      <updated>1608627511474</updated>
+      <workItem from="1614835944480" duration="1348000" />
+      <workItem from="1614906768548" duration="606000" />
     </task>
     <task id="LOCAL-00191" summary="单调栈解决下一个更大元素 I">
       <created>1608713767811</created>
@@ -976,7 +959,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614742292197</updated>
     </task>
-    <option name="localTasksCounter" value="239" />
+    <task id="LOCAL-00239" summary="后续遍历解决寻找重复的子树">
+      <created>1614841971630</created>
+      <option name="number" value="00239" />
+      <option name="presentableId" value="LOCAL-00239" />
+      <option name="project" value="LOCAL" />
+      <updated>1614841971631</updated>
+    </task>
+    <option name="localTasksCounter" value="240" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1008,7 +998,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="由斜杠划分区域" />
     <MESSAGE value="并查集解决保证图可完全遍历" />
     <MESSAGE value="公平的糖果棒交换" />
     <MESSAGE value="滑动窗口解决替换后的最长重复字符" />
@@ -1033,7 +1022,8 @@
     <MESSAGE value="单调数列" />
     <MESSAGE value="前缀和结局区域和检索 - 数组不可变" />
     <MESSAGE value="树的子结构" />
-    <option name="LAST_COMMIT_MESSAGE" value="树的子结构" />
+    <MESSAGE value="后续遍历解决寻找重复的子树" />
+    <option name="LAST_COMMIT_MESSAGE" value="后续遍历解决寻找重复的子树" />
   </component>
   <component name="WindowStateProjectService">
     <state x="582" y="149" key="#xdebugger.evaluate" timestamp="1613835287289">
@@ -1041,14 +1031,14 @@
     </state>
     <state x="524" y="134" key="#xdebugger.evaluate/0.0.1536.864@0.0.1536.864" timestamp="1612341454135" />
     <state x="582" y="149" key="#xdebugger.evaluate/0.0.1707.960/2560.0.1536.864@0.0.1707.960" timestamp="1613835287289" />
-    <state x="38" y="10" width="1384" height="825" key="CommitChangelistDialog2" timestamp="1614742282613">
+    <state x="38" y="10" width="1384" height="825" key="CommitChangelistDialog2" timestamp="1614841963369">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="82" y="0" key="CommitChangelistDialog2.inPresentationMode" timestamp="1608097624356">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="82" y="0" key="CommitChangelistDialog2.inPresentationMode/0.0.1536.864@0.0.1536.864" timestamp="1608097624356" />
-    <state x="38" y="10" width="1384" height="825" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1614742282613" />
+    <state x="38" y="10" width="1384" height="825" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1614841963369" />
     <state x="42" y="11" key="CommitChangelistDialog2/0.0.1707.960/2560.0.1536.864@0.0.1707.960" timestamp="1614499034454" />
     <state x="42" y="11" key="CommitChangelistDialog2/0.0.1707.960@0.0.1707.960" timestamp="1608627499455" />
     <state width="445" height="373" key="DebuggerActiveHint" timestamp="1612341181709">
@@ -1185,14 +1175,14 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="254" height="198" key="ShowFilterAction_Filter_Popup/0.0.1536.864@0.0.1536.864" timestamp="1610347439118" />
-    <state x="361" y="166" key="Vcs.Push.Dialog.v2" timestamp="1614742294620">
+    <state x="361" y="166" key="Vcs.Push.Dialog.v2" timestamp="1614841973677">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="0" y="0" key="Vcs.Push.Dialog.v2.inPresentationMode" timestamp="1608097627320">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="0" y="0" key="Vcs.Push.Dialog.v2.inPresentationMode/0.0.1536.864@0.0.1536.864" timestamp="1608097627320" />
-    <state x="361" y="166" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1614742294620" />
+    <state x="361" y="166" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1614841973677" />
     <state x="401" y="184" key="Vcs.Push.Dialog.v2/0.0.1707.960/2560.0.1536.864@0.0.1707.960" timestamp="1614499055587" />
     <state x="401" y="184" key="Vcs.Push.Dialog.v2/0.0.1707.960@0.0.1707.960" timestamp="1608627518825" />
     <state x="472" y="219" key="run.anything.popup" timestamp="1612667091775">
