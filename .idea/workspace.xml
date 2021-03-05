@@ -4,7 +4,9 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25d36261-468b-4559-92f2-8b740aa9f875" name="Default" comment="祖父节点值为偶数的节点和">
+    <list default="true" id="25d36261-468b-4559-92f2-8b740aa9f875" name="Default" comment="动态规划解决组合总和 Ⅳ">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode236.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode98.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -620,14 +622,7 @@
       <workItem from="1614738943272" duration="63000" />
       <workItem from="1614742230521" duration="660000" />
       <workItem from="1614835944480" duration="1348000" />
-      <workItem from="1614906768548" duration="1907000" />
-    </task>
-    <task id="LOCAL-00193" summary="单调栈解决最短无序连续子数组">
-      <created>1608791260844</created>
-      <option name="number" value="00193" />
-      <option name="presentableId" value="LOCAL-00193" />
-      <option name="project" value="LOCAL" />
-      <updated>1608791260844</updated>
+      <workItem from="1614906768548" duration="4741000" />
     </task>
     <task id="LOCAL-00194" summary="分发饼干">
       <created>1608862930034</created>
@@ -965,7 +960,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614910237353</updated>
     </task>
-    <option name="localTasksCounter" value="242" />
+    <task id="LOCAL-00242" summary="动态规划解决组合总和 Ⅳ">
+      <created>1614912659819</created>
+      <option name="number" value="00242" />
+      <option name="presentableId" value="LOCAL-00242" />
+      <option name="project" value="LOCAL" />
+      <updated>1614912659819</updated>
+    </task>
+    <option name="localTasksCounter" value="243" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -997,7 +999,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="公平的糖果棒交换" />
     <MESSAGE value="滑动窗口解决替换后的最长重复字符" />
     <MESSAGE value="大顶堆和小顶堆解决滑动窗口中位数" />
     <MESSAGE value="最大连续1的个数 III" />
@@ -1022,7 +1023,8 @@
     <MESSAGE value="树的子结构" />
     <MESSAGE value="后续遍历解决寻找重复的子树" />
     <MESSAGE value="祖父节点值为偶数的节点和" />
-    <option name="LAST_COMMIT_MESSAGE" value="祖父节点值为偶数的节点和" />
+    <MESSAGE value="动态规划解决组合总和 Ⅳ" />
+    <option name="LAST_COMMIT_MESSAGE" value="动态规划解决组合总和 Ⅳ" />
   </component>
   <component name="WindowStateProjectService">
     <state x="582" y="149" key="#xdebugger.evaluate" timestamp="1613835287289">
@@ -1030,14 +1032,14 @@
     </state>
     <state x="524" y="134" key="#xdebugger.evaluate/0.0.1536.864@0.0.1536.864" timestamp="1612341454135" />
     <state x="582" y="149" key="#xdebugger.evaluate/0.0.1707.960/2560.0.1536.864@0.0.1707.960" timestamp="1613835287289" />
-    <state x="38" y="10" width="1384" height="825" key="CommitChangelistDialog2" timestamp="1614910236465">
+    <state x="38" y="10" width="1384" height="825" key="CommitChangelistDialog2" timestamp="1614912658907">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="82" y="0" key="CommitChangelistDialog2.inPresentationMode" timestamp="1608097624356">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="82" y="0" key="CommitChangelistDialog2.inPresentationMode/0.0.1536.864@0.0.1536.864" timestamp="1608097624356" />
-    <state x="38" y="10" width="1384" height="825" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1614910236465" />
+    <state x="38" y="10" width="1384" height="825" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1614912658907" />
     <state x="42" y="11" key="CommitChangelistDialog2/0.0.1707.960/2560.0.1536.864@0.0.1707.960" timestamp="1614499034454" />
     <state x="42" y="11" key="CommitChangelistDialog2/0.0.1707.960@0.0.1707.960" timestamp="1608627499455" />
     <state width="445" height="373" key="DebuggerActiveHint" timestamp="1612341181709">
@@ -1174,14 +1176,14 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="254" height="198" key="ShowFilterAction_Filter_Popup/0.0.1536.864@0.0.1536.864" timestamp="1610347439118" />
-    <state x="361" y="166" key="Vcs.Push.Dialog.v2" timestamp="1614910238822">
+    <state x="361" y="166" key="Vcs.Push.Dialog.v2" timestamp="1614912661209">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="0" y="0" key="Vcs.Push.Dialog.v2.inPresentationMode" timestamp="1608097627320">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="0" y="0" key="Vcs.Push.Dialog.v2.inPresentationMode/0.0.1536.864@0.0.1536.864" timestamp="1608097627320" />
-    <state x="361" y="166" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1614910238822" />
+    <state x="361" y="166" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1614912661209" />
     <state x="401" y="184" key="Vcs.Push.Dialog.v2/0.0.1707.960/2560.0.1536.864@0.0.1707.960" timestamp="1614499055587" />
     <state x="401" y="184" key="Vcs.Push.Dialog.v2/0.0.1707.960@0.0.1707.960" timestamp="1608627518825" />
     <state x="472" y="219" key="run.anything.popup" timestamp="1612667091775">
