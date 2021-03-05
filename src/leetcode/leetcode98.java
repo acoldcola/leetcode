@@ -10,6 +10,7 @@ import java.util.List;
  * 验证二叉搜索树
  */
 public class leetcode98 {
+
     List<Integer> list = new ArrayList<>();
     public boolean isValidBST(TreeNode root) {
         if (root == null) {
