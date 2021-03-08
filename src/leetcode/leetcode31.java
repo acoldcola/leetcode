@@ -25,15 +25,16 @@ public class leetcode31 {
                 nums[i] ^= nums[res];
                 nums[res] ^= nums[i];
                 nums[i] ^= nums[res];
-                for (int k = i+1; k < nums.length; k++) {
-                    for (int m = k+1; m < nums.length; m++) {
-                        if (nums[k] > nums[m]) {
-                            int temp = nums[k];
-                            nums[k] = nums[m];
-                            nums[m] = temp;
-                        }
-                    }
-                }
+//                for (int k = i+1; k < nums.length; k++) {
+//                    for (int m = k+1; m < nums.length; m++) {
+//                        if (nums[k] > nums[m]) {
+//                            int temp = nums[k];
+//                            nums[k] = nums[m];
+//                            nums[m] = temp;
+//                        }
+//                    }
+//                }
+                Arrays.sort(nums,i+1,nums.length);
                 return;
             }
         }
