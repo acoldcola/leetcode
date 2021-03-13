@@ -4,7 +4,8 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25d36261-468b-4559-92f2-8b740aa9f875" name="Default" comment="验证二叉树的前序序列化">
+    <list default="true" id="25d36261-468b-4559-92f2-8b740aa9f875" name="Default" comment="避免洪水泛滥">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode705.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +40,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="JupyterTrust" id="8e7e8942-5087-4c18-b686-2ad17417c3e0" />
+  <component name="JupyterTrust" id="360c1beb-a78f-4762-be79-0e97189cce18" />
   <component name="ProjectId" id="1Y3PgUArFJlo4zRXDaT4NPGchy0" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -629,14 +630,8 @@
       <workItem from="1615166164707" duration="605000" />
       <workItem from="1615182676803" duration="3412000" />
       <workItem from="1615252761768" duration="1223000" />
-      <workItem from="1615527976691" duration="656000" />
-    </task>
-    <task id="LOCAL-00201" summary="较大分组的位置">
-      <created>1609819430899</created>
-      <option name="number" value="00201" />
-      <option name="presentableId" value="LOCAL-00201" />
-      <option name="project" value="LOCAL" />
-      <updated>1609819430900</updated>
+      <workItem from="1615527976691" duration="1292000" />
+      <workItem from="1615608267769" duration="921000" />
     </task>
     <task id="LOCAL-00202" summary="Fylod解决除法求值">
       <created>1609943029786</created>
@@ -974,7 +969,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615528009923</updated>
     </task>
-    <option name="localTasksCounter" value="250" />
+    <task id="LOCAL-00250" summary="避免洪水泛滥">
+      <created>1615541777556</created>
+      <option name="number" value="00250" />
+      <option name="presentableId" value="LOCAL-00250" />
+      <option name="project" value="LOCAL" />
+      <updated>1615541777556</updated>
+    </task>
+    <option name="localTasksCounter" value="251" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1006,7 +1008,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="生成交替二进制字符串的最少操作数" />
     <MESSAGE value="统计同构子字符串的数目" />
     <MESSAGE value=" 数组的度" />
     <MESSAGE value="目标和" />
@@ -1031,7 +1032,8 @@
     <MESSAGE value="搜索二维矩阵 II" />
     <MESSAGE value="二叉树展开为链表" />
     <MESSAGE value="验证二叉树的前序序列化" />
-    <option name="LAST_COMMIT_MESSAGE" value="验证二叉树的前序序列化" />
+    <MESSAGE value="避免洪水泛滥" />
+    <option name="LAST_COMMIT_MESSAGE" value="避免洪水泛滥" />
   </component>
   <component name="WindowStateProjectService">
     <state x="582" y="149" key="#xdebugger.evaluate" timestamp="1613835287289">
@@ -1039,14 +1041,14 @@
     </state>
     <state x="524" y="134" key="#xdebugger.evaluate/0.0.1536.864@0.0.1536.864" timestamp="1612341454135" />
     <state x="582" y="149" key="#xdebugger.evaluate/0.0.1707.960/2560.0.1536.864@0.0.1707.960" timestamp="1613835287289" />
-    <state x="38" y="10" width="1384" height="825" key="CommitChangelistDialog2" timestamp="1615528000130">
+    <state x="38" y="10" width="1384" height="825" key="CommitChangelistDialog2" timestamp="1615541776079">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="82" y="0" key="CommitChangelistDialog2.inPresentationMode" timestamp="1608097624356">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="82" y="0" key="CommitChangelistDialog2.inPresentationMode/0.0.1536.864@0.0.1536.864" timestamp="1608097624356" />
-    <state x="38" y="10" width="1384" height="825" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1615528000130" />
+    <state x="38" y="10" width="1384" height="825" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1615541776079" />
     <state x="42" y="11" key="CommitChangelistDialog2/0.0.1707.960/2560.0.1536.864@0.0.1707.960" timestamp="1614499034454" />
     <state x="42" y="11" key="CommitChangelistDialog2/0.0.1707.960@0.0.1707.960" timestamp="1608627499455" />
     <state width="445" height="373" key="DebuggerActiveHint" timestamp="1612341181709">
@@ -1183,14 +1185,14 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="254" height="198" key="ShowFilterAction_Filter_Popup/0.0.1536.864@0.0.1536.864" timestamp="1610347439118" />
-    <state x="361" y="166" key="Vcs.Push.Dialog.v2" timestamp="1615528027295">
+    <state x="361" y="166" key="Vcs.Push.Dialog.v2" timestamp="1615541778810">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="0" y="0" key="Vcs.Push.Dialog.v2.inPresentationMode" timestamp="1608097627320">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="0" y="0" key="Vcs.Push.Dialog.v2.inPresentationMode/0.0.1536.864@0.0.1536.864" timestamp="1608097627320" />
-    <state x="361" y="166" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1615528027295" />
+    <state x="361" y="166" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1615541778810" />
     <state x="401" y="184" key="Vcs.Push.Dialog.v2/0.0.1707.960/2560.0.1536.864@0.0.1707.960" timestamp="1614499055587" />
     <state x="401" y="184" key="Vcs.Push.Dialog.v2/0.0.1707.960@0.0.1707.960" timestamp="1608627518825" />
     <state x="472" y="219" key="run.anything.popup" timestamp="1612667091775">
@@ -1198,11 +1200,11 @@
     </state>
     <state x="425" y="197" key="run.anything.popup/0.0.1536.864@0.0.1536.864" timestamp="1612258871722" />
     <state x="472" y="219" key="run.anything.popup/0.0.1707.960/2560.0.1536.864@0.0.1707.960" timestamp="1612667091775" />
-    <state x="560" y="280" width="747" height="790" key="search.everywhere.popup" timestamp="1614606837131">
+    <state x="560" y="280" width="747" height="790" key="search.everywhere.popup" timestamp="1615608478181">
       <screen x="0" y="0" width="1707" height="960" />
     </state>
     <state x="504" y="252" width="672" height="711" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1613985352495" />
-    <state x="560" y="280" width="747" height="790" key="search.everywhere.popup/0.0.1707.960/2560.0.1536.864@0.0.1707.960" timestamp="1614606837131" />
+    <state x="560" y="280" width="747" height="790" key="search.everywhere.popup/0.0.1707.960/2560.0.1536.864@0.0.1707.960" timestamp="1615608478181" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
