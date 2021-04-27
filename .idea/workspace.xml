@@ -4,14 +4,7 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25d36261-468b-4559-92f2-8b740aa9f875" name="Default" comment="删除排序链表中的重复元素 II">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode61.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/竞赛/LCCUP21/test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/竞赛/LCCUP21/test2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/竞赛/LCCUP21/test3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/leetcode83.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/leetcode83.java" afterDir="false" />
-    </list>
+    <list default="true" id="25d36261-468b-4559-92f2-8b740aa9f875" name="Default" comment="删除有序数组中的重复项 II" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,7 +37,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="JupyterTrust" id="760123c4-2d29-4b6e-aaa0-c9ad6b68bea5" />
+  <component name="JupyterTrust" id="d9d2c6b7-07bb-428f-8836-e959564861b8" />
   <component name="ProjectId" id="1Y3PgUArFJlo4zRXDaT4NPGchy0" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -649,13 +642,7 @@
       <workItem from="1616724406375" duration="27000" />
       <workItem from="1617090660164" duration="357000" />
       <workItem from="1617605740206" duration="2871000" />
-    </task>
-    <task id="LOCAL-00206" summary="可被 5 整除的二进制前缀">
-      <created>1610588446485</created>
-      <option name="number" value="00206" />
-      <option name="presentableId" value="LOCAL-00206" />
-      <option name="project" value="LOCAL" />
-      <updated>1610588446486</updated>
+      <workItem from="1617676480696" duration="206000" />
     </task>
     <task id="LOCAL-00207" summary="并查集解决移除最多的同行或同列石头">
       <created>1610697438853</created>
@@ -993,7 +980,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616641362077</updated>
     </task>
-    <option name="localTasksCounter" value="255" />
+    <task id="LOCAL-00255" summary="删除有序数组中的重复项 II">
+      <created>1617676527098</created>
+      <option name="number" value="00255" />
+      <option name="presentableId" value="LOCAL-00255" />
+      <option name="project" value="LOCAL" />
+      <updated>1617676527098</updated>
+    </task>
+    <option name="localTasksCounter" value="256" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1025,7 +1019,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="第229场周赛" />
     <MESSAGE value="优先队列解决数据流中的第 K 大元素" />
     <MESSAGE value="动态规划解决最长公共子序列" />
     <MESSAGE value="前缀和加滑动窗口解决爱生气的书店老板" />
@@ -1050,7 +1043,8 @@
     <MESSAGE value="扁平化嵌套列表迭代器" />
     <MESSAGE value="单调栈解决132模式" />
     <MESSAGE value="删除排序链表中的重复元素 II" />
-    <option name="LAST_COMMIT_MESSAGE" value="删除排序链表中的重复元素 II" />
+    <MESSAGE value="删除有序数组中的重复项 II" />
+    <option name="LAST_COMMIT_MESSAGE" value="删除有序数组中的重复项 II" />
   </component>
   <component name="WindowStateProjectService">
     <state x="582" y="149" key="#xdebugger.evaluate" timestamp="1616297833581">
@@ -1058,10 +1052,10 @@
     </state>
     <state x="524" y="134" key="#xdebugger.evaluate/0.0.1536.864@0.0.1536.864" timestamp="1612341454135" />
     <state x="582" y="149" key="#xdebugger.evaluate/0.0.1707.960/2560.0.1536.864@0.0.1707.960" timestamp="1616297833581" />
-    <state x="38" y="9" width="1384" height="825" key="CommitChangelistDialog2" timestamp="1616641352233">
+    <state x="38" y="0" width="1384" height="825" key="CommitChangelistDialog2" timestamp="1617676516519">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="38" y="9" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1616641352233" />
+    <state x="38" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1617676516519" />
     <state x="38" y="10" width="1384" height="825" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1616486721545" />
     <state x="42" y="11" key="CommitChangelistDialog2/0.0.1707.960/2560.0.1536.864@0.0.1707.960" timestamp="1616595482839" />
     <state width="445" height="373" key="DebuggerActiveHint" timestamp="1612341181709">
@@ -1163,10 +1157,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="254" height="198" key="ShowFilterAction_Filter_Popup/0.0.1536.864@0.0.1536.864" timestamp="1610347439118" />
-    <state x="361" y="158" key="Vcs.Push.Dialog.v2" timestamp="1616641364107">
+    <state x="361" y="158" key="Vcs.Push.Dialog.v2" timestamp="1617676528644">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="158" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1616641364107" />
+    <state x="361" y="158" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1617676528644" />
     <state x="361" y="166" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1616486736912" />
     <state x="401" y="184" key="Vcs.Push.Dialog.v2/0.0.1707.960/2560.0.1536.864@0.0.1707.960" timestamp="1616596720872" />
     <state x="472" y="219" key="run.anything.popup" timestamp="1612667091775">

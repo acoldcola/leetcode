@@ -7,14 +7,14 @@ package leetcode;
  * 二叉搜索树的范围和
  */
 public class leetcode938 {
-    public int rangeSumBST(TreeNode root, int L, int R) {
+    public int rangeSumBST(TreeNode root, int low, int high) {
         if (root == null) {
             return 0;
         }
         int sum = 0;
-        if (root.val == L) {
-            sum +=1;
+        if (root.val >= low && root.val <= high) {
+            sum += root.val;
         }
-        return 0;
+        return sum + rangeSumBST(root.left,low,high) + rangeSumBST(root.right,low,high);
     }
 }
