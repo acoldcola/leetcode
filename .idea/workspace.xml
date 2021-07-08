@@ -3,8 +3,36 @@
   <component name="AnalysisUIOptions">
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="25d36261-468b-4559-92f2-8b740aa9f875" name="Default" comment="删除有序数组中的重复项 II" />
+    <list default="true" id="25d36261-468b-4559-92f2-8b740aa9f875" name="Default" comment="二叉搜索树的范围和">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode930.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/leetcode523.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/leetcode523.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,7 +65,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="JupyterTrust" id="d9d2c6b7-07bb-428f-8836-e959564861b8" />
+  <component name="JupyterTrust" id="8be0ff0a-f7ea-40d4-84a8-345d97dbbf17" />
   <component name="ProjectId" id="1Y3PgUArFJlo4zRXDaT4NPGchy0" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -643,13 +671,14 @@
       <workItem from="1617090660164" duration="357000" />
       <workItem from="1617605740206" duration="2871000" />
       <workItem from="1617676480696" duration="206000" />
-    </task>
-    <task id="LOCAL-00207" summary="并查集解决移除最多的同行或同列石头">
-      <created>1610697438853</created>
-      <option name="number" value="00207" />
-      <option name="presentableId" value="LOCAL-00207" />
-      <option name="project" value="LOCAL" />
-      <updated>1610697438853</updated>
+      <workItem from="1619488341199" duration="1202000" />
+      <workItem from="1621441837046" duration="136000" />
+      <workItem from="1623080509680" duration="1267000" />
+      <workItem from="1623851047634" duration="88000" />
+      <workItem from="1623851681295" duration="266000" />
+      <workItem from="1623851984709" duration="1402000" />
+      <workItem from="1624281132041" duration="150000" />
+      <workItem from="1625753307735" duration="886000" />
     </task>
     <task id="LOCAL-00208" summary="账户合并">
       <created>1610947048574</created>
@@ -987,7 +1016,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617676527098</updated>
     </task>
-    <option name="localTasksCounter" value="256" />
+    <task id="LOCAL-00256" summary="二叉搜索树的范围和">
+      <created>1619488419364</created>
+      <option name="number" value="00256" />
+      <option name="presentableId" value="LOCAL-00256" />
+      <option name="project" value="LOCAL" />
+      <updated>1619488419364</updated>
+    </task>
+    <option name="localTasksCounter" value="257" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1011,7 +1047,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -1019,7 +1067,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="优先队列解决数据流中的第 K 大元素" />
     <MESSAGE value="动态规划解决最长公共子序列" />
     <MESSAGE value="前缀和加滑动窗口解决爱生气的书店老板" />
     <MESSAGE value="最小差" />
@@ -1044,135 +1091,8 @@
     <MESSAGE value="单调栈解决132模式" />
     <MESSAGE value="删除排序链表中的重复元素 II" />
     <MESSAGE value="删除有序数组中的重复项 II" />
-    <option name="LAST_COMMIT_MESSAGE" value="删除有序数组中的重复项 II" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="582" y="149" key="#xdebugger.evaluate" timestamp="1616297833581">
-      <screen x="0" y="0" width="1707" height="960" />
-    </state>
-    <state x="524" y="134" key="#xdebugger.evaluate/0.0.1536.864@0.0.1536.864" timestamp="1612341454135" />
-    <state x="582" y="149" key="#xdebugger.evaluate/0.0.1707.960/2560.0.1536.864@0.0.1707.960" timestamp="1616297833581" />
-    <state x="38" y="0" width="1384" height="825" key="CommitChangelistDialog2" timestamp="1617676516519">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="38" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1617676516519" />
-    <state x="38" y="10" width="1384" height="825" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1616486721545" />
-    <state x="42" y="11" key="CommitChangelistDialog2/0.0.1707.960/2560.0.1536.864@0.0.1707.960" timestamp="1616595482839" />
-    <state width="445" height="373" key="DebuggerActiveHint" timestamp="1612341181709">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state width="445" height="373" key="DebuggerActiveHint/0.0.1536.864@0.0.1536.864" timestamp="1612341181709" />
-    <state width="479" height="415" key="DebuggerActiveHint/0.0.1707.960/2560.0.1536.864@0.0.1707.960" timestamp="1609329984913" />
-    <state width="479" height="415" key="DebuggerActiveHint/0.0.1707.960@0.0.1707.960" timestamp="1609040435617" />
-    <state x="610" y="187" key="FileChooserDialogImpl" timestamp="1617090722315">
-      <screen x="0" y="0" width="1707" height="920" />
-    </state>
-    <state x="549" y="176" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1614561282167" />
-    <state x="610" y="187" key="FileChooserDialogImpl/0.0.1707.920/2560.0.1536.824@0.0.1707.920" timestamp="1617090722315" />
-    <state width="1663" height="130" key="GridCell.Tab.0.bottom" timestamp="1617608659615">
-      <screen x="0" y="0" width="1707" height="920" />
-    </state>
-    <state width="1493" height="230" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1616308708837" />
-    <state width="1663" height="130" key="GridCell.Tab.0.bottom/0.0.1707.920/2560.0.1536.824@0.0.1707.920" timestamp="1617608659615" />
-    <state width="1663" height="258" key="GridCell.Tab.0.bottom/0.0.1707.960/2560.0.1536.864@0.0.1707.960" timestamp="1616594492728" />
-    <state width="1663" height="355" key="GridCell.Tab.0.bottom/0.0.1707.960@0.0.1707.960" timestamp="1609041067305" />
-    <state width="1663" height="130" key="GridCell.Tab.0.center" timestamp="1617608659615">
-      <screen x="0" y="0" width="1707" height="920" />
-    </state>
-    <state width="1493" height="230" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1616308708837" />
-    <state width="1663" height="130" key="GridCell.Tab.0.center/0.0.1707.920/2560.0.1536.824@0.0.1707.920" timestamp="1617608659615" />
-    <state width="1663" height="258" key="GridCell.Tab.0.center/0.0.1707.960/2560.0.1536.864@0.0.1707.960" timestamp="1616594492728" />
-    <state width="1663" height="355" key="GridCell.Tab.0.center/0.0.1707.960@0.0.1707.960" timestamp="1609041067305" />
-    <state width="1663" height="130" key="GridCell.Tab.0.left" timestamp="1617608659615">
-      <screen x="0" y="0" width="1707" height="920" />
-    </state>
-    <state width="1493" height="230" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1616308708837" />
-    <state width="1663" height="130" key="GridCell.Tab.0.left/0.0.1707.920/2560.0.1536.824@0.0.1707.920" timestamp="1617608659615" />
-    <state width="1663" height="258" key="GridCell.Tab.0.left/0.0.1707.960/2560.0.1536.864@0.0.1707.960" timestamp="1616594492728" />
-    <state width="1663" height="355" key="GridCell.Tab.0.left/0.0.1707.960@0.0.1707.960" timestamp="1609041067305" />
-    <state width="1663" height="130" key="GridCell.Tab.0.right" timestamp="1617608659615">
-      <screen x="0" y="0" width="1707" height="920" />
-    </state>
-    <state width="1493" height="230" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1616308708837" />
-    <state width="1663" height="130" key="GridCell.Tab.0.right/0.0.1707.920/2560.0.1536.824@0.0.1707.920" timestamp="1617608659615" />
-    <state width="1663" height="258" key="GridCell.Tab.0.right/0.0.1707.960/2560.0.1536.864@0.0.1707.960" timestamp="1616594492728" />
-    <state width="1663" height="355" key="GridCell.Tab.0.right/0.0.1707.960@0.0.1707.960" timestamp="1609041067305" />
-    <state width="1663" height="130" key="GridCell.Tab.1.bottom" timestamp="1617608659615">
-      <screen x="0" y="0" width="1707" height="920" />
-    </state>
-    <state width="1493" height="230" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1616308705581" />
-    <state width="1663" height="130" key="GridCell.Tab.1.bottom/0.0.1707.920/2560.0.1536.824@0.0.1707.920" timestamp="1617608659615" />
-    <state width="1663" height="258" key="GridCell.Tab.1.bottom/0.0.1707.960/2560.0.1536.864@0.0.1707.960" timestamp="1616594493341" />
-    <state width="1663" height="2" key="GridCell.Tab.1.bottom/0.0.1707.960@0.0.1707.960" timestamp="1609041060337" />
-    <state width="1663" height="130" key="GridCell.Tab.1.center" timestamp="1617608659615">
-      <screen x="0" y="0" width="1707" height="920" />
-    </state>
-    <state width="1493" height="230" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1616308705581" />
-    <state width="1663" height="130" key="GridCell.Tab.1.center/0.0.1707.920/2560.0.1536.824@0.0.1707.920" timestamp="1617608659615" />
-    <state width="1663" height="258" key="GridCell.Tab.1.center/0.0.1707.960/2560.0.1536.864@0.0.1707.960" timestamp="1616594493341" />
-    <state width="1663" height="2" key="GridCell.Tab.1.center/0.0.1707.960@0.0.1707.960" timestamp="1609041060337" />
-    <state width="1663" height="130" key="GridCell.Tab.1.left" timestamp="1617608659615">
-      <screen x="0" y="0" width="1707" height="920" />
-    </state>
-    <state width="1493" height="230" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1616308705581" />
-    <state width="1663" height="130" key="GridCell.Tab.1.left/0.0.1707.920/2560.0.1536.824@0.0.1707.920" timestamp="1617608659615" />
-    <state width="1663" height="258" key="GridCell.Tab.1.left/0.0.1707.960/2560.0.1536.864@0.0.1707.960" timestamp="1616594493331" />
-    <state width="1663" height="2" key="GridCell.Tab.1.left/0.0.1707.960@0.0.1707.960" timestamp="1609041060336" />
-    <state width="1663" height="130" key="GridCell.Tab.1.right" timestamp="1617608659615">
-      <screen x="0" y="0" width="1707" height="920" />
-    </state>
-    <state width="1493" height="230" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1616308705581" />
-    <state width="1663" height="130" key="GridCell.Tab.1.right/0.0.1707.920/2560.0.1536.824@0.0.1707.920" timestamp="1617608659615" />
-    <state width="1663" height="258" key="GridCell.Tab.1.right/0.0.1707.960/2560.0.1536.864@0.0.1707.960" timestamp="1616594493341" />
-    <state width="1663" height="2" key="GridCell.Tab.1.right/0.0.1707.960@0.0.1707.960" timestamp="1609041060337" />
-    <state width="1663" height="130" key="GridCell.Tab.2.bottom" timestamp="1617608659615">
-      <screen x="0" y="0" width="1707" height="920" />
-    </state>
-    <state width="1493" height="230" key="GridCell.Tab.2.bottom/0.0.1536.864@0.0.1536.864" timestamp="1616308705188" />
-    <state width="1663" height="130" key="GridCell.Tab.2.bottom/0.0.1707.920/2560.0.1536.824@0.0.1707.920" timestamp="1617608659615" />
-    <state width="1663" height="258" key="GridCell.Tab.2.bottom/0.0.1707.960/2560.0.1536.864@0.0.1707.960" timestamp="1616425801872" />
-    <state width="1663" height="2" key="GridCell.Tab.2.bottom/0.0.1707.960@0.0.1707.960" timestamp="1609041059762" />
-    <state width="1663" height="130" key="GridCell.Tab.2.center" timestamp="1617608659615">
-      <screen x="0" y="0" width="1707" height="920" />
-    </state>
-    <state width="1493" height="230" key="GridCell.Tab.2.center/0.0.1536.864@0.0.1536.864" timestamp="1616308705188" />
-    <state width="1663" height="130" key="GridCell.Tab.2.center/0.0.1707.920/2560.0.1536.824@0.0.1707.920" timestamp="1617608659615" />
-    <state width="1663" height="258" key="GridCell.Tab.2.center/0.0.1707.960/2560.0.1536.864@0.0.1707.960" timestamp="1616425801872" />
-    <state width="1663" height="2" key="GridCell.Tab.2.center/0.0.1707.960@0.0.1707.960" timestamp="1609041059762" />
-    <state width="1663" height="130" key="GridCell.Tab.2.left" timestamp="1617608659615">
-      <screen x="0" y="0" width="1707" height="920" />
-    </state>
-    <state width="1493" height="230" key="GridCell.Tab.2.left/0.0.1536.864@0.0.1536.864" timestamp="1616308705188" />
-    <state width="1663" height="130" key="GridCell.Tab.2.left/0.0.1707.920/2560.0.1536.824@0.0.1707.920" timestamp="1617608659615" />
-    <state width="1663" height="258" key="GridCell.Tab.2.left/0.0.1707.960/2560.0.1536.864@0.0.1707.960" timestamp="1616425801872" />
-    <state width="1663" height="2" key="GridCell.Tab.2.left/0.0.1707.960@0.0.1707.960" timestamp="1609041059762" />
-    <state width="1663" height="130" key="GridCell.Tab.2.right" timestamp="1617608659615">
-      <screen x="0" y="0" width="1707" height="920" />
-    </state>
-    <state width="1493" height="230" key="GridCell.Tab.2.right/0.0.1536.864@0.0.1536.864" timestamp="1616308705188" />
-    <state width="1663" height="130" key="GridCell.Tab.2.right/0.0.1707.920/2560.0.1536.824@0.0.1707.920" timestamp="1617608659615" />
-    <state width="1663" height="258" key="GridCell.Tab.2.right/0.0.1707.960/2560.0.1536.864@0.0.1707.960" timestamp="1616425801872" />
-    <state width="1663" height="2" key="GridCell.Tab.2.right/0.0.1707.960@0.0.1707.960" timestamp="1609041059762" />
-    <state width="254" height="198" key="ShowFilterAction_Filter_Popup" timestamp="1610347439118">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state width="254" height="198" key="ShowFilterAction_Filter_Popup/0.0.1536.864@0.0.1536.864" timestamp="1610347439118" />
-    <state x="361" y="158" key="Vcs.Push.Dialog.v2" timestamp="1617676528644">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="361" y="158" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1617676528644" />
-    <state x="361" y="166" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1616486736912" />
-    <state x="401" y="184" key="Vcs.Push.Dialog.v2/0.0.1707.960/2560.0.1536.864@0.0.1707.960" timestamp="1616596720872" />
-    <state x="472" y="219" key="run.anything.popup" timestamp="1612667091775">
-      <screen x="0" y="0" width="1707" height="960" />
-    </state>
-    <state x="425" y="197" key="run.anything.popup/0.0.1536.864@0.0.1536.864" timestamp="1612258871722" />
-    <state x="472" y="219" key="run.anything.popup/0.0.1707.960/2560.0.1536.864@0.0.1707.960" timestamp="1612667091775" />
-    <state x="560" y="280" width="747" height="790" key="search.everywhere.popup" timestamp="1615608478181">
-      <screen x="0" y="0" width="1707" height="960" />
-    </state>
-    <state x="504" y="252" width="672" height="711" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1613985352495" />
-    <state x="560" y="280" width="747" height="790" key="search.everywhere.popup/0.0.1707.960/2560.0.1536.864@0.0.1707.960" timestamp="1615608478181" />
+    <MESSAGE value="二叉搜索树的范围和" />
+    <option name="LAST_COMMIT_MESSAGE" value="二叉搜索树的范围和" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -3533,10 +3453,10 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/LeetCode$leetcode5447.ic" NAME="leetcode5447 Coverage Results" MODIFIED="1594481231479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/LeetCode$leetcode54.ic" NAME="leetcode54 Coverage Results" MODIFIED="1591334203334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>leetcode.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/LeetCode$leetcode54.ic" NAME="leetcode54 Coverage Results" MODIFIED="1591334203334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/LeetCode$leetcode5447.ic" NAME="leetcode5447 Coverage Results" MODIFIED="1594481231479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>leetcode.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/LeetCode$add3.ic" NAME="add3 Coverage Results" MODIFIED="1611459679161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
