@@ -28,10 +28,8 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25d36261-468b-4559-92f2-8b740aa9f875" name="Default" comment="二叉搜索树的范围和">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode930.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/leetcode523.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/leetcode523.java" afterDir="false" />
+    <list default="true" id="25d36261-468b-4559-92f2-8b740aa9f875" name="Default" comment="和相同的二元子数组">
+      <change beforePath="$PROJECT_DIR$/src/leetcode/leetcode930.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/leetcode930.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -678,14 +676,7 @@
       <workItem from="1623851681295" duration="266000" />
       <workItem from="1623851984709" duration="1402000" />
       <workItem from="1624281132041" duration="150000" />
-      <workItem from="1625753307735" duration="886000" />
-    </task>
-    <task id="LOCAL-00208" summary="账户合并">
-      <created>1610947048574</created>
-      <option name="number" value="00208" />
-      <option name="presentableId" value="LOCAL-00208" />
-      <option name="project" value="LOCAL" />
-      <updated>1610947048575</updated>
+      <workItem from="1625753307735" duration="1657000" />
     </task>
     <task id="LOCAL-00209" summary="克鲁斯卡尔算法解决连接所有点的最小费用">
       <created>1611127061029</created>
@@ -1023,7 +1014,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619488419364</updated>
     </task>
-    <option name="localTasksCounter" value="257" />
+    <task id="LOCAL-00257" summary="和相同的二元子数组">
+      <created>1625755411887</created>
+      <option name="number" value="00257" />
+      <option name="presentableId" value="LOCAL-00257" />
+      <option name="project" value="LOCAL" />
+      <updated>1625755411888</updated>
+    </task>
+    <option name="localTasksCounter" value="258" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1067,7 +1065,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="动态规划解决最长公共子序列" />
     <MESSAGE value="前缀和加滑动窗口解决爱生气的书店老板" />
     <MESSAGE value="最小差" />
     <MESSAGE value="差分数组解决航班预订统计" />
@@ -1092,7 +1089,8 @@
     <MESSAGE value="删除排序链表中的重复元素 II" />
     <MESSAGE value="删除有序数组中的重复项 II" />
     <MESSAGE value="二叉搜索树的范围和" />
-    <option name="LAST_COMMIT_MESSAGE" value="二叉搜索树的范围和" />
+    <MESSAGE value="和相同的二元子数组" />
+    <option name="LAST_COMMIT_MESSAGE" value="和相同的二元子数组" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
