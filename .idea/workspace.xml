@@ -28,9 +28,10 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25d36261-468b-4559-92f2-8b740aa9f875" name="Default" comment="贪心解决数组中最大数对和的最小值">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/offer52.java" afterDir="false" />
+    <list default="true" id="25d36261-468b-4559-92f2-8b740aa9f875" name="Default" comment="两个链表的第一个公共节点">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/offer12.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/offer52.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/offer52.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +102,7 @@
       <select />
     </treeState>
   </component>
-  <component name="RunManager" selected="Application.test1">
+  <component name="RunManager" selected="Application.offer12">
     <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="LeetCode" />
@@ -135,9 +136,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test" />
+    <configuration name="offer12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.offer12" />
       <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -168,21 +175,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.test" />
       <item itemvalue="Application.QuickSort" />
       <item itemvalue="Application.leetcode456" />
       <item itemvalue="Application.test2 (1)" />
       <item itemvalue="Application.test1" />
+      <item itemvalue="Application.offer12" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.offer12" />
         <item itemvalue="Application.test1" />
         <item itemvalue="Application.test2 (1)" />
         <item itemvalue="Application.leetcode456" />
         <item itemvalue="Application.QuickSort" />
-        <item itemvalue="Application.test" />
       </list>
     </recent_temporary>
   </component>
@@ -682,14 +700,8 @@
       <workItem from="1626269280942" duration="133000" />
       <workItem from="1626269557710" duration="188000" />
       <workItem from="1626783611585" duration="940000" />
-      <workItem from="1626842953486" duration="322000" />
-    </task>
-    <task id="LOCAL-00211" summary="找到最小生成树里的关键边和伪关键边">
-      <created>1611207273906</created>
-      <option name="number" value="00211" />
-      <option name="presentableId" value="LOCAL-00211" />
-      <option name="project" value="LOCAL" />
-      <updated>1611207273907</updated>
+      <workItem from="1626842953486" duration="1080000" />
+      <workItem from="1626871781946" duration="4766000" />
     </task>
     <task id="LOCAL-00212" summary="数组形式的整数加法">
       <created>1611294643759</created>
@@ -1027,7 +1039,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626784457049</updated>
     </task>
-    <option name="localTasksCounter" value="260" />
+    <task id="LOCAL-00260" summary="两个链表的第一个公共节点">
+      <created>1626843319944</created>
+      <option name="number" value="00260" />
+      <option name="presentableId" value="LOCAL-00260" />
+      <option name="project" value="LOCAL" />
+      <updated>1626843319945</updated>
+    </task>
+    <option name="localTasksCounter" value="261" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1071,7 +1090,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="差分数组解决航班预订统计" />
     <MESSAGE value="状态压缩解决猜字谜" />
     <MESSAGE value="单调数列" />
     <MESSAGE value="前缀和结局区域和检索 - 数组不可变" />
@@ -1096,7 +1114,8 @@
     <MESSAGE value="和相同的二元子数组" />
     <MESSAGE value="提高效率" />
     <MESSAGE value="贪心解决数组中最大数对和的最小值" />
-    <option name="LAST_COMMIT_MESSAGE" value="贪心解决数组中最大数对和的最小值" />
+    <MESSAGE value="两个链表的第一个公共节点" />
+    <option name="LAST_COMMIT_MESSAGE" value="两个链表的第一个公共节点" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -3396,6 +3415,11 @@
           <url>file://$PROJECT_DIR$/src/竞赛/LCCUP21/test1.java</url>
           <line>20</line>
           <option name="timeStamp" value="897" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/offer12.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="898" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Main.java</url>

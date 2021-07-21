@@ -27,5 +27,6 @@ public class offer52 {
             b = b.next;
         }
         return null;
+
     }
 }
