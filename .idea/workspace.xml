@@ -28,11 +28,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25d36261-468b-4559-92f2-8b740aa9f875" name="Default" comment="矩阵中的路径">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode1337.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode1893.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode859.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode863.java" afterDir="false" />
+    <list default="true" id="25d36261-468b-4559-92f2-8b740aa9f875" name="Default" comment="亲密字符串">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode501.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode725.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -701,13 +699,8 @@
       <workItem from="1627948881045" duration="296000" />
       <workItem from="1628511608581" duration="25000" />
       <workItem from="1632225716090" duration="1736000" />
-    </task>
-    <task id="LOCAL-00213" summary="连通网络的操作次数">
-      <created>1611374674635</created>
-      <option name="number" value="00213" />
-      <option name="presentableId" value="LOCAL-00213" />
-      <option name="project" value="LOCAL" />
-      <updated>1611374674635</updated>
+      <workItem from="1632227483420" duration="4184000" />
+      <workItem from="1632311713516" duration="2303000" />
     </task>
     <task id="LOCAL-00214" summary="由斜杠划分区域">
       <created>1611552826785</created>
@@ -1045,7 +1038,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626878817078</updated>
     </task>
-    <option name="localTasksCounter" value="262" />
+    <task id="LOCAL-00262" summary="亲密字符串">
+      <created>1632227593819</created>
+      <option name="number" value="00262" />
+      <option name="presentableId" value="LOCAL-00262" />
+      <option name="project" value="LOCAL" />
+      <updated>1632227593819</updated>
+    </task>
+    <option name="localTasksCounter" value="263" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1089,7 +1089,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="单调数列" />
     <MESSAGE value="前缀和结局区域和检索 - 数组不可变" />
     <MESSAGE value="树的子结构" />
     <MESSAGE value="后续遍历解决寻找重复的子树" />
@@ -1114,7 +1113,8 @@
     <MESSAGE value="贪心解决数组中最大数对和的最小值" />
     <MESSAGE value="两个链表的第一个公共节点" />
     <MESSAGE value="矩阵中的路径" />
-    <option name="LAST_COMMIT_MESSAGE" value="矩阵中的路径" />
+    <MESSAGE value="亲密字符串" />
+    <option name="LAST_COMMIT_MESSAGE" value="亲密字符串" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
