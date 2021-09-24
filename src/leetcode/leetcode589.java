@@ -11,17 +11,17 @@ import java.util.List;
  * N叉树的前序遍历
  */
 
-class Node {
+class Node2 {
     public int val;
-    public List<Node> children;
+    public List<Node2> children;
 
-    public Node() {}
+    public Node2() {}
 
-    public Node(int _val) {
+    public Node2(int _val) {
         val = _val;
     }
 
-    public Node(int _val, List<Node> _children) {
+    public Node2(int _val, List<Node2> _children) {
         val = _val;
         children = _children;
     }
@@ -29,12 +29,12 @@ class Node {
 
 public class leetcode589 {
     List<Integer> list = new ArrayList<>();
-    public List<Integer> preorder(Node root) {
+    public List<Integer> preorder(Node2 root) {
         if (root == null) {
             return list;
         }
         list.add(root.val);
-        for (Node node : root.children) {
+        for (Node2 node : root.children) {
             preorder(node);
         }
         return list;

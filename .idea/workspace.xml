@@ -28,10 +28,10 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25d36261-468b-4559-92f2-8b740aa9f875" name="Default" comment="亲密字符串">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode501.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode725.java" afterDir="false" />
+    <list default="true" id="25d36261-468b-4559-92f2-8b740aa9f875" name="Default" comment="分隔链表">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode460.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/leetcode589.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/leetcode589.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +64,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="JupyterTrust" id="8be0ff0a-f7ea-40d4-84a8-345d97dbbf17" />
   <component name="ProjectId" id="1Y3PgUArFJlo4zRXDaT4NPGchy0" />
@@ -700,14 +708,8 @@
       <workItem from="1628511608581" duration="25000" />
       <workItem from="1632225716090" duration="1736000" />
       <workItem from="1632227483420" duration="4184000" />
-      <workItem from="1632311713516" duration="2303000" />
-    </task>
-    <task id="LOCAL-00214" summary="由斜杠划分区域">
-      <created>1611552826785</created>
-      <option name="number" value="00214" />
-      <option name="presentableId" value="LOCAL-00214" />
-      <option name="project" value="LOCAL" />
-      <updated>1611552826786</updated>
+      <workItem from="1632311713516" duration="3273000" />
+      <workItem from="1632492857352" duration="4452000" />
     </task>
     <task id="LOCAL-00215" summary="并查集解决保证图可完全遍历">
       <created>1611741370618</created>
@@ -1045,7 +1047,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632227593819</updated>
     </task>
-    <option name="localTasksCounter" value="263" />
+    <task id="LOCAL-00263" summary="分隔链表">
+      <created>1632315292988</created>
+      <option name="number" value="00263" />
+      <option name="presentableId" value="LOCAL-00263" />
+      <option name="project" value="LOCAL" />
+      <updated>1632315292988</updated>
+    </task>
+    <option name="localTasksCounter" value="264" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1089,7 +1098,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="前缀和结局区域和检索 - 数组不可变" />
     <MESSAGE value="树的子结构" />
     <MESSAGE value="后续遍历解决寻找重复的子树" />
     <MESSAGE value="祖父节点值为偶数的节点和" />
@@ -1114,7 +1122,8 @@
     <MESSAGE value="两个链表的第一个公共节点" />
     <MESSAGE value="矩阵中的路径" />
     <MESSAGE value="亲密字符串" />
-    <option name="LAST_COMMIT_MESSAGE" value="亲密字符串" />
+    <MESSAGE value="分隔链表" />
+    <option name="LAST_COMMIT_MESSAGE" value="分隔链表" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
