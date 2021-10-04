@@ -9,36 +9,36 @@ import java.util.*;
  * 扁平化多级双向链表
  */
 
-class Node {
+class Node6 {
     public int val;
-    public Node prev;
-    public Node next;
-    public Node child;
+    public Node6 prev;
+    public Node6 next;
+    public Node6 child;
 };
 public class leetcode460 {
-    public Node flatten(Node head) {
+    public Node6 flatten(Node6 head) {
         if (head == null) {
             return null;
         }
-        Node node = head;
-        Node prev = null;
-        Stack<Node> stack = new Stack<>();
-        while (node != null || !stack.isEmpty()) {
-            if (node == null) {
-                node = stack.pop();
-                node.prev = prev;
-                prev.next = node;
+        Node6 Node6 = head;
+        Node6 prev = null;
+        Stack<Node6> stack = new Stack<>();
+        while (Node6 != null || !stack.isEmpty()) {
+            if (Node6 == null) {
+                Node6 = stack.pop();
+                Node6.prev = prev;
+                prev.next = Node6;
             }
-            if (node.child != null) {
-                if (node.next != null) {
-                    stack.add(node.next);
+            if (Node6.child != null) {
+                if (Node6.next != null) {
+                    stack.add(Node6.next);
                 }
-                node.next = node.child;
-                node.child.prev = node;
-                node.child = null;
+                Node6.next = Node6.child;
+                Node6.child.prev = Node6;
+                Node6.child = null;
             }
-            prev = node;
-            node = node.next;
+            prev = Node6;
+            Node6 = Node6.next;
         }
         return head;
     }

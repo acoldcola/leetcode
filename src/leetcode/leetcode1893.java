@@ -11,10 +11,6 @@ import java.util.List;
  */
 public class leetcode1893 {
     public boolean isCovered(int[][] ranges, int left, int right) {
-        Arrays.sort(ranges,(o1,o2) -> o1[0] -o2[0]);
-        List<int[]> list = new ArrayList<>();
-        for (int i = 0; i < ranges.length - 1; i++) {
-            if(ranges[i][1] >= ranges)
-        }
+        return false;
     }
 }

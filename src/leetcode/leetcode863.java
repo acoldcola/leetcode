@@ -12,12 +12,13 @@ public class leetcode863 {
         if (root == null) {
             return null;
         }
+        return null ;
     }
 
     public void dfs(TreeNode root, TreeNode target, int k, int level) {
         if (root == null) {
             return;
         }
-        if (t)
+        return;
     }
 }

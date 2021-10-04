@@ -28,10 +28,13 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25d36261-468b-4559-92f2-8b740aa9f875" name="Default" comment="分隔链表">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode460.java" afterDir="false" />
+    <list default="true" id="25d36261-468b-4559-92f2-8b740aa9f875" name="Default" comment="扁平化多级双向链表">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode482.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/leetcode589.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/leetcode589.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/leetcode1893.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/leetcode1893.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/leetcode460.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/leetcode460.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/leetcode559.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/leetcode559.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/leetcode863.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/leetcode863.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +113,7 @@
       <select />
     </treeState>
   </component>
-  <component name="RunManager" selected="Application.offer12">
+  <component name="RunManager" selected="Application.leetcode482">
     <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="LeetCode" />
@@ -118,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="模板.QuickSort" />
+    <configuration name="leetcode456" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.leetcode456" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="模板.*" />
+          <option name="PATTERN" value="leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,8 +134,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="leetcode456" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.leetcode456" />
+    <configuration name="leetcode482" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.leetcode482" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
@@ -183,21 +186,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.QuickSort" />
       <item itemvalue="Application.leetcode456" />
       <item itemvalue="Application.test2 (1)" />
       <item itemvalue="Application.test1" />
       <item itemvalue="Application.offer12" />
+      <item itemvalue="Application.leetcode482" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.leetcode482" />
         <item itemvalue="Application.offer12" />
         <item itemvalue="Application.test1" />
         <item itemvalue="Application.test2 (1)" />
         <item itemvalue="Application.leetcode456" />
-        <item itemvalue="Application.QuickSort" />
       </list>
     </recent_temporary>
   </component>
@@ -709,14 +723,10 @@
       <workItem from="1632225716090" duration="1736000" />
       <workItem from="1632227483420" duration="4184000" />
       <workItem from="1632311713516" duration="3273000" />
-      <workItem from="1632492857352" duration="4452000" />
-    </task>
-    <task id="LOCAL-00215" summary="并查集解决保证图可完全遍历">
-      <created>1611741370618</created>
-      <option name="number" value="00215" />
-      <option name="presentableId" value="LOCAL-00215" />
-      <option name="project" value="LOCAL" />
-      <updated>1611741370619</updated>
+      <workItem from="1632492857352" duration="5289000" />
+      <workItem from="1632558496393" duration="546000" />
+      <workItem from="1632655247407" duration="1813000" />
+      <workItem from="1633317578405" duration="1394000" />
     </task>
     <task id="LOCAL-00216" summary="公平的糖果棒交换">
       <created>1612158349861</created>
@@ -1054,7 +1064,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632315292988</updated>
     </task>
-    <option name="localTasksCounter" value="264" />
+    <task id="LOCAL-00264" summary="扁平化多级双向链表">
+      <created>1632498508281</created>
+      <option name="number" value="00264" />
+      <option name="presentableId" value="LOCAL-00264" />
+      <option name="project" value="LOCAL" />
+      <updated>1632498508282</updated>
+    </task>
+    <option name="localTasksCounter" value="265" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1098,7 +1115,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="树的子结构" />
     <MESSAGE value="后续遍历解决寻找重复的子树" />
     <MESSAGE value="祖父节点值为偶数的节点和" />
     <MESSAGE value="动态规划解决组合总和 Ⅳ" />
@@ -1123,7 +1139,8 @@
     <MESSAGE value="矩阵中的路径" />
     <MESSAGE value="亲密字符串" />
     <MESSAGE value="分隔链表" />
-    <option name="LAST_COMMIT_MESSAGE" value="分隔链表" />
+    <MESSAGE value="扁平化多级双向链表" />
+    <option name="LAST_COMMIT_MESSAGE" value="扁平化多级双向链表" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -3428,6 +3445,11 @@
           <url>file://$PROJECT_DIR$/src/leetcode/offer12.java</url>
           <line>17</line>
           <option name="timeStamp" value="898" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/leetcode482.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="899" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Main.java</url>
