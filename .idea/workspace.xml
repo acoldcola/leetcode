@@ -28,9 +28,8 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25d36261-468b-4559-92f2-8b740aa9f875" name="Default" comment="密钥格式化">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode284.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode414.java" afterDir="false" />
+    <list default="true" id="25d36261-468b-4559-92f2-8b740aa9f875" name="Default" comment="第三大的数">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode434.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -110,7 +109,7 @@
       <select />
     </treeState>
   </component>
-  <component name="RunManager" selected="Application.leetcode482">
+  <component name="RunManager" selected="Application.leetcode434">
     <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="LeetCode" />
@@ -118,8 +117,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="leetcode456" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.leetcode456" />
+    <configuration name="leetcode434" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.leetcode434" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
@@ -183,21 +182,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.leetcode456" />
       <item itemvalue="Application.test2 (1)" />
       <item itemvalue="Application.test1" />
       <item itemvalue="Application.offer12" />
       <item itemvalue="Application.leetcode482" />
+      <item itemvalue="Application.leetcode434" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.leetcode434" />
         <item itemvalue="Application.leetcode482" />
         <item itemvalue="Application.offer12" />
         <item itemvalue="Application.test1" />
         <item itemvalue="Application.test2 (1)" />
-        <item itemvalue="Application.leetcode456" />
       </list>
     </recent_temporary>
   </component>
@@ -715,14 +725,8 @@
       <workItem from="1633317578405" duration="2501000" />
       <workItem from="1633348111913" duration="1442000" />
       <workItem from="1633400033997" duration="1222000" />
-      <workItem from="1633491412474" duration="307000" />
-    </task>
-    <task id="LOCAL-00217" summary="滑动窗口解决替换后的最长重复字符">
-      <created>1612246143083</created>
-      <option name="number" value="00217" />
-      <option name="presentableId" value="LOCAL-00217" />
-      <option name="project" value="LOCAL" />
-      <updated>1612246143084</updated>
+      <workItem from="1633491412474" duration="1280000" />
+      <workItem from="1633574394750" duration="344000" />
     </task>
     <task id="LOCAL-00218" summary="大顶堆和小顶堆解决滑动窗口中位数">
       <created>1612337041169</created>
@@ -1060,7 +1064,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633319013659</updated>
     </task>
-    <option name="localTasksCounter" value="266" />
+    <task id="LOCAL-00266" summary="第三大的数">
+      <created>1633491853543</created>
+      <option name="number" value="00266" />
+      <option name="presentableId" value="LOCAL-00266" />
+      <option name="project" value="LOCAL" />
+      <updated>1633491853543</updated>
+    </task>
+    <option name="localTasksCounter" value="267" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1104,7 +1115,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="祖父节点值为偶数的节点和" />
     <MESSAGE value="动态规划解决组合总和 Ⅳ" />
     <MESSAGE value="验证二叉搜索树" />
     <MESSAGE value="任务调度器" />
@@ -1129,7 +1139,8 @@
     <MESSAGE value="分隔链表" />
     <MESSAGE value="扁平化多级双向链表" />
     <MESSAGE value="密钥格式化" />
-    <option name="LAST_COMMIT_MESSAGE" value="密钥格式化" />
+    <MESSAGE value="第三大的数" />
+    <option name="LAST_COMMIT_MESSAGE" value="第三大的数" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -3439,6 +3450,16 @@
           <url>file://$PROJECT_DIR$/src/leetcode/leetcode482.java</url>
           <line>13</line>
           <option name="timeStamp" value="899" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/leetcode434.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="900" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/leetcode434.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="902" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Main.java</url>
