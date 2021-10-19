@@ -28,8 +28,10 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25d36261-468b-4559-92f2-8b740aa9f875" name="Default" comment="字符串中的单词数">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode412.java" afterDir="false" />
+    <list default="true" id="25d36261-468b-4559-92f2-8b740aa9f875" name="Default" comment="Fizz Buzz">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode211.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode38.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/offer69.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -109,10 +111,36 @@
       <select />
     </treeState>
   </component>
-  <component name="RunManager" selected="Application.leetcode434">
+  <component name="RunManager" selected="Application.leetcode211">
     <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="LeetCode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode211" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.leetcode211" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="leetcode38" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.leetcode38" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -143,8 +171,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="offer12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.offer12" />
+    <configuration name="offer69" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.offer69" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
@@ -156,47 +184,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="竞赛.LCCUP21.test1" />
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="竞赛.LCCUP21.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="test2 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="竞赛.LCCUP21.test2" />
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="竞赛.LCCUP21.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.test2 (1)" />
-      <item itemvalue="Application.test1" />
-      <item itemvalue="Application.offer12" />
       <item itemvalue="Application.leetcode482" />
       <item itemvalue="Application.leetcode434" />
+      <item itemvalue="Application.offer69" />
+      <item itemvalue="Application.leetcode38" />
+      <item itemvalue="Application.leetcode211" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.leetcode211" />
+        <item itemvalue="Application.leetcode38" />
+        <item itemvalue="Application.offer69" />
         <item itemvalue="Application.leetcode434" />
         <item itemvalue="Application.leetcode482" />
-        <item itemvalue="Application.offer12" />
-        <item itemvalue="Application.test1" />
-        <item itemvalue="Application.test2 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -716,14 +729,11 @@
       <workItem from="1633400033997" duration="1222000" />
       <workItem from="1633491412474" duration="1280000" />
       <workItem from="1633574394750" duration="392000" />
-      <workItem from="1634123163157" duration="334000" />
-    </task>
-    <task id="LOCAL-00219" summary="最大连续1的个数 III">
-      <created>1612339045993</created>
-      <option name="number" value="00219" />
-      <option name="presentableId" value="LOCAL-00219" />
-      <option name="project" value="LOCAL" />
-      <updated>1612339045993</updated>
+      <workItem from="1634123163157" duration="989000" />
+      <workItem from="1634136474631" duration="368000" />
+      <workItem from="1634213851382" duration="1566000" />
+      <workItem from="1634303993666" duration="4371000" />
+      <workItem from="1634645325692" duration="2632000" />
     </task>
     <task id="LOCAL-00220" summary="Floyd算法解决课程表 IV">
       <created>1612343961096</created>
@@ -1061,7 +1071,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633574781126</updated>
     </task>
-    <option name="localTasksCounter" value="268" />
+    <task id="LOCAL-00268" summary="Fizz Buzz">
+      <created>1634123539330</created>
+      <option name="number" value="00268" />
+      <option name="presentableId" value="LOCAL-00268" />
+      <option name="project" value="LOCAL" />
+      <updated>1634123539331</updated>
+    </task>
+    <option name="localTasksCounter" value="269" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1105,7 +1122,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="验证二叉搜索树" />
     <MESSAGE value="任务调度器" />
     <MESSAGE value="下一个排列" />
     <MESSAGE value="路径总和 III" />
@@ -1130,7 +1146,8 @@
     <MESSAGE value="密钥格式化" />
     <MESSAGE value="第三大的数" />
     <MESSAGE value="字符串中的单词数" />
-    <option name="LAST_COMMIT_MESSAGE" value="字符串中的单词数" />
+    <MESSAGE value="Fizz Buzz" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fizz Buzz" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -3450,6 +3467,31 @@
           <url>file://$PROJECT_DIR$/src/leetcode/leetcode434.java</url>
           <line>10</line>
           <option name="timeStamp" value="902" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/offer69.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="903" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/leetcode38.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="904" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/leetcode211.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="905" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/leetcode211.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="906" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/leetcode211.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="907" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Main.java</url>
