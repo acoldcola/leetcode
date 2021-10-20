@@ -28,10 +28,8 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25d36261-468b-4559-92f2-8b740aa9f875" name="Default" comment="Fizz Buzz">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode211.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode38.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/offer69.java" afterDir="false" />
+    <list default="true" id="25d36261-468b-4559-92f2-8b740aa9f875" name="Default" comment="前缀和解决（添加与搜索单词 - 数据结构设计）">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode453.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -180,17 +178,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -733,14 +720,8 @@
       <workItem from="1634136474631" duration="368000" />
       <workItem from="1634213851382" duration="1566000" />
       <workItem from="1634303993666" duration="4371000" />
-      <workItem from="1634645325692" duration="2632000" />
-    </task>
-    <task id="LOCAL-00220" summary="Floyd算法解决课程表 IV">
-      <created>1612343961096</created>
-      <option name="number" value="00220" />
-      <option name="presentableId" value="LOCAL-00220" />
-      <option name="project" value="LOCAL" />
-      <updated>1612343961096</updated>
+      <workItem from="1634645325692" duration="3502000" />
+      <workItem from="1634729592815" duration="759000" />
     </task>
     <task id="LOCAL-00221" summary="滑动串口解决子数组最大平均数 I">
       <created>1612402905932</created>
@@ -1078,7 +1059,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634123539331</updated>
     </task>
-    <option name="localTasksCounter" value="269" />
+    <task id="LOCAL-00269" summary="前缀和解决（添加与搜索单词 - 数据结构设计）">
+      <created>1634648014525</created>
+      <option name="number" value="00269" />
+      <option name="presentableId" value="LOCAL-00269" />
+      <option name="project" value="LOCAL" />
+      <updated>1634648014525</updated>
+    </task>
+    <option name="localTasksCounter" value="270" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1122,7 +1110,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="任务调度器" />
     <MESSAGE value="下一个排列" />
     <MESSAGE value="路径总和 III" />
     <MESSAGE value="搜索二维矩阵 II" />
@@ -1147,7 +1134,8 @@
     <MESSAGE value="第三大的数" />
     <MESSAGE value="字符串中的单词数" />
     <MESSAGE value="Fizz Buzz" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fizz Buzz" />
+    <MESSAGE value="前缀和解决（添加与搜索单词 - 数据结构设计）" />
+    <option name="LAST_COMMIT_MESSAGE" value="前缀和解决（添加与搜索单词 - 数据结构设计）" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
