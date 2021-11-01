@@ -28,8 +28,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25d36261-468b-4559-92f2-8b740aa9f875" name="Default" comment="前缀和解决（添加与搜索单词 - 数据结构设计）">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode453.java" afterDir="false" />
+    <list default="true" id="25d36261-468b-4559-92f2-8b740aa9f875" name="Default" comment="最小操作次数使数组元素相等">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode335.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode575.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -87,7 +88,7 @@
     <property name="full.screen.before.presentation.mode" value="true" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../opensource/spring-boot" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../StudyNetty" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -109,7 +110,7 @@
       <select />
     </treeState>
   </component>
-  <component name="RunManager" selected="Application.leetcode211">
+  <component name="RunManager" selected="Application.leetcode575">
     <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="LeetCode" />
@@ -156,8 +157,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="leetcode482" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.leetcode482" />
+    <configuration name="leetcode575" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.leetcode575" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
@@ -182,21 +183,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.leetcode482" />
       <item itemvalue="Application.leetcode434" />
       <item itemvalue="Application.offer69" />
       <item itemvalue="Application.leetcode38" />
       <item itemvalue="Application.leetcode211" />
+      <item itemvalue="Application.leetcode575" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.leetcode575" />
         <item itemvalue="Application.leetcode211" />
         <item itemvalue="Application.leetcode38" />
         <item itemvalue="Application.offer69" />
         <item itemvalue="Application.leetcode434" />
-        <item itemvalue="Application.leetcode482" />
       </list>
     </recent_temporary>
   </component>
@@ -721,14 +733,11 @@
       <workItem from="1634213851382" duration="1566000" />
       <workItem from="1634303993666" duration="4371000" />
       <workItem from="1634645325692" duration="3502000" />
-      <workItem from="1634729592815" duration="759000" />
-    </task>
-    <task id="LOCAL-00221" summary="滑动串口解决子数组最大平均数 I">
-      <created>1612402905932</created>
-      <option name="number" value="00221" />
-      <option name="presentableId" value="LOCAL-00221" />
-      <option name="project" value="LOCAL" />
-      <updated>1612402905932</updated>
+      <workItem from="1634729592815" duration="2166000" />
+      <workItem from="1635261681262" duration="59000" />
+      <workItem from="1635508011928" duration="927000" />
+      <workItem from="1635665225546" duration="372000" />
+      <workItem from="1635768595468" duration="326000" />
     </task>
     <task id="LOCAL-00222" summary="统计字典序元音字符串的数目">
       <created>1612424023093</created>
@@ -1066,7 +1075,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634648014525</updated>
     </task>
-    <option name="localTasksCounter" value="270" />
+    <task id="LOCAL-00270" summary="最小操作次数使数组元素相等">
+      <created>1634730547175</created>
+      <option name="number" value="00270" />
+      <option name="presentableId" value="LOCAL-00270" />
+      <option name="project" value="LOCAL" />
+      <updated>1634730547175</updated>
+    </task>
+    <option name="localTasksCounter" value="271" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1110,7 +1126,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="下一个排列" />
     <MESSAGE value="路径总和 III" />
     <MESSAGE value="搜索二维矩阵 II" />
     <MESSAGE value="二叉树展开为链表" />
@@ -1135,7 +1150,8 @@
     <MESSAGE value="字符串中的单词数" />
     <MESSAGE value="Fizz Buzz" />
     <MESSAGE value="前缀和解决（添加与搜索单词 - 数据结构设计）" />
-    <option name="LAST_COMMIT_MESSAGE" value="前缀和解决（添加与搜索单词 - 数据结构设计）" />
+    <MESSAGE value="最小操作次数使数组元素相等" />
+    <option name="LAST_COMMIT_MESSAGE" value="最小操作次数使数组元素相等" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -3480,6 +3496,11 @@
           <url>file://$PROJECT_DIR$/src/leetcode/leetcode211.java</url>
           <line>46</line>
           <option name="timeStamp" value="907" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/leetcode575.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="908" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Main.java</url>
