@@ -10,7 +10,11 @@ import java.util.Set;
  * 移除最多的同行或同列石头
  */
 public class leetcode947 {
-    public int removeStones(int[][] stones) {
+    public static void main(String[] args) {
+        leetcode947 leetcode947 = new leetcode947();
+        leetcode947.removeStones(new int[][]{{0,0},{0,1},{1,0},{1,2},{2,1},{2,2}});
+    }
+    public  int removeStones(int[][] stones) {
         int[] a = new int[20002];
         for(int i = 0; i < a.length; i++) {
             a[i] = i;
