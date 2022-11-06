@@ -32,7 +32,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="25d36261-468b-4559-92f2-8b740aa9f875" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode655.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode1460.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode1678.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode662.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode782.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/leetcode998.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/第308场周赛/test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/第308场周赛/test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/第308场周赛/test3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/第308场周赛/test4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/第309场周赛/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/第309场周赛/test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/第309场周赛/test3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/第86场双周赛/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/第86场双周赛/test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/第86场双周赛/test3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/第86场双周赛/test4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -101,6 +116,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/study/java/opensource/SpringBlade&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
@@ -109,11 +125,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="第309场周赛" />
+      <recent name="第86场双周赛" />
+      <recent name="第308场周赛" />
       <recent name="第307场周赛" />
       <recent name="竞赛.LCCUP21" />
-      <recent name="竞赛.第233场周赛" />
-      <recent name="竞赛.第48场双周赛" />
-      <recent name="竞赛.第232场周赛" />
     </key>
   </component>
   <component name="RestServicesNavigator">
@@ -122,7 +138,7 @@
       <select />
     </treeState>
   </component>
-  <component name="RunManager" selected="Application.leetcode655">
+  <component name="RunManager" selected="Application.leetcode1678">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -134,6 +150,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="第309场周赛.test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="第309场周赛.test2" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="第309场周赛.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="第309场周赛.test3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="第309场周赛.test3" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="第309场周赛.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="LeetCode" />
@@ -141,38 +183,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="leetcode654" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.leetcode654" />
+    <configuration name="leetcode1678" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.leetcode1678" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="leetcode655" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.leetcode655" />
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="第307场周赛.test1" />
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="第307场周赛.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -181,11 +197,11 @@
       </method>
     </configuration>
     <configuration name="test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="第307场周赛.test2" />
+      <option name="MAIN_CLASS_NAME" value="第86场双周赛.test2" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="第307场周赛.*" />
+          <option name="PATTERN" value="第86场双周赛.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -194,11 +210,11 @@
       </method>
     </configuration>
     <configuration name="test3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="第307场周赛.test3" />
+      <option name="MAIN_CLASS_NAME" value="第86场双周赛.test3" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="第307场周赛.*" />
+          <option name="PATTERN" value="第86场双周赛.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -208,19 +224,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.leetcode655" />
-      <item itemvalue="Application.test1" />
+      <item itemvalue="Application.leetcode1678" />
+      <item itemvalue="Application.第309场周赛.test2" />
+      <item itemvalue="Application.第309场周赛.test3" />
       <item itemvalue="Application.test2" />
       <item itemvalue="Application.test3" />
-      <item itemvalue="Application.leetcode654" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.leetcode655" />
+        <item itemvalue="Application.leetcode1678" />
+        <item itemvalue="Application.第309场周赛.test2" />
+        <item itemvalue="Application.第309场周赛.test3" />
         <item itemvalue="Application.test3" />
         <item itemvalue="Application.test2" />
-        <item itemvalue="Application.test1" />
-        <item itemvalue="Application.leetcode654" />
       </list>
     </recent_temporary>
   </component>
@@ -768,6 +784,18 @@
       <workItem from="1660994482744" duration="2597000" />
       <workItem from="1661048828872" duration="6803000" />
       <workItem from="1661176384277" duration="2617000" />
+      <workItem from="1661265078768" duration="413000" />
+      <workItem from="1661345886249" duration="796000" />
+      <workItem from="1661613683188" duration="1175000" />
+      <workItem from="1661653453181" duration="8748000" />
+      <workItem from="1661870865175" duration="1154000" />
+      <workItem from="1662215372193" duration="3640000" />
+      <workItem from="1662258627331" duration="4009000" />
+      <workItem from="1664288363241" duration="5000" />
+      <workItem from="1666006917608" duration="829000" />
+      <workItem from="1667134001976" duration="92000" />
+      <workItem from="1667134119663" duration="352000" />
+      <workItem from="1667741306405" duration="344000" />
     </task>
     <task id="LOCAL-00227" summary="目标和">
       <created>1613800816955</created>
@@ -3680,6 +3708,86 @@
           <url>file://$PROJECT_DIR$/src/leetcode/leetcode655.java</url>
           <line>30</line>
           <option name="timeStamp" value="953" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/第308场周赛/test4.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="954" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/第308场周赛/test2.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="956" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/第308场周赛/test2.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="958" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/第308场周赛/test2.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="959" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/第308场周赛/test3.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="960" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/第308场周赛/test3.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="961" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/第308场周赛/test1.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="962" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/第86场双周赛/test.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="963" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/第86场双周赛/test.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="964" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/第86场双周赛/test2.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="965" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/第86场双周赛/test3.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="966" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/第86场双周赛/test3.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="967" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/第86场双周赛/test3.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="968" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/第309场周赛/test2.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="969" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/第309场周赛/test3.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="970" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/leetcode1678.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="971" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Main.java</url>
